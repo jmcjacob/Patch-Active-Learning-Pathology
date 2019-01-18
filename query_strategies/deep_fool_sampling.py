@@ -8,6 +8,7 @@ from strategy import Strategy
 class DeepFoolSampling(Strategy):
     def query(self, n):
         unlabeled_indices = np.arange(self.pool_size)[~self.labeled_indices]
+        self.classifier.cpu()
         self.classifier.eval()
         distance = np.zeros(unlabeled_indices.shape)
 
