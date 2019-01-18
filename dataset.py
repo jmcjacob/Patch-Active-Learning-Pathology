@@ -24,11 +24,11 @@ def get_dataset(dataset_dir):
 
     for i in range(100):
         if os.path.isdir(os.path.join(dataset_dir, "img{}".format(i + 1))):
-            epithelial = io.loadmat(os.path.join(dataset_dir, "img{0}\\img{0}_epithelial.mat".format(i + 1)))["detection"]
-            fibroblast = io.loadmat(os.path.join(dataset_dir, "img{0}\\img{0}_fibroblast.mat".format(i + 1)))["detection"]
-            inflammatory = io.loadmat(os.path.join(dataset_dir, "img{0}\\img{0}_inflammatory.mat".format(i + 1)))["detection"]
-            others = io.loadmat(os.path.join(dataset_dir, "img{0}\\img{0}_others.mat".format(i + 1)))["detection"]
-            image = cv2.imread(os.path.join(dataset_dir, "img{0}\\img{0}.bmp".format(i + 1)))
+            epithelial = io.loadmat(os.path.join(dataset_dir, "img{0}/img{0}_epithelial.mat".format(i + 1)))["detection"]
+            fibroblast = io.loadmat(os.path.join(dataset_dir, "img{0}/img{0}_fibroblast.mat".format(i + 1)))["detection"]
+            inflammatory = io.loadmat(os.path.join(dataset_dir, "img{0}/img{0}_inflammatory.mat".format(i + 1)))["detection"]
+            others = io.loadmat(os.path.join(dataset_dir, "img{0}/img{0}_others.mat".format(i + 1)))["detection"]
+            image = cv2.imread(os.path.join(dataset_dir, "img{0}/img{0}.bmp".format(i + 1)))
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
             image = cv2.copyMakeBorder(image, 15, 15, 15, 15, cv2.BORDER_REFLECT)
             image = np.asarray(image)
@@ -94,25 +94,21 @@ class DataHandler(Dataset):
         :param y: An array of labels.
         """
 
-        seq = iaa.Sequential([
-            iaa.Crop(px=(0, 16)),  # crop images from each side by 0 to 16px (randomly chosen)
-            iaa.Fliplr(0.5),  # horizontally flip 50% of the images
-            iaa.GaussianBlur(sigma=(0, 3.0))  # blur images with a sigma of 0 to 3.0
-        ])
-
         self.x = []
         self.y = []
         for i in range(len(x)):
             for j in range(len(x[i])):
                 self.x.append(x[i][j])
                 self.y.append(y[i][j])
-        self.xv= np.array(self.x)
+        self.x= np.array(self.x)
         self.y = np.array(self.y)
         self.transform = transform()
 
+        self.weights = []
         counter = Counter(np.argmax(self.y, 1))
         max_val = float(max(counter.values()))
-        self.weights = [max_val / num_images for class_id, num_images in counter.items()]
+        for i in range(4):
+            self.weights.append(max_val / counter[i])
 
         if augmentation:
             a = iaa.Sequential([iaa.Fliplr(1.0)]).augment_images(self.x)
@@ -122,7 +118,7 @@ class DataHandler(Dataset):
             e = iaa.Sequential([iaa.Sharpen(1.0)]).augment_images(self.x)
 
             self.x = np.concatenate([self.x, a, b, c, d, e])
-            self.y = np.repeat(self.y, 6, 0)
+            self.y = np.concatenate([self.y, self.y, self.y, self.y, self.y, self.y])
 
     def __getitem__(self, index):
         """
