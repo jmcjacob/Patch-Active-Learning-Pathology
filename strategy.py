@@ -142,7 +142,7 @@ class Strategy:
                 _, indices = y.max(1)
 
                 # Calculates the loss comparing the output and the labels.
-                loss = functional.cross_entropy(out, indices, torch.tensor(data_handler.weights))
+                loss = functional.cross_entropy(out, indices, torch.tensor(data_handler.weights, device=self.device))
 
                 # Adds the batch loss to the epoch loss.
                 train_loss += loss.detach().item()
@@ -175,7 +175,7 @@ class Strategy:
                     _, indices = y.max(1)
 
                     # Calculates the loss comparing the output and the labels.
-                    loss = functional.cross_entropy(out, indices, torch.tensor(data_handler.weights))
+                    loss = functional.cross_entropy(out, indices, torch.tensor(data_handler.weights, device=self.device))
 
                     # Adds the batch loss to the epoch loss.
                     val_loss += loss.detach().item()
