@@ -55,33 +55,32 @@ class CoreSetSampling(Strategy):
 
         current_delta = upper_bound
         bound = upper_bound - lower_bound
-        while bound > eps:
-            print("Upper bound is {ub}, lower bound is {lb}".format(ub=upper_bound, lb=lower_bound))
+        while bound < eps:
+            print("upper bound is {ub}, lower bound is {lb}".format(ub=upper_bound, lb=lower_bound))
             if model.getAttr(gurobi.GRB.Attr.Status) in [gurobi.GRB.INFEASIBLE, gurobi.GRB.TIME_LIMIT]:
-                print("Optimixation Failed - Infeasible!")
+                print("Optimization Failed - Infeasible!")
 
                 lower_bound = max(current_delta, self.get_graph_min(region_predictions, current_delta))
-                current_delta = (upper_bound + lower_bound) / 2.
+                current_delta = (upper_bound + lower_bound) / 2.0
 
                 del model
                 gc.collect()
-                model, graph = self.mip_model(region_predictions, labeled_indices, len(labeled_indices) + n,
-                                              current_delta, outlier_count, greddy_indices=indices)
-                points = model.__data[0]
-
+                model, graph = self.mip_model(region_predictions, labeled_indices, len(labeled_indices) + n, current_delta,
+                                              outlier_count, greedy_indices=indices)
+                points, outliers = model.__data
                 model.Params.SubMIPNodes = submipnodes
+
             else:
-                print("Optimisation Succeeded!")
+                print("Optimization Succeeded!")
                 upper_bound = min(current_delta, self.get_graph_max(region_predictions, current_delta))
-                current_delta = (upper_bound + lower_bound) / 2.
-                indices = [i for i in graph if points[i].x == 1]
+                current_delta = (upper_bound + lower_bound) / 2.0
+                indices = [i for i in graph if points[i].X == 1]
 
                 del model
                 gc.collect()
-                model, graph = self.mip_model(region_predictions, labeled_indices, len(labeled_indices) + n,
-                                              current_delta, outlier_count, greddy_indices=indices)
-                points = model.__data[0]
-
+                model, graph = self.mip_model(region_predictions, labeled_indices, len(labeled_indices) + n, current_delta,
+                                              outlier_count, greedy_indices=indices)
+                points, outliers = model.__data
                 model.Params.SubMIPNodes = submipnodes
 
             if upper_bound - lower_bound > eps:
