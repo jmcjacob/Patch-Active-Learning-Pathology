@@ -7,6 +7,7 @@ import query_strategies
 import os
 import torch
 import numpy as np
+import sklearn.metrics as metrics
 
 
 def log(arguments, message):
@@ -31,9 +32,10 @@ if __name__ == '__main__':
 
     log(arguments, "Arguments Loaded")
 
-    # Sets the seeds for numpy and pytorch to the defined seeds.
-    np.random.seed(arguments.seed)
-    torch.manual_seed(arguments.seed)
+    if arguments.seed != 0:
+        # Sets the seeds for numpy and pytorch to the defined seeds.
+        np.random.seed(arguments.seed)
+        torch.manual_seed(arguments.seed)
 
     # Sets CUDNN to be used by torch,
     torch.backends.cudnn.enabled = True
@@ -125,6 +127,8 @@ if __name__ == '__main__':
     query_strategy.train()
     _, predictions = query_strategy.predict(x_test, y_test)
     accuracy = np.zeros(arguments.num_iterations + 1)
+    mca = np.zeros(arguments.num_iterations + 1)
+    losses = np.zeros(arguments.num_iterations + 1)
 
     y = []
     for i in range(len(y_test)):
@@ -133,7 +137,12 @@ if __name__ == '__main__':
     y = torch.tensor(y).max(1)[1]
 
     accuracy[0] = 1.0 * (y == predictions).sum().item() / len(y)
-    log(arguments, "\nTesting Accuracy {}\n\n\n".format(accuracy[0]))
+    cmat = metrics.confusion_matrix(y, predictions)
+    mca[0] = np.mean(cmat.diagonal() / cmat.sum(axis=1))
+    losses[0] = torch.functional.cross_entropy(predictions, y).item()
+    log(arguments, "\nTesting Accuracy: {}".format(accuracy[0]))
+    log(arguments, "\nTesting Mean-Class Accuracy: {}".format(mca[0]))
+    log(arguments, "\nTesting Loss: {}\n\n\n".format(losses[0]))
 
     for iteration in range(1, arguments.num_iterations+1):
         # Runs the specified query method and return the selected indices to be annotated.
@@ -163,10 +172,17 @@ if __name__ == '__main__':
 
         # Calculates the accuracy of the model based on the model's predictions.
         accuracy[iteration] = 1.0 * (y == predictions).sum().item() / len(y)
+        cmat = metrics.confusion_matrix(y, predictions)
+        mca[iteration] = np.mean(cmat.diagonal() / cmat.sum(axis=1))
+        losses[iteration] = torch.functional.cross_entropy(predictions, y).item()
 
         # Logs the testing accuracy.
-        log(arguments, "Testing Accuracy {}\n\n\n".format(accuracy[iteration]))
+        log(arguments, "\nTesting Accuracy: {}".format(accuracy[iteration]))
+        log(arguments, "\nTesting Mean-Class Accuracy: {}".format(mca[iteration]))
+        log(arguments, "\nTesting Loss: {}\n\n\n".format(losses[iteration]))
 
     # Logs the accuracies from all iterations.
-    log(arguments, accuracy)
+    log(arguments, "Accuracy: " + accuracy)
+    log(arguments, "Mean-Class Accuracy: " + mca)
+    log(arguments, "Loss: " + losses)
     log(arguments, "\n\n\n\n\n")

@@ -1,13 +1,12 @@
 import os
 import cv2
-import math
 import numpy as np
-from imgaug import augmenters as iaa
 from PIL import Image
 import scipy.io as io
 from collections import Counter
 from torchvision import transforms
 from torch.utils.data import Dataset
+from imgaug import augmenters as iaa
 
 
 def get_dataset(dataset_dir):
@@ -30,7 +29,7 @@ def get_dataset(dataset_dir):
             others = io.loadmat(os.path.join(dataset_dir, "img{0}/img{0}_others.mat".format(i + 1)))["detection"]
             image = cv2.imread(os.path.join(dataset_dir, "img{0}/img{0}.bmp".format(i + 1)))
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-            image = cv2.copyMakeBorder(image, 15, 15, 15, 15, cv2.BORDER_REFLECT)
+            image = cv2.copyMakeBorder(image, 15, 15, 15, 15, cv2.BORDER_WRAP)
             image = np.asarray(image)
 
             for pi in range(0, 500, 100):
@@ -38,27 +37,32 @@ def get_dataset(dataset_dir):
                     temp_x, temp_y = [], []
                     for epi in epithelial:
                         if pi <= epi[0] < pi + 100 and pj <= epi[1] < pj + 100:
-                            x, y = math.floor(epi[0]) + 15, math.floor(epi[1]) + 15
-                            temp_x.append(image[x-15:x+15,y-15:y+15])
+                            x, y = int(epi[0]) + 15, int(epi[1]) + 15
+                            temp_x.append(image[y - 15:y + 15, x - 15:x + 15])
                             temp_y.append([1., 0., 0., 0.])
 
                     for fib in fibroblast:
                         if pi <= fib[0] < pi + 100 and pj <= fib[1] < pj + 100:
-                            x, y = math.floor(fib[0]) + 15, math.floor(fib[1]) + 15
-                            temp_x.append(image[x-15:x+15,y-15:y+15])
+                            x, y = int(fib[0]) + 15, int(fib[1]) + 15
+                            temp_x.append(image[y - 15:y + 15, x - 15:x + 15])
                             temp_y.append([0., 1., 0., 0.])
 
                     for inf in inflammatory:
                         if pi <= inf[0] < pi + 100 and pj <= inf[1] < pj + 100:
-                            x, y = math.floor(inf[0]) + 15, math.floor(inf[1]) + 15
-                            temp_x.append(image[x - 15:x + 15, y - 15:y + 15])
+                            x, y = int(inf[0]) + 15, int(inf[1]) + 15
+                            temp_x.append(image[y - 15:y + 15, x - 15:x + 15])
                             temp_y.append([0., 0., 1., 0.])
 
                     for oth in others:
                         if pi <= oth[0] < pi + 100 and pj <= oth[1] < pj + 100:
-                            x, y = math.floor(oth[0]) + 15, math.floor(oth[1]) + 15
-                            temp_x.append(image[x - 15:x + 15, y - 15:y + 15])
+                            x, y = int(oth[0]) + 15, int(oth[1]) + 15
+                            temp_x.append(image[y - 15:y + 15, x - 15:x + 15])
                             temp_y.append([0., 0., 0., 1.])
+
+                    # for thing in temp_x:
+                    #     cv2.namedWindow("image")
+                    #     cv2.imshow("image", thing)
+                    #     cv2.waitKey(0)
 
                     if temp_x != []:
                         if i < 80:
@@ -100,7 +104,7 @@ class DataHandler(Dataset):
             for j in range(len(x[i])):
                 self.x.append(x[i][j])
                 self.y.append(y[i][j])
-        self.x= np.array(self.x)
+        self.x = np.array(self.x)
         self.y = np.array(self.y)
         self.transform = transform()
 
