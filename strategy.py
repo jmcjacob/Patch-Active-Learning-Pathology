@@ -2,7 +2,6 @@ import gc
 import os
 import torch
 import numpy as np
-from collections import Counter
 from torch.utils.data import DataLoader
 import torch.nn.functional as functional
 
