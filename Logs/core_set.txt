@@ -8,36 +8,610 @@ Number of testing regions: 434
 Training Data: 2534
 Validation Data: 633
 Epoch: 1	Loss: 1.35014	Val Loss: 1.18644
-Epoch: 2	Loss: 1.18517	Val Loss: 1.12035
-Epoch: 3	Loss: 1.06917	Val Loss: 0.94157
-Epoch: 4	Loss: 0.99953	Val Loss: 0.97481
-Epoch: 5	Loss: 0.91355	Val Loss: 0.91059
-Epoch: 6	Loss: 0.81120	Val Loss: 0.85019
-Epoch: 7	Loss: 0.71132	Val Loss: 0.83618
-Epoch: 8	Loss: 0.66060	Val Loss: 0.83802
-Epoch: 9	Loss: 0.53523	Val Loss: 0.79628
-Epoch: 10	Loss: 0.46537	Val Loss: 0.81374
-Epoch: 11	Loss: 0.40042	Val Loss: 0.75193
-Epoch: 12	Loss: 0.33867	Val Loss: 1.02582
-Epoch: 13	Loss: 0.30656	Val Loss: 0.83939
-Epoch: 14	Loss: 0.25416	Val Loss: 1.23348
-Epoch: 15	Loss: 0.20021	Val Loss: 0.93802
-Epoch: 16	Loss: 0.16733	Val Loss: 1.10810
-Epoch: 17	Loss: 0.16533	Val Loss: 1.09262
-Epoch: 18	Loss: 0.09834	Val Loss: 1.20871
-Epoch: 19	Loss: 0.15759	Val Loss: 1.18392
-Epoch: 20	Loss: 0.12083	Val Loss: 1.26951
-Epoch: 21	Loss: 0.06698	Val Loss: 1.48890
-Epoch: 22	Loss: 0.05836	Val Loss: 1.65544
-Epoch: 23	Loss: 0.06417	Val Loss: 1.24208
-Epoch: 24	Loss: 0.09533	Val Loss: 1.61257
-Epoch: 25	Loss: 0.06361	Val Loss: 1.49768
-Epoch: 26	Loss: 0.03732	Val Loss: 1.82093
-Training Finished at Epoch 26
+Epoch: 2	Loss: 1.18484	Val Loss: 1.12581
+Epoch: 3	Loss: 1.10526	Val Loss: 0.98359
+Epoch: 4	Loss: 0.99141	Val Loss: 0.96646
+Epoch: 5	Loss: 0.89882	Val Loss: 0.93664
+Epoch: 6	Loss: 0.83463	Val Loss: 0.87871
+Epoch: 7	Loss: 0.70290	Val Loss: 0.73357
+Epoch: 8	Loss: 0.63383	Val Loss: 0.88692
+Epoch: 9	Loss: 0.54532	Val Loss: 0.81623
+Epoch: 10	Loss: 0.46141	Val Loss: 0.83842
+Epoch: 11	Loss: 0.41368	Val Loss: 0.77977
+Epoch: 12	Loss: 0.32608	Val Loss: 1.05989
+Epoch: 13	Loss: 0.30890	Val Loss: 0.83822
+Epoch: 14	Loss: 0.23666	Val Loss: 1.01422
+Epoch: 15	Loss: 0.21075	Val Loss: 0.88953
+Epoch: 16	Loss: 0.17792	Val Loss: 0.82163
+Epoch: 17	Loss: 0.14387	Val Loss: 1.02325
+Epoch: 18	Loss: 0.12135	Val Loss: 0.92606
+Epoch: 19	Loss: 0.09985	Val Loss: 1.03942
+Epoch: 20	Loss: 0.08956	Val Loss: 1.45054
+Epoch: 21	Loss: 0.11248	Val Loss: 1.15716
+Epoch: 22	Loss: 0.05779	Val Loss: 1.50110
+Epoch: 23	Loss: 0.05707	Val Loss: 1.76817
+Epoch: 24	Loss: 0.08576	Val Loss: 1.30299
+Epoch: 25	Loss: 0.04741	Val Loss: 1.05513
+Epoch: 26	Loss: 0.03826	Val Loss: 1.72966
+Epoch: 27	Loss: 0.06497	Val Loss: 1.56380
+Epoch: 28	Loss: 0.02119	Val Loss: 1.44408
+Epoch: 29	Loss: 0.01373	Val Loss: 1.89517
+Epoch: 30	Loss: 0.04519	Val Loss: 1.47264
+Epoch: 31	Loss: 0.02830	Val Loss: 1.73175
+Epoch: 32	Loss: 0.05165	Val Loss: 1.32721
+Epoch: 33	Loss: 0.01752	Val Loss: 1.33768
+Epoch: 34	Loss: 0.01099	Val Loss: 2.90889
+Epoch: 35	Loss: 0.06649	Val Loss: 1.78758
+Epoch: 36	Loss: 0.02635	Val Loss: 2.19965
+Epoch: 37	Loss: 0.01197	Val Loss: 1.74392
+Epoch: 38	Loss: 0.03239	Val Loss: 1.72970
+Epoch: 39	Loss: 0.03495	Val Loss: 1.56676
+Epoch: 40	Loss: 0.02581	Val Loss: 2.05669
+Epoch: 41	Loss: 0.00753	Val Loss: 2.07163
+Epoch: 42	Loss: 0.05849	Val Loss: 2.09736
+Epoch: 43	Loss: 0.05615	Val Loss: 1.60438
+Epoch: 44	Loss: 0.04421	Val Loss: 1.97789
+Epoch: 45	Loss: 0.01430	Val Loss: 2.39266
+Epoch: 46	Loss: 0.01166	Val Loss: 1.62086
+Epoch: 47	Loss: 0.02429	Val Loss: 1.72008
+Epoch: 48	Loss: 0.00579	Val Loss: 1.90604
+Epoch: 49	Loss: 0.02420	Val Loss: 2.04594
+Epoch: 50	Loss: 0.00471	Val Loss: 2.06836
+Epoch: 51	Loss: 0.01306	Val Loss: 1.63203
+Epoch: 52	Loss: 0.03915	Val Loss: 1.94603
+Epoch: 53	Loss: 0.01031	Val Loss: 2.09534
+Epoch: 54	Loss: 0.01604	Val Loss: 1.61852
+Epoch: 55	Loss: 0.02053	Val Loss: 2.30000
+Epoch: 56	Loss: 0.02430	Val Loss: 1.99400
+Epoch: 57	Loss: 0.00633	Val Loss: 2.21020
+Epoch: 58	Loss: 0.01485	Val Loss: 2.26901
+Epoch: 59	Loss: 0.01368	Val Loss: 1.99134
+Epoch: 60	Loss: 0.01941	Val Loss: 1.90457
+Epoch: 61	Loss: 0.00252	Val Loss: 2.24750
+Epoch: 62	Loss: 0.00189	Val Loss: 2.02694
+Epoch: 63	Loss: 0.00607	Val Loss: 2.56992
+Epoch: 64	Loss: 0.00558	Val Loss: 2.10243
+Epoch: 65	Loss: 0.00498	Val Loss: 3.19612
+Epoch: 66	Loss: 0.00556	Val Loss: 2.63500
+Epoch: 67	Loss: 0.02052	Val Loss: 2.35641
+Epoch: 68	Loss: 0.00275	Val Loss: 2.15090
+Epoch: 69	Loss: 0.01123	Val Loss: 2.30878
+Epoch: 70	Loss: 0.01360	Val Loss: 2.11347
+Epoch: 71	Loss: 0.01564	Val Loss: 2.71691
+Epoch: 72	Loss: 0.01930	Val Loss: 3.03981
+Epoch: 73	Loss: 0.00242	Val Loss: 2.18263
+Epoch: 74	Loss: 0.04652	Val Loss: 2.08984
+Epoch: 75	Loss: 0.00652	Val Loss: 2.26860
+Epoch: 76	Loss: 0.00417	Val Loss: 2.35440
+Epoch: 77	Loss: 0.01486	Val Loss: 2.22383
+Epoch: 78	Loss: 0.01330	Val Loss: 2.11880
+Epoch: 79	Loss: 0.01367	Val Loss: 2.28960
+Epoch: 80	Loss: 0.00714	Val Loss: 1.98238
+Epoch: 81	Loss: 0.00852	Val Loss: 2.41957
+Epoch: 82	Loss: 0.01869	Val Loss: 1.96110
+Epoch: 83	Loss: 0.00334	Val Loss: 1.96851
+Epoch: 84	Loss: 0.01702	Val Loss: 3.71273
+Epoch: 85	Loss: 0.01178	Val Loss: 2.71923
+Epoch: 86	Loss: 0.00453	Val Loss: 2.84179
+Epoch: 87	Loss: 0.00439	Val Loss: 2.88285
+Epoch: 88	Loss: 0.00727	Val Loss: 2.35931
+Epoch: 89	Loss: 0.01143	Val Loss: 2.06714
+Epoch: 90	Loss: 0.01620	Val Loss: 2.59332
+Epoch: 91	Loss: 0.00126	Val Loss: 2.78249
+Epoch: 92	Loss: 0.00258	Val Loss: 2.42432
+Epoch: 93	Loss: 0.00823	Val Loss: 2.58512
+Epoch: 94	Loss: 0.00877	Val Loss: 3.99741
+Epoch: 95	Loss: 0.01014	Val Loss: 2.10102
+Epoch: 96	Loss: 0.00438	Val Loss: 2.65012
+Epoch: 97	Loss: 0.00946	Val Loss: 2.55658
+Epoch: 98	Loss: 0.00831	Val Loss: 2.70829
+Epoch: 99	Loss: 0.00550	Val Loss: 2.70130
+Epoch: 100	Loss: 0.01448	Val Loss: 2.98740
+Epoch: 101	Loss: 0.00130	Val Loss: 2.12768
+Epoch: 102	Loss: 0.00816	Val Loss: 2.45364
+Epoch: 103	Loss: 0.01305	Val Loss: 2.69850
+Epoch: 104	Loss: 0.01444	Val Loss: 2.26503
+Epoch: 105	Loss: 0.01235	Val Loss: 2.28977
+Epoch: 106	Loss: 0.01360	Val Loss: 2.26472
+Epoch: 107	Loss: 0.01348	Val Loss: 2.21923
+Epoch: 108	Loss: 0.00681	Val Loss: 3.37633
+Training Finished at Epoch 108
 
-Testing Accuracy: 0.5987387985396615
-Testing Mean-Class Accuracy: 0.5469504253136208
-Testing Loss: 1.1337145566940308
+Testing Accuracy: 0.5584135413209426
+Testing Mean-Class Accuracy: 0.5212742374591992
+Testing Loss: 1.1763783693313599
+
+
+
+
+---------- Iteration 1
+Number of initial labeled data: 70
+Number of initial unlabeled data: 1417
+Number of testing data: 434
+Training Data: 2913
+Validation Data: 728
+Epoch: 1	Loss: 1.83643	Val Loss: 1.23208
+Epoch: 2	Loss: 1.10187	Val Loss: 1.07905
+Epoch: 3	Loss: 0.96451	Val Loss: 0.88656
+Epoch: 4	Loss: 0.78948	Val Loss: 1.05512
+Epoch: 5	Loss: 0.69469	Val Loss: 0.87915
+Epoch: 6	Loss: 0.57040	Val Loss: 1.17996
+Epoch: 7	Loss: 0.51788	Val Loss: 0.66053
+Epoch: 8	Loss: 0.43198	Val Loss: 1.38661
+Epoch: 9	Loss: 0.36471	Val Loss: 0.79915
+Epoch: 10	Loss: 0.28991	Val Loss: 0.70172
+Epoch: 11	Loss: 0.24769	Val Loss: 0.81355
+Epoch: 12	Loss: 0.20778	Val Loss: 0.60989
+Epoch: 13	Loss: 0.19649	Val Loss: 0.80443
+Epoch: 14	Loss: 0.14541	Val Loss: 0.78125
+Epoch: 15	Loss: 0.15053	Val Loss: 0.91908
+Epoch: 16	Loss: 0.14544	Val Loss: 0.80508
+Epoch: 17	Loss: 0.09272	Val Loss: 0.90170
+Epoch: 18	Loss: 0.06066	Val Loss: 1.48407
+Epoch: 19	Loss: 0.10230	Val Loss: 0.95097
+Epoch: 20	Loss: 0.10449	Val Loss: 1.06996
+Epoch: 21	Loss: 0.04680	Val Loss: 1.23540
+Epoch: 22	Loss: 0.07415	Val Loss: 1.03701
+Epoch: 23	Loss: 0.06468	Val Loss: 1.30109
+Epoch: 24	Loss: 0.05582	Val Loss: 1.14250
+Epoch: 25	Loss: 0.09862	Val Loss: 1.18857
+Epoch: 26	Loss: 0.05233	Val Loss: 0.97791
+Epoch: 27	Loss: 0.05270	Val Loss: 1.11935
+Epoch: 28	Loss: 0.05169	Val Loss: 1.06021
+Epoch: 29	Loss: 0.04982	Val Loss: 1.24542
+Training Finished at Epoch 29
+
+Testing Accuracy: 0.5945901095253899
+Testing Mean-Class Accuracy: 0.5408284144568581
+Testing Loss: 1.1368461847305298
+
+
+
+
+---------- Iteration 2
+Number of initial labeled data: 90
+Number of initial unlabeled data: 1397
+Number of testing data: 434
+Training Data: 3292
+Validation Data: 823
+Epoch: 1	Loss: 1.67090	Val Loss: 0.98183
+Epoch: 2	Loss: 1.09209	Val Loss: 0.90706
+Epoch: 3	Loss: 0.84100	Val Loss: 1.16890
+Epoch: 4	Loss: 0.72122	Val Loss: 0.65562
+Epoch: 5	Loss: 0.55043	Val Loss: 0.64097
+Epoch: 6	Loss: 0.46783	Val Loss: 0.50824
+Epoch: 7	Loss: 0.37014	Val Loss: 0.47324
+Epoch: 8	Loss: 0.34913	Val Loss: 0.79538
+Epoch: 9	Loss: 0.26705	Val Loss: 0.53563
+Epoch: 10	Loss: 0.24233	Val Loss: 0.62968
+Epoch: 11	Loss: 0.25107	Val Loss: 0.53425
+Epoch: 12	Loss: 0.19202	Val Loss: 0.65607
+Epoch: 13	Loss: 0.18978	Val Loss: 0.68136
+Epoch: 14	Loss: 0.12928	Val Loss: 1.05852
+Training Finished at Epoch 14
+
+Testing Accuracy: 0.581646199800863
+Testing Mean-Class Accuracy: 0.5291849522377259
+Testing Loss: 1.1419878005981445
+
+
+
+
+---------- Iteration 3
+Number of initial labeled data: 110
+Number of initial unlabeled data: 1377
+Number of testing data: 434
+Training Data: 3729
+Validation Data: 932
+Epoch: 1	Loss: 1.47806	Val Loss: 1.41226
+Epoch: 2	Loss: 1.10774	Val Loss: 0.93912
+Epoch: 3	Loss: 0.86056	Val Loss: 0.63350
+Epoch: 4	Loss: 0.66691	Val Loss: 0.75968
+Epoch: 5	Loss: 0.53068	Val Loss: 0.53606
+Epoch: 6	Loss: 0.41479	Val Loss: 0.75623
+Epoch: 7	Loss: 0.37439	Val Loss: 1.07752
+Epoch: 8	Loss: 0.32173	Val Loss: 0.44836
+Epoch: 9	Loss: 0.29033	Val Loss: 0.56097
+Epoch: 10	Loss: 0.24665	Val Loss: 0.61811
+Epoch: 11	Loss: 0.22090	Val Loss: 0.61036
+Epoch: 12	Loss: 0.19602	Val Loss: 0.61371
+Epoch: 13	Loss: 0.17869	Val Loss: 0.77588
+Epoch: 14	Loss: 0.14791	Val Loss: 0.48681
+Epoch: 15	Loss: 0.14135	Val Loss: 0.79142
+Epoch: 16	Loss: 0.10372	Val Loss: 0.81074
+Epoch: 17	Loss: 0.13199	Val Loss: 0.88212
+Epoch: 18	Loss: 0.08813	Val Loss: 0.56922
+Epoch: 19	Loss: 0.11374	Val Loss: 1.01190
+Epoch: 20	Loss: 0.09691	Val Loss: 1.57766
+Training Finished at Epoch 20
+
+Testing Accuracy: 0.5859608363757053
+Testing Mean-Class Accuracy: 0.5293117561370152
+Testing Loss: 1.1447919607162476
+
+
+
+
+---------- Iteration 4
+Number of initial labeled data: 130
+Number of initial unlabeled data: 1357
+Number of testing data: 434
+Training Data: 4584
+Validation Data: 1146
+Epoch: 1	Loss: 1.43313	Val Loss: 1.16564
+Epoch: 2	Loss: 1.05280	Val Loss: 0.95560
+Epoch: 3	Loss: 0.79944	Val Loss: 0.67037
+Epoch: 4	Loss: 0.61532	Val Loss: 0.70293
+Epoch: 5	Loss: 0.52441	Val Loss: 0.50069
+Epoch: 6	Loss: 0.41188	Val Loss: 0.66802
+Epoch: 7	Loss: 0.33827	Val Loss: 0.43836
+Epoch: 8	Loss: 0.28995	Val Loss: 0.44541
+Epoch: 9	Loss: 0.27243	Val Loss: 0.43152
+Epoch: 10	Loss: 0.23316	Val Loss: 0.47035
+Epoch: 11	Loss: 0.22814	Val Loss: 0.44751
+Epoch: 12	Loss: 0.18151	Val Loss: 0.49747
+Epoch: 13	Loss: 0.17716	Val Loss: 0.56200
+Epoch: 14	Loss: 0.15288	Val Loss: 1.03644
+Training Finished at Epoch 14
+
+Testing Accuracy: 0.5970793229339528
+Testing Mean-Class Accuracy: 0.5509737083880544
+Testing Loss: 1.1332290172576904
+
+
+
+
+---------- Iteration 5
+Number of initial labeled data: 150
+Number of initial unlabeled data: 1337
+Number of testing data: 434
+Training Data: 5750
+Validation Data: 1437
+Epoch: 1	Loss: 1.40678	Val Loss: 1.08506
+Epoch: 2	Loss: 0.97259	Val Loss: 0.77944
+Epoch: 3	Loss: 0.73732	Val Loss: 0.89371
+Epoch: 4	Loss: 0.61221	Val Loss: 0.50320
+Epoch: 5	Loss: 0.51079	Val Loss: 0.59306
+Epoch: 6	Loss: 0.43468	Val Loss: 0.41782
+Epoch: 7	Loss: 0.38073	Val Loss: 0.57133
+Epoch: 8	Loss: 0.32920	Val Loss: 0.41443
+Epoch: 9	Loss: 0.30856	Val Loss: 0.48626
+Epoch: 10	Loss: 0.27457	Val Loss: 0.47046
+Epoch: 11	Loss: 0.23640	Val Loss: 0.56053
+Epoch: 12	Loss: 0.21634	Val Loss: 0.63999
+Epoch: 13	Loss: 0.21457	Val Loss: 0.49856
+Epoch: 14	Loss: 0.19384	Val Loss: 0.77798
+Training Finished at Epoch 14
+
+Testing Accuracy: 0.5950879522071025
+Testing Mean-Class Accuracy: 0.5492131532762095
+Testing Loss: 1.1350802183151245
+
+
+
+
+---------- Iteration 6
+Number of initial labeled data: 170
+Number of initial unlabeled data: 1317
+Number of testing data: 434
+Training Data: 6787
+Validation Data: 1696
+Epoch: 1	Loss: 1.30290	Val Loss: 1.11788
+Epoch: 2	Loss: 0.93169	Val Loss: 1.30325
+Epoch: 3	Loss: 0.73599	Val Loss: 1.60918
+Epoch: 4	Loss: 0.62764	Val Loss: 0.73050
+Epoch: 5	Loss: 0.57492	Val Loss: 0.70643
+Epoch: 6	Loss: 0.49416	Val Loss: 1.14320
+Epoch: 7	Loss: 0.44986	Val Loss: 0.60492
+Epoch: 8	Loss: 0.37803	Val Loss: 0.69459
+Epoch: 9	Loss: 0.36473	Val Loss: 0.54997
+Epoch: 10	Loss: 0.31396	Val Loss: 0.58942
+Epoch: 11	Loss: 0.31345	Val Loss: 1.17263
+Epoch: 12	Loss: 0.28918	Val Loss: 0.68297
+Epoch: 13	Loss: 0.27718	Val Loss: 0.78588
+Epoch: 14	Loss: 0.22472	Val Loss: 0.84904
+Epoch: 15	Loss: 0.23137	Val Loss: 0.76690
+Epoch: 16	Loss: 0.20438	Val Loss: 0.85607
+Epoch: 17	Loss: 0.20621	Val Loss: 0.70487
+Epoch: 18	Loss: 0.18629	Val Loss: 0.70957
+Epoch: 19	Loss: 0.17771	Val Loss: 0.59028
+Epoch: 20	Loss: 0.16634	Val Loss: 1.04297
+Training Finished at Epoch 20
+
+Testing Accuracy: 0.624128775307003
+Testing Mean-Class Accuracy: 0.5581212330821388
+Testing Loss: 1.1115565299987793
+
+
+
+
+---------- Iteration 7
+Number of initial labeled data: 190
+Number of initial unlabeled data: 1297
+Number of testing data: 434
+Training Data: 7824
+Validation Data: 1956
+Epoch: 1	Loss: 1.45647	Val Loss: 1.73385
+Epoch: 2	Loss: 0.92655	Val Loss: 0.94016
+Epoch: 3	Loss: 0.69442	Val Loss: 0.76752
+Epoch: 4	Loss: 0.57631	Val Loss: 0.45096
+Epoch: 5	Loss: 0.52507	Val Loss: 1.09185
+Epoch: 6	Loss: 0.43818	Val Loss: 0.52911
+Epoch: 7	Loss: 0.41146	Val Loss: 0.58663
+Epoch: 8	Loss: 0.36719	Val Loss: 0.49445
+Epoch: 9	Loss: 0.36685	Val Loss: 0.43742
+Epoch: 10	Loss: 0.31227	Val Loss: 0.83850
+Training Finished at Epoch 10
+
+Testing Accuracy: 0.6452041154995022
+Testing Mean-Class Accuracy: 0.5766534526541931
+Testing Loss: 1.1110610961914062
+
+
+
+
+---------- Iteration 8
+Number of initial labeled data: 210
+Number of initial unlabeled data: 1277
+Number of testing data: 434
+Training Data: 8980
+Validation Data: 2245
+Epoch: 1	Loss: 1.27990	Val Loss: 0.94849
+Epoch: 2	Loss: 0.86003	Val Loss: 0.77399
+Epoch: 3	Loss: 0.71624	Val Loss: 0.62646
+Epoch: 4	Loss: 0.63050	Val Loss: 0.75339
+Epoch: 5	Loss: 0.57213	Val Loss: 0.50265
+Epoch: 6	Loss: 0.51819	Val Loss: 0.49696
+Epoch: 7	Loss: 0.48242	Val Loss: 0.67653
+Epoch: 8	Loss: 0.45454	Val Loss: 0.72378
+Epoch: 9	Loss: 0.41850	Val Loss: 0.68164
+Epoch: 10	Loss: 0.39428	Val Loss: 0.71101
+Epoch: 11	Loss: 0.35523	Val Loss: 0.93742
+Training Finished at Epoch 11
+
+Testing Accuracy: 0.6662794556920013
+Testing Mean-Class Accuracy: 0.5748466184351094
+Testing Loss: 1.0831916332244873
+
+
+
+
+---------- Iteration 9
+Number of initial labeled data: 230
+Number of initial unlabeled data: 1257
+Number of testing data: 434
+Training Data: 10185
+Validation Data: 2546
+Epoch: 1	Loss: 1.26722	Val Loss: 1.99927
+Epoch: 2	Loss: 0.93735	Val Loss: 0.82726
+Epoch: 3	Loss: 0.79439	Val Loss: 1.35611
+Epoch: 4	Loss: 0.69748	Val Loss: 0.93479
+Epoch: 5	Loss: 0.63215	Val Loss: 0.88505
+Epoch: 6	Loss: 0.57891	Val Loss: 0.72667
+Epoch: 7	Loss: 0.54614	Val Loss: 0.72614
+Epoch: 8	Loss: 0.50425	Val Loss: 0.65336
+Epoch: 9	Loss: 0.48312	Val Loss: 0.65753
+Epoch: 10	Loss: 0.43371	Val Loss: 1.18945
+Training Finished at Epoch 10
+
+Testing Accuracy: 0.6491868569532028
+Testing Mean-Class Accuracy: 0.5699187736176834
+Testing Loss: 1.1007354259490967
+
+
+
+
+---------- Iteration 10
+Number of initial labeled data: 250
+Number of initial unlabeled data: 1237
+Number of testing data: 434
+Training Data: 11793
+Validation Data: 2948
+Epoch: 1	Loss: 1.31868	Val Loss: 1.37342
+Epoch: 2	Loss: 0.91165	Val Loss: 1.14896
+Epoch: 3	Loss: 0.78406	Val Loss: 0.73631
+Epoch: 4	Loss: 0.70752	Val Loss: 0.72958
+Epoch: 5	Loss: 0.63347	Val Loss: 0.61141
+Epoch: 6	Loss: 0.60030	Val Loss: 0.71764
+Epoch: 7	Loss: 0.55324	Val Loss: 0.74104
+Epoch: 8	Loss: 0.51654	Val Loss: 0.92220
+Epoch: 9	Loss: 0.49272	Val Loss: 0.62685
+Epoch: 10	Loss: 0.46847	Val Loss: 0.62514
+Epoch: 11	Loss: 0.42944	Val Loss: 0.69619
+Epoch: 12	Loss: 0.42536	Val Loss: 0.77915
+Epoch: 13	Loss: 0.38924	Val Loss: 0.74056
+Epoch: 14	Loss: 0.38250	Val Loss: 0.73916
+Epoch: 15	Loss: 0.36100	Val Loss: 0.72151
+Epoch: 16	Loss: 0.35082	Val Loss: 1.01645
+Training Finished at Epoch 16
+
+Testing Accuracy: 0.6744108861599735
+Testing Mean-Class Accuracy: 0.5794042061024264
+Testing Loss: 1.0832953453063965
+
+
+
+
+---------- Iteration 11
+Number of initial labeled data: 270
+Number of initial unlabeled data: 1217
+Number of testing data: 434
+Training Data: 13300
+Validation Data: 3325
+Epoch: 1	Loss: 1.28107	Val Loss: 0.82202
+Epoch: 2	Loss: 0.77956	Val Loss: 0.71340
+Epoch: 3	Loss: 0.67961	Val Loss: 0.70165
+Epoch: 4	Loss: 0.59663	Val Loss: 0.59052
+Epoch: 5	Loss: 0.57335	Val Loss: 0.67828
+Epoch: 6	Loss: 0.53563	Val Loss: 0.59332
+Epoch: 7	Loss: 0.50227	Val Loss: 0.47520
+Epoch: 8	Loss: 0.46256	Val Loss: 0.79402
+Epoch: 9	Loss: 0.44866	Val Loss: 0.53166
+Epoch: 10	Loss: 0.43404	Val Loss: 0.76228
+Epoch: 11	Loss: 0.40285	Val Loss: 0.67213
+Epoch: 12	Loss: 0.39465	Val Loss: 0.63249
+Epoch: 13	Loss: 0.37458	Val Loss: 0.60733
+Epoch: 14	Loss: 0.38143	Val Loss: 0.62994
+Epoch: 15	Loss: 0.34820	Val Loss: 0.61900
+Epoch: 16	Loss: 0.33567	Val Loss: 0.57522
+Epoch: 17	Loss: 0.33615	Val Loss: 0.60538
+Epoch: 18	Loss: 0.31466	Val Loss: 0.70302
+Training Finished at Epoch 18
+
+Testing Accuracy: 0.6483571191503484
+Testing Mean-Class Accuracy: 0.5675791794765913
+Testing Loss: 1.0957257747650146
+
+
+
+
+---------- Iteration 12
+Number of initial labeled data: 290
+Number of initial unlabeled data: 1197
+Number of testing data: 434
+Training Data: 15000
+Validation Data: 3750
+Epoch: 1	Loss: 1.34465	Val Loss: 1.27387
+Epoch: 2	Loss: 0.86672	Val Loss: 0.71557
+Epoch: 3	Loss: 0.71045	Val Loss: 0.61748
+Epoch: 4	Loss: 0.64390	Val Loss: 0.67894
+Epoch: 5	Loss: 0.58725	Val Loss: 0.56795
+Epoch: 6	Loss: 0.53843	Val Loss: 0.65385
+Epoch: 7	Loss: 0.51410	Val Loss: 0.53600
+Epoch: 8	Loss: 0.48363	Val Loss: 0.57952
+Epoch: 9	Loss: 0.48150	Val Loss: 0.54956
+Epoch: 10	Loss: 0.45160	Val Loss: 0.56946
+Epoch: 11	Loss: 0.42800	Val Loss: 0.67805
+Epoch: 12	Loss: 0.42082	Val Loss: 0.54312
+Epoch: 13	Loss: 0.39239	Val Loss: 0.69802
+Epoch: 14	Loss: 0.38171	Val Loss: 0.63747
+Epoch: 15	Loss: 0.36932	Val Loss: 0.70904
+Epoch: 16	Loss: 0.36384	Val Loss: 0.56507
+Epoch: 17	Loss: 0.35606	Val Loss: 0.80343
+Training Finished at Epoch 17
+
+Testing Accuracy: 0.6964819117158978
+Testing Mean-Class Accuracy: 0.6005222648115593
+Testing Loss: 1.0650948286056519
+
+
+
+
+---------- Iteration 13
+Number of initial labeled data: 310
+Number of initial unlabeled data: 1177
+Number of testing data: 434
+Training Data: 16435
+Validation Data: 4108
+Epoch: 1	Loss: 1.55221	Val Loss: 0.93087
+Epoch: 2	Loss: 0.85597	Val Loss: 0.59154
+Epoch: 3	Loss: 0.68280	Val Loss: 0.53771
+Epoch: 4	Loss: 0.61312	Val Loss: 0.52806
+Epoch: 5	Loss: 0.57708	Val Loss: 0.49217
+Epoch: 6	Loss: 0.53824	Val Loss: 0.49091
+Epoch: 7	Loss: 0.49954	Val Loss: 0.47044
+Epoch: 8	Loss: 0.47110	Val Loss: 0.53005
+Epoch: 9	Loss: 0.44452	Val Loss: 0.49483
+Epoch: 10	Loss: 0.43447	Val Loss: 0.55764
+Epoch: 11	Loss: 0.43082	Val Loss: 0.50490
+Epoch: 12	Loss: 0.41723	Val Loss: 0.48634
+Epoch: 13	Loss: 0.40455	Val Loss: 0.61147
+Training Finished at Epoch 13
+
+Testing Accuracy: 0.6274477265184202
+Testing Mean-Class Accuracy: 0.5643636661189909
+Testing Loss: 1.1410081386566162
+
+
+
+
+---------- Iteration 14
+Number of initial labeled data: 330
+Number of initial unlabeled data: 1157
+Number of testing data: 434
+Training Data: 17779
+Validation Data: 4444
+Epoch: 1	Loss: 1.33567	Val Loss: 0.93549
+Epoch: 2	Loss: 0.86073	Val Loss: 0.63697
+Epoch: 3	Loss: 0.72016	Val Loss: 0.63791
+Epoch: 4	Loss: 0.65963	Val Loss: 0.55761
+Epoch: 5	Loss: 0.60283	Val Loss: 0.51859
+Epoch: 6	Loss: 0.58932	Val Loss: 0.52877
+Epoch: 7	Loss: 0.56134	Val Loss: 0.57642
+Epoch: 8	Loss: 0.53746	Val Loss: 0.48472
+Epoch: 9	Loss: 0.52063	Val Loss: 0.49446
+Epoch: 10	Loss: 0.49168	Val Loss: 0.63975
+Epoch: 11	Loss: 0.47288	Val Loss: 0.51332
+Epoch: 12	Loss: 0.46892	Val Loss: 0.55174
+Epoch: 13	Loss: 0.45098	Val Loss: 0.56630
+Epoch: 14	Loss: 0.43546	Val Loss: 0.46861
+Epoch: 15	Loss: 0.41813	Val Loss: 0.54585
+Epoch: 16	Loss: 0.40972	Val Loss: 0.48983
+Epoch: 17	Loss: 0.40792	Val Loss: 0.57406
+Epoch: 18	Loss: 0.40574	Val Loss: 0.51697
+Epoch: 19	Loss: 0.39090	Val Loss: 0.55849
+Training Finished at Epoch 19
+
+Testing Accuracy: 0.6579820776634584
+Testing Mean-Class Accuracy: 0.570018750035565
+Testing Loss: 1.0965149402618408
+
+
+
+
+---------- Iteration 15
+Number of initial labeled data: 350
+Number of initial unlabeled data: 1137
+Number of testing data: 434
+Training Data: 19598
+Validation Data: 4899
+Epoch: 1	Loss: 1.54091	Val Loss: 0.99759
+Epoch: 2	Loss: 0.83230	Val Loss: 1.01235
+Epoch: 3	Loss: 0.72789	Val Loss: 0.76118
+Epoch: 4	Loss: 0.68695	Val Loss: 0.66815
+Epoch: 5	Loss: 0.63892	Val Loss: 0.60021
+Epoch: 6	Loss: 0.60331	Val Loss: 0.85603
+Epoch: 7	Loss: 0.57617	Val Loss: 0.63082
+Epoch: 8	Loss: 0.56794	Val Loss: 0.68632
+Epoch: 9	Loss: 0.53878	Val Loss: 0.54060
+Epoch: 10	Loss: 0.51416	Val Loss: 0.62351
+Epoch: 11	Loss: 0.50680	Val Loss: 0.76573
+Epoch: 12	Loss: 0.49716	Val Loss: 0.65260
+Epoch: 13	Loss: 0.48880	Val Loss: 0.67865
+Epoch: 14	Loss: 0.47419	Val Loss: 0.54343
+Epoch: 15	Loss: 0.46172	Val Loss: 0.62013
+Epoch: 16	Loss: 0.44615	Val Loss: 0.71329
+Training Finished at Epoch 16
+
+Testing Accuracy: 0.6496846996349154
+Testing Mean-Class Accuracy: 0.5707864253678855
+Testing Loss: 1.1107101440429688
+
+
+
+
+---------- Iteration 16
+Number of initial labeled data: 370
+Number of initial unlabeled data: 1117
+Number of testing data: 434
+Training Data: 21259
+Validation Data: 5314
+Epoch: 1	Loss: 1.54839	Val Loss: 0.92227
+Epoch: 2	Loss: 0.97267	Val Loss: 1.07047
+Epoch: 3	Loss: 0.88408	Val Loss: 0.87409
+Epoch: 4	Loss: 0.82827	Val Loss: 0.81960
+Epoch: 5	Loss: 0.76543	Val Loss: 0.74207
+Epoch: 6	Loss: 0.74727	Val Loss: 0.68301
+Epoch: 7	Loss: 0.71246	Val Loss: 0.79124
+Epoch: 8	Loss: 0.70436	Val Loss: 0.71803
+Epoch: 9	Loss: 0.67803	Val Loss: 0.64180
+Epoch: 10	Loss: 0.66498	Val Loss: 0.79248
+Epoch: 11	Loss: 0.64836	Val Loss: 0.90769
+Training Finished at Epoch 11
+
+Testing Accuracy: 0.6417192167275141
+Testing Mean-Class Accuracy: 0.565224819903978
+Testing Loss: 1.1334232091903687
 
 
 
@@ -50,59 +624,610 @@ Number of testing regions: 434
 
 Training Data: 2606
 Validation Data: 651
-Epoch: 1	Loss: 1.37171	Val Loss: 1.28856
-Epoch: 2	Loss: 1.25743	Val Loss: 1.17375
-Epoch: 3	Loss: 1.17608	Val Loss: 1.13198
-Epoch: 4	Loss: 1.05343	Val Loss: 1.03639
-Epoch: 5	Loss: 0.97041	Val Loss: 1.05651
-Epoch: 6	Loss: 0.85867	Val Loss: 0.93156
-Epoch: 7	Loss: 0.73807	Val Loss: 1.00847
-Epoch: 8	Loss: 0.61350	Val Loss: 0.99949
-Epoch: 9	Loss: 0.52819	Val Loss: 0.90646
-Epoch: 10	Loss: 0.41414	Val Loss: 1.01589
-Epoch: 11	Loss: 0.38125	Val Loss: 0.81092
-Epoch: 12	Loss: 0.29465	Val Loss: 0.93230
-Epoch: 13	Loss: 0.22236	Val Loss: 0.95865
-Epoch: 14	Loss: 0.19946	Val Loss: 0.99591
-Epoch: 15	Loss: 0.14179	Val Loss: 1.11907
-Epoch: 16	Loss: 0.15578	Val Loss: 1.31491
-Epoch: 17	Loss: 0.10984	Val Loss: 1.55099
-Epoch: 18	Loss: 0.08028	Val Loss: 1.31102
-Epoch: 19	Loss: 0.09488	Val Loss: 1.26284
-Epoch: 20	Loss: 0.09223	Val Loss: 1.17207
-Epoch: 21	Loss: 0.04087	Val Loss: 1.30399
-Epoch: 22	Loss: 0.05342	Val Loss: 1.64159
-Epoch: 23	Loss: 0.02764	Val Loss: 1.34398
-Epoch: 24	Loss: 0.05580	Val Loss: 1.24870
-Epoch: 25	Loss: 0.03256	Val Loss: 1.95273
-Epoch: 26	Loss: 0.02373	Val Loss: 1.45989
-Epoch: 27	Loss: 0.04931	Val Loss: 1.55979
-Epoch: 28	Loss: 0.04245	Val Loss: 1.27240
-Epoch: 29	Loss: 0.02364	Val Loss: 1.59170
-Epoch: 30	Loss: 0.03041	Val Loss: 1.72010
-Epoch: 31	Loss: 0.05808	Val Loss: 1.67012
-Epoch: 32	Loss: 0.04224	Val Loss: 1.45797
-Epoch: 33	Loss: 0.01509	Val Loss: 1.39986
-Epoch: 34	Loss: 0.03089	Val Loss: 1.57579
-Epoch: 35	Loss: 0.01399	Val Loss: 1.68599
-Epoch: 36	Loss: 0.02627	Val Loss: 1.64243
-Epoch: 37	Loss: 0.01865	Val Loss: 2.02313
-Epoch: 38	Loss: 0.04004	Val Loss: 2.37717
-Epoch: 39	Loss: 0.01199	Val Loss: 1.89294
-Epoch: 40	Loss: 0.00959	Val Loss: 1.81841
-Epoch: 41	Loss: 0.02376	Val Loss: 2.23858
-Epoch: 42	Loss: 0.03906	Val Loss: 1.79627
-Epoch: 43	Loss: 0.02021	Val Loss: 2.00042
-Epoch: 44	Loss: 0.03491	Val Loss: 1.71323
-Epoch: 45	Loss: 0.02293	Val Loss: 1.65785
-Epoch: 46	Loss: 0.02153	Val Loss: 1.71855
-Epoch: 47	Loss: 0.03329	Val Loss: 1.60018
-Epoch: 48	Loss: 0.01178	Val Loss: 2.22814
-Training Finished at Epoch 48
+Epoch: 1	Loss: 1.36640	Val Loss: 1.28699
+Epoch: 2	Loss: 1.26005	Val Loss: 1.20337
+Epoch: 3	Loss: 1.15557	Val Loss: 1.16485
+Epoch: 4	Loss: 1.07390	Val Loss: 1.05241
+Epoch: 5	Loss: 0.94563	Val Loss: 1.00618
+Epoch: 6	Loss: 0.83761	Val Loss: 1.01543
+Epoch: 7	Loss: 0.72117	Val Loss: 1.01207
+Epoch: 8	Loss: 0.58049	Val Loss: 1.03978
+Epoch: 9	Loss: 0.48400	Val Loss: 1.18015
+Epoch: 10	Loss: 0.39726	Val Loss: 0.87561
+Epoch: 11	Loss: 0.32627	Val Loss: 0.80601
+Epoch: 12	Loss: 0.28175	Val Loss: 1.10438
+Epoch: 13	Loss: 0.21151	Val Loss: 0.89601
+Epoch: 14	Loss: 0.16506	Val Loss: 0.81852
+Epoch: 15	Loss: 0.13719	Val Loss: 1.03085
+Epoch: 16	Loss: 0.13358	Val Loss: 1.38716
+Epoch: 17	Loss: 0.11057	Val Loss: 1.49640
+Epoch: 18	Loss: 0.05897	Val Loss: 1.20324
+Epoch: 19	Loss: 0.08058	Val Loss: 1.43335
+Epoch: 20	Loss: 0.04825	Val Loss: 1.11826
+Epoch: 21	Loss: 0.05684	Val Loss: 1.50569
+Epoch: 22	Loss: 0.06519	Val Loss: 1.39738
+Epoch: 23	Loss: 0.03032	Val Loss: 1.36080
+Epoch: 24	Loss: 0.03853	Val Loss: 1.71744
+Epoch: 25	Loss: 0.04820	Val Loss: 1.60753
+Epoch: 26	Loss: 0.05368	Val Loss: 1.35632
+Epoch: 27	Loss: 0.04335	Val Loss: 1.87092
+Epoch: 28	Loss: 0.04963	Val Loss: 1.58117
+Epoch: 29	Loss: 0.02310	Val Loss: 1.81168
+Training Finished at Epoch 29
 
-Testing Accuracy: 0.5469631596415533
-Testing Mean-Class Accuracy: 0.5173525580773882
-Testing Loss: 1.1868681907653809
+Testing Accuracy: 0.5063060073016926
+Testing Mean-Class Accuracy: 0.4978669233087353
+Testing Loss: 1.2241079807281494
+
+
+
+
+---------- Iteration 1
+Number of initial labeled data: 70
+Number of initial unlabeled data: 1417
+Number of testing data: 434
+Training Data: 2904
+Validation Data: 726
+Epoch: 1	Loss: 1.76315	Val Loss: 1.73204
+Epoch: 2	Loss: 1.13439	Val Loss: 1.16092
+Epoch: 3	Loss: 0.99986	Val Loss: 0.95833
+Epoch: 4	Loss: 0.82506	Val Loss: 0.76258
+Epoch: 5	Loss: 0.75819	Val Loss: 1.10011
+Epoch: 6	Loss: 0.59824	Val Loss: 0.65481
+Epoch: 7	Loss: 0.49146	Val Loss: 0.67418
+Epoch: 8	Loss: 0.41742	Val Loss: 0.68705
+Epoch: 9	Loss: 0.33261	Val Loss: 0.54134
+Epoch: 10	Loss: 0.27316	Val Loss: 0.59201
+Epoch: 11	Loss: 0.25348	Val Loss: 0.72350
+Epoch: 12	Loss: 0.19404	Val Loss: 0.74627
+Epoch: 13	Loss: 0.17684	Val Loss: 0.55565
+Epoch: 14	Loss: 0.14256	Val Loss: 0.75835
+Epoch: 15	Loss: 0.13859	Val Loss: 0.78889
+Epoch: 16	Loss: 0.16396	Val Loss: 0.54020
+Epoch: 17	Loss: 0.08771	Val Loss: 0.58246
+Epoch: 18	Loss: 0.12855	Val Loss: 0.71028
+Epoch: 19	Loss: 0.07918	Val Loss: 0.74228
+Epoch: 20	Loss: 0.09640	Val Loss: 0.79115
+Epoch: 21	Loss: 0.07275	Val Loss: 0.91341
+Epoch: 22	Loss: 0.06665	Val Loss: 0.83329
+Epoch: 23	Loss: 0.06768	Val Loss: 1.01097
+Epoch: 24	Loss: 0.08589	Val Loss: 0.91796
+Epoch: 25	Loss: 0.05631	Val Loss: 0.85839
+Epoch: 26	Loss: 0.03358	Val Loss: 0.91430
+Epoch: 27	Loss: 0.07291	Val Loss: 1.30306
+Epoch: 28	Loss: 0.03516	Val Loss: 0.70714
+Epoch: 29	Loss: 0.04911	Val Loss: 0.87095
+Epoch: 30	Loss: 0.04704	Val Loss: 1.29777
+Epoch: 31	Loss: 0.04800	Val Loss: 1.13508
+Epoch: 32	Loss: 0.05107	Val Loss: 0.95934
+Epoch: 33	Loss: 0.05870	Val Loss: 0.95586
+Epoch: 34	Loss: 0.03764	Val Loss: 1.00704
+Training Finished at Epoch 34
+
+Testing Accuracy: 0.568536342515765
+Testing Mean-Class Accuracy: 0.5210270802918903
+Testing Loss: 1.162023663520813
+
+
+
+
+---------- Iteration 2
+Number of initial labeled data: 90
+Number of initial unlabeled data: 1397
+Number of testing data: 434
+Training Data: 3729
+Validation Data: 932
+Epoch: 1	Loss: 1.68699	Val Loss: 1.50583
+Epoch: 2	Loss: 1.15888	Val Loss: 1.18162
+Epoch: 3	Loss: 0.97241	Val Loss: 1.21700
+Epoch: 4	Loss: 0.78062	Val Loss: 1.08750
+Epoch: 5	Loss: 0.64895	Val Loss: 0.83757
+Epoch: 6	Loss: 0.51918	Val Loss: 0.61816
+Epoch: 7	Loss: 0.43349	Val Loss: 0.80360
+Epoch: 8	Loss: 0.36321	Val Loss: 0.67306
+Epoch: 9	Loss: 0.29316	Val Loss: 1.17178
+Epoch: 10	Loss: 0.29083	Val Loss: 0.62039
+Epoch: 11	Loss: 0.21429	Val Loss: 0.66100
+Epoch: 12	Loss: 0.20381	Val Loss: 0.79774
+Epoch: 13	Loss: 0.16510	Val Loss: 1.24631
+Epoch: 14	Loss: 0.15791	Val Loss: 0.82539
+Epoch: 15	Loss: 0.15390	Val Loss: 0.80471
+Epoch: 16	Loss: 0.11586	Val Loss: 0.99160
+Epoch: 17	Loss: 0.10715	Val Loss: 0.87650
+Epoch: 18	Loss: 0.13023	Val Loss: 0.71390
+Epoch: 19	Loss: 0.09013	Val Loss: 1.18396
+Epoch: 20	Loss: 0.08736	Val Loss: 0.90925
+Epoch: 21	Loss: 0.08882	Val Loss: 1.28530
+Training Finished at Epoch 21
+
+Testing Accuracy: 0.5316959840690342
+Testing Mean-Class Accuracy: 0.5052912424230599
+Testing Loss: 1.1968096494674683
+
+
+
+
+---------- Iteration 3
+Number of initial labeled data: 110
+Number of initial unlabeled data: 1377
+Number of testing data: 434
+Training Data: 4305
+Validation Data: 1076
+Epoch: 1	Loss: 1.57582	Val Loss: 1.03490
+Epoch: 2	Loss: 1.00356	Val Loss: 0.92741
+Epoch: 3	Loss: 0.78886	Val Loss: 0.83211
+Epoch: 4	Loss: 0.61327	Val Loss: 0.59763
+Epoch: 5	Loss: 0.50454	Val Loss: 0.62004
+Epoch: 6	Loss: 0.38406	Val Loss: 0.89236
+Epoch: 7	Loss: 0.38901	Val Loss: 0.39718
+Epoch: 8	Loss: 0.26936	Val Loss: 0.57311
+Epoch: 9	Loss: 0.22107	Val Loss: 0.94662
+Epoch: 10	Loss: 0.18922	Val Loss: 0.86400
+Epoch: 11	Loss: 0.23206	Val Loss: 0.45845
+Epoch: 12	Loss: 0.16296	Val Loss: 0.62002
+Epoch: 13	Loss: 0.14799	Val Loss: 0.61701
+Epoch: 14	Loss: 0.15780	Val Loss: 0.61383
+Epoch: 15	Loss: 0.12731	Val Loss: 0.83109
+Training Finished at Epoch 15
+
+Testing Accuracy: 0.5335214072353136
+Testing Mean-Class Accuracy: 0.5042351217278492
+Testing Loss: 1.190782904624939
+
+
+
+
+---------- Iteration 4
+Number of initial labeled data: 130
+Number of initial unlabeled data: 1357
+Number of testing data: 434
+Training Data: 5736
+Validation Data: 1434
+Epoch: 1	Loss: 1.57016	Val Loss: 1.19519
+Epoch: 2	Loss: 1.13451	Val Loss: 1.02346
+Epoch: 3	Loss: 0.96517	Val Loss: 0.82184
+Epoch: 4	Loss: 0.80398	Val Loss: 1.00809
+Epoch: 5	Loss: 0.66924	Val Loss: 0.63648
+Epoch: 6	Loss: 0.56531	Val Loss: 0.65791
+Epoch: 7	Loss: 0.49502	Val Loss: 0.65664
+Epoch: 8	Loss: 0.43040	Val Loss: 0.53900
+Epoch: 9	Loss: 0.35392	Val Loss: 0.63576
+Epoch: 10	Loss: 0.34470	Val Loss: 0.58671
+Epoch: 11	Loss: 0.32330	Val Loss: 0.83759
+Epoch: 12	Loss: 0.28442	Val Loss: 0.63928
+Epoch: 13	Loss: 0.21983	Val Loss: 0.66471
+Epoch: 14	Loss: 0.20522	Val Loss: 1.17327
+Epoch: 15	Loss: 0.21301	Val Loss: 0.96823
+Epoch: 16	Loss: 0.17668	Val Loss: 0.92354
+Epoch: 17	Loss: 0.17700	Val Loss: 0.80343
+Epoch: 18	Loss: 0.16722	Val Loss: 0.83822
+Epoch: 19	Loss: 0.15911	Val Loss: 0.92744
+Training Finished at Epoch 19
+
+Testing Accuracy: 0.6027215399933621
+Testing Mean-Class Accuracy: 0.5441485392885492
+Testing Loss: 1.1281863451004028
+
+
+
+
+---------- Iteration 5
+Number of initial labeled data: 150
+Number of initial unlabeled data: 1337
+Number of testing data: 434
+Training Data: 6288
+Validation Data: 1572
+Epoch: 1	Loss: 1.53842	Val Loss: 1.16677
+Epoch: 2	Loss: 1.04049	Val Loss: 0.85116
+Epoch: 3	Loss: 0.77931	Val Loss: 1.03945
+Epoch: 4	Loss: 0.59183	Val Loss: 0.69098
+Epoch: 5	Loss: 0.48562	Val Loss: 0.60651
+Epoch: 6	Loss: 0.40572	Val Loss: 0.71707
+Epoch: 7	Loss: 0.36681	Val Loss: 0.52232
+Epoch: 8	Loss: 0.32008	Val Loss: 0.47958
+Epoch: 9	Loss: 0.31114	Val Loss: 0.49942
+Epoch: 10	Loss: 0.26466	Val Loss: 0.38937
+Epoch: 11	Loss: 0.25400	Val Loss: 0.46002
+Epoch: 12	Loss: 0.22072	Val Loss: 0.72076
+Epoch: 13	Loss: 0.20455	Val Loss: 0.57817
+Epoch: 14	Loss: 0.20407	Val Loss: 0.62949
+Epoch: 15	Loss: 0.18197	Val Loss: 0.59027
+Epoch: 16	Loss: 0.15601	Val Loss: 0.60553
+Epoch: 17	Loss: 0.18188	Val Loss: 1.10716
+Training Finished at Epoch 17
+
+Testing Accuracy: 0.5979090607368072
+Testing Mean-Class Accuracy: 0.5419080463216813
+Testing Loss: 1.1343430280685425
+
+
+
+
+---------- Iteration 6
+Number of initial labeled data: 170
+Number of initial unlabeled data: 1317
+Number of testing data: 434
+Training Data: 7123
+Validation Data: 1780
+Epoch: 1	Loss: 1.43486	Val Loss: 1.17473
+Epoch: 2	Loss: 1.01047	Val Loss: 0.95680
+Epoch: 3	Loss: 0.73210	Val Loss: 0.69617
+Epoch: 4	Loss: 0.57561	Val Loss: 0.66878
+Epoch: 5	Loss: 0.48903	Val Loss: 0.50934
+Epoch: 6	Loss: 0.41832	Val Loss: 0.50987
+Epoch: 7	Loss: 0.34874	Val Loss: 0.50937
+Epoch: 8	Loss: 0.33010	Val Loss: 0.47800
+Epoch: 9	Loss: 0.27672	Val Loss: 0.41089
+Epoch: 10	Loss: 0.25275	Val Loss: 0.39961
+Epoch: 11	Loss: 0.23017	Val Loss: 0.63449
+Epoch: 12	Loss: 0.22756	Val Loss: 0.52485
+Epoch: 13	Loss: 0.21648	Val Loss: 0.56977
+Epoch: 14	Loss: 0.19499	Val Loss: 0.59567
+Epoch: 15	Loss: 0.17456	Val Loss: 0.64755
+Epoch: 16	Loss: 0.15886	Val Loss: 0.77127
+Epoch: 17	Loss: 0.18781	Val Loss: 0.82468
+Epoch: 18	Loss: 0.13457	Val Loss: 0.60051
+Epoch: 19	Loss: 0.15429	Val Loss: 0.63953
+Epoch: 20	Loss: 0.13558	Val Loss: 0.54185
+Epoch: 21	Loss: 0.13056	Val Loss: 0.86768
+Training Finished at Epoch 21
+
+Testing Accuracy: 0.6148357119150348
+Testing Mean-Class Accuracy: 0.5592723005303729
+Testing Loss: 1.1174582242965698
+
+
+
+
+---------- Iteration 7
+Number of initial labeled data: 190
+Number of initial unlabeled data: 1297
+Number of testing data: 434
+Training Data: 8078
+Validation Data: 2019
+Epoch: 1	Loss: 1.36955	Val Loss: 1.01241
+Epoch: 2	Loss: 0.93740	Val Loss: 1.18507
+Epoch: 3	Loss: 0.67283	Val Loss: 0.69520
+Epoch: 4	Loss: 0.55094	Val Loss: 0.54087
+Epoch: 5	Loss: 0.49090	Val Loss: 0.83537
+Epoch: 6	Loss: 0.40484	Val Loss: 0.61069
+Epoch: 7	Loss: 0.35902	Val Loss: 0.46399
+Epoch: 8	Loss: 0.34161	Val Loss: 0.59488
+Epoch: 9	Loss: 0.27844	Val Loss: 0.44122
+Epoch: 10	Loss: 0.27583	Val Loss: 0.49487
+Epoch: 11	Loss: 0.27020	Val Loss: 0.82276
+Epoch: 12	Loss: 0.26328	Val Loss: 0.47601
+Epoch: 13	Loss: 0.22901	Val Loss: 0.44792
+Epoch: 14	Loss: 0.21547	Val Loss: 0.46131
+Epoch: 15	Loss: 0.19081	Val Loss: 0.47661
+Epoch: 16	Loss: 0.17463	Val Loss: 0.81982
+Epoch: 17	Loss: 0.18159	Val Loss: 0.63545
+Epoch: 18	Loss: 0.17880	Val Loss: 0.63155
+Epoch: 19	Loss: 0.17000	Val Loss: 0.61888
+Training Finished at Epoch 19
+
+Testing Accuracy: 0.5794888815134418
+Testing Mean-Class Accuracy: 0.5255961331482387
+Testing Loss: 1.1522527933120728
+
+
+
+
+---------- Iteration 8
+Number of initial labeled data: 210
+Number of initial unlabeled data: 1277
+Number of testing data: 434
+Training Data: 9321
+Validation Data: 2330
+Epoch: 1	Loss: 1.56176	Val Loss: 0.92770
+Epoch: 2	Loss: 0.92250	Val Loss: 0.65044
+Epoch: 3	Loss: 0.66728	Val Loss: 0.55736
+Epoch: 4	Loss: 0.54897	Val Loss: 0.46911
+Epoch: 5	Loss: 0.45236	Val Loss: 0.50591
+Epoch: 6	Loss: 0.41826	Val Loss: 0.50057
+Epoch: 7	Loss: 0.35990	Val Loss: 0.41408
+Epoch: 8	Loss: 0.33455	Val Loss: 0.72204
+Epoch: 9	Loss: 0.29580	Val Loss: 0.38662
+Epoch: 10	Loss: 0.26922	Val Loss: 0.39446
+Epoch: 11	Loss: 0.25940	Val Loss: 0.42587
+Epoch: 12	Loss: 0.23543	Val Loss: 0.48110
+Epoch: 13	Loss: 0.23386	Val Loss: 0.39767
+Epoch: 14	Loss: 0.20881	Val Loss: 0.66431
+Training Finished at Epoch 14
+
+Testing Accuracy: 0.6194822436110189
+Testing Mean-Class Accuracy: 0.5626134979410509
+Testing Loss: 1.1226518154144287
+
+
+
+
+---------- Iteration 9
+Number of initial labeled data: 230
+Number of initial unlabeled data: 1257
+Number of testing data: 434
+Training Data: 10516
+Validation Data: 2629
+Epoch: 1	Loss: 1.24935	Val Loss: 0.87690
+Epoch: 2	Loss: 0.76459	Val Loss: 0.83447
+Epoch: 3	Loss: 0.60031	Val Loss: 0.62497
+Epoch: 4	Loss: 0.51422	Val Loss: 0.51809
+Epoch: 5	Loss: 0.45482	Val Loss: 0.49783
+Epoch: 6	Loss: 0.41527	Val Loss: 0.54310
+Epoch: 7	Loss: 0.36472	Val Loss: 0.56767
+Epoch: 8	Loss: 0.35674	Val Loss: 0.54446
+Epoch: 9	Loss: 0.33313	Val Loss: 0.38083
+Epoch: 10	Loss: 0.29135	Val Loss: 0.72754
+Training Finished at Epoch 10
+
+Testing Accuracy: 0.6274477265184202
+Testing Mean-Class Accuracy: 0.5664874410717048
+Testing Loss: 1.1194887161254883
+
+
+
+
+---------- Iteration 10
+Number of initial labeled data: 250
+Number of initial unlabeled data: 1237
+Number of testing data: 434
+Training Data: 11884
+Validation Data: 2971
+Epoch: 1	Loss: 1.26760	Val Loss: 1.20743
+Epoch: 2	Loss: 0.91656	Val Loss: 0.71417
+Epoch: 3	Loss: 0.73665	Val Loss: 0.63548
+Epoch: 4	Loss: 0.62488	Val Loss: 0.57167
+Epoch: 5	Loss: 0.57787	Val Loss: 0.53987
+Epoch: 6	Loss: 0.53138	Val Loss: 0.56225
+Epoch: 7	Loss: 0.49291	Val Loss: 0.48269
+Epoch: 8	Loss: 0.45546	Val Loss: 0.59081
+Epoch: 9	Loss: 0.41986	Val Loss: 0.46505
+Epoch: 10	Loss: 0.38762	Val Loss: 0.40419
+Epoch: 11	Loss: 0.35679	Val Loss: 0.45835
+Epoch: 12	Loss: 0.33707	Val Loss: 0.52090
+Epoch: 13	Loss: 0.32806	Val Loss: 0.46705
+Epoch: 14	Loss: 0.31393	Val Loss: 0.45475
+Epoch: 15	Loss: 0.29564	Val Loss: 0.62630
+Training Finished at Epoch 15
+
+Testing Accuracy: 0.6025555924327912
+Testing Mean-Class Accuracy: 0.555922700983668
+Testing Loss: 1.1375027894973755
+
+
+
+
+---------- Iteration 11
+Number of initial labeled data: 270
+Number of initial unlabeled data: 1217
+Number of testing data: 434
+Training Data: 13276
+Validation Data: 3319
+Epoch: 1	Loss: 1.26435	Val Loss: 0.93294
+Epoch: 2	Loss: 0.84113	Val Loss: 0.72436
+Epoch: 3	Loss: 0.65885	Val Loss: 0.57251
+Epoch: 4	Loss: 0.58649	Val Loss: 0.70592
+Epoch: 5	Loss: 0.52080	Val Loss: 0.50998
+Epoch: 6	Loss: 0.47912	Val Loss: 0.59309
+Epoch: 7	Loss: 0.45974	Val Loss: 0.54621
+Epoch: 8	Loss: 0.42975	Val Loss: 0.49930
+Epoch: 9	Loss: 0.41275	Val Loss: 0.58991
+Epoch: 10	Loss: 0.39486	Val Loss: 0.58038
+Epoch: 11	Loss: 0.37808	Val Loss: 0.55220
+Epoch: 12	Loss: 0.35695	Val Loss: 0.80601
+Training Finished at Epoch 12
+
+Testing Accuracy: 0.634749419183538
+Testing Mean-Class Accuracy: 0.5611363768967406
+Testing Loss: 1.1209639310836792
+
+
+
+
+---------- Iteration 12
+Number of initial labeled data: 290
+Number of initial unlabeled data: 1197
+Number of testing data: 434
+Training Data: 14736
+Validation Data: 3684
+Epoch: 1	Loss: 1.27023	Val Loss: 0.88312
+Epoch: 2	Loss: 0.81562	Val Loss: 0.75273
+Epoch: 3	Loss: 0.67567	Val Loss: 0.56193
+Epoch: 4	Loss: 0.58370	Val Loss: 0.52553
+Epoch: 5	Loss: 0.53467	Val Loss: 0.56292
+Epoch: 6	Loss: 0.49998	Val Loss: 0.72714
+Epoch: 7	Loss: 0.47721	Val Loss: 0.69160
+Epoch: 8	Loss: 0.43325	Val Loss: 0.77082
+Epoch: 9	Loss: 0.40866	Val Loss: 0.56417
+Epoch: 10	Loss: 0.40019	Val Loss: 0.69155
+Epoch: 11	Loss: 0.38514	Val Loss: 0.53158
+Epoch: 12	Loss: 0.37980	Val Loss: 0.64810
+Epoch: 13	Loss: 0.37931	Val Loss: 0.75939
+Training Finished at Epoch 13
+
+Testing Accuracy: 0.5451377364752739
+Testing Mean-Class Accuracy: 0.525534126702891
+Testing Loss: 1.1936171054840088
+
+
+
+
+---------- Iteration 13
+Number of initial labeled data: 310
+Number of initial unlabeled data: 1177
+Number of testing data: 434
+Training Data: 16425
+Validation Data: 4106
+Epoch: 1	Loss: 1.23705	Val Loss: 0.84640
+Epoch: 2	Loss: 0.78848	Val Loss: 0.65013
+Epoch: 3	Loss: 0.66658	Val Loss: 0.58906
+Epoch: 4	Loss: 0.58334	Val Loss: 0.57998
+Epoch: 5	Loss: 0.55649	Val Loss: 0.70744
+Epoch: 6	Loss: 0.52433	Val Loss: 0.49870
+Epoch: 7	Loss: 0.49619	Val Loss: 0.49068
+Epoch: 8	Loss: 0.46180	Val Loss: 0.49700
+Epoch: 9	Loss: 0.43745	Val Loss: 0.52440
+Epoch: 10	Loss: 0.41833	Val Loss: 0.51019
+Epoch: 11	Loss: 0.42128	Val Loss: 0.50617
+Epoch: 12	Loss: 0.40205	Val Loss: 0.46938
+Epoch: 13	Loss: 0.40154	Val Loss: 0.57900
+Epoch: 14	Loss: 0.37665	Val Loss: 0.50513
+Epoch: 15	Loss: 0.36964	Val Loss: 0.45279
+Epoch: 16	Loss: 0.34958	Val Loss: 0.54194
+Epoch: 17	Loss: 0.33910	Val Loss: 0.87004
+Training Finished at Epoch 17
+
+Testing Accuracy: 0.6450381679389313
+Testing Mean-Class Accuracy: 0.5654989839935518
+Testing Loss: 1.1066184043884277
+
+
+
+
+---------- Iteration 14
+Number of initial labeled data: 330
+Number of initial unlabeled data: 1157
+Number of testing data: 434
+Training Data: 18326
+Validation Data: 4581
+Epoch: 1	Loss: 1.43426	Val Loss: 0.84635
+Epoch: 2	Loss: 0.82897	Val Loss: 0.67376
+Epoch: 3	Loss: 0.67721	Val Loss: 0.57812
+Epoch: 4	Loss: 0.60577	Val Loss: 0.59853
+Epoch: 5	Loss: 0.56760	Val Loss: 0.60106
+Epoch: 6	Loss: 0.53848	Val Loss: 0.68291
+Epoch: 7	Loss: 0.50818	Val Loss: 0.55494
+Epoch: 8	Loss: 0.49140	Val Loss: 0.77056
+Epoch: 9	Loss: 0.46734	Val Loss: 0.45633
+Epoch: 10	Loss: 0.46219	Val Loss: 0.66230
+Epoch: 11	Loss: 0.43771	Val Loss: 0.59167
+Epoch: 12	Loss: 0.40665	Val Loss: 0.52253
+Epoch: 13	Loss: 0.40943	Val Loss: 0.66362
+Epoch: 14	Loss: 0.39443	Val Loss: 0.50708
+Epoch: 15	Loss: 0.38320	Val Loss: 0.62047
+Training Finished at Epoch 15
+
+Testing Accuracy: 0.6239628277464321
+Testing Mean-Class Accuracy: 0.5577011912618116
+Testing Loss: 1.1289677619934082
+
+
+
+
+---------- Iteration 15
+Number of initial labeled data: 350
+Number of initial unlabeled data: 1137
+Number of testing data: 434
+Training Data: 20073
+Validation Data: 5018
+Epoch: 1	Loss: 1.24434	Val Loss: 0.88388
+Epoch: 2	Loss: 0.82682	Val Loss: 0.71106
+Epoch: 3	Loss: 0.71638	Val Loss: 0.65085
+Epoch: 4	Loss: 0.65019	Val Loss: 0.57460
+Epoch: 5	Loss: 0.61134	Val Loss: 0.55786
+Epoch: 6	Loss: 0.56627	Val Loss: 0.56603
+Epoch: 7	Loss: 0.54438	Val Loss: 0.55979
+Epoch: 8	Loss: 0.49872	Val Loss: 0.51328
+Epoch: 9	Loss: 0.49536	Val Loss: 0.78107
+Epoch: 10	Loss: 0.47078	Val Loss: 0.62314
+Epoch: 11	Loss: 0.45040	Val Loss: 0.50276
+Epoch: 12	Loss: 0.44635	Val Loss: 0.56217
+Epoch: 13	Loss: 0.43759	Val Loss: 0.66954
+Training Finished at Epoch 13
+
+Testing Accuracy: 0.6403916362429473
+Testing Mean-Class Accuracy: 0.5960230352614515
+Testing Loss: 1.126469612121582
+
+
+
+
+---------- Iteration 16
+Number of initial labeled data: 370
+Number of initial unlabeled data: 1117
+Number of testing data: 434
+Training Data: 21758
+Validation Data: 5439
+Epoch: 1	Loss: 1.22596	Val Loss: 0.75582
+Epoch: 2	Loss: 0.80396	Val Loss: 0.76113
+Epoch: 3	Loss: 0.69514	Val Loss: 0.52491
+Epoch: 4	Loss: 0.62857	Val Loss: 0.54414
+Epoch: 5	Loss: 0.58927	Val Loss: 0.53098
+Epoch: 6	Loss: 0.56310	Val Loss: 0.49081
+Epoch: 7	Loss: 0.54281	Val Loss: 0.51475
+Epoch: 8	Loss: 0.51910	Val Loss: 0.62942
+Epoch: 9	Loss: 0.51546	Val Loss: 0.50524
+Epoch: 10	Loss: 0.49661	Val Loss: 0.50097
+Epoch: 11	Loss: 0.47742	Val Loss: 0.59162
+Epoch: 12	Loss: 0.46823	Val Loss: 0.47948
+Epoch: 13	Loss: 0.46312	Val Loss: 0.47166
+Epoch: 14	Loss: 0.45343	Val Loss: 0.52642
+Epoch: 15	Loss: 0.45258	Val Loss: 0.53647
+Epoch: 16	Loss: 0.42294	Val Loss: 0.49936
+Epoch: 17	Loss: 0.41640	Val Loss: 0.54872
+Epoch: 18	Loss: 0.40366	Val Loss: 0.53798
+Epoch: 19	Loss: 0.40674	Val Loss: 0.55695
+Epoch: 20	Loss: 0.40352	Val Loss: 0.55548
+Epoch: 21	Loss: 0.37902	Val Loss: 0.52738
+Training Finished at Epoch 21
+
+Testing Accuracy: 0.644208430136077
+Testing Mean-Class Accuracy: 0.56684831169713
+Testing Loss: 1.1064136028289795
+
+
+
+
+---------- Iteration 17
+Number of initial labeled data: 390
+Number of initial unlabeled data: 1097
+Number of testing data: 434
+Training Data: 23208
+Validation Data: 5802
+Epoch: 1	Loss: 1.25321	Val Loss: 0.94979
+Epoch: 2	Loss: 0.91075	Val Loss: 0.74385
+Epoch: 3	Loss: 0.75517	Val Loss: 0.62839
+Epoch: 4	Loss: 0.68180	Val Loss: 0.53433
+Epoch: 5	Loss: 0.62614	Val Loss: 0.61721
+Epoch: 6	Loss: 0.59953	Val Loss: 0.52375
+Epoch: 7	Loss: 0.57831	Val Loss: 0.50833
+Epoch: 8	Loss: 0.56481	Val Loss: 0.58977
+Epoch: 9	Loss: 0.53292	Val Loss: 0.48164
+Epoch: 10	Loss: 0.53438	Val Loss: 0.47668
+Epoch: 11	Loss: 0.49516	Val Loss: 0.49792
+Epoch: 12	Loss: 0.48429	Val Loss: 0.49733
+Epoch: 13	Loss: 0.48129	Val Loss: 0.51483
+Epoch: 14	Loss: 0.48166	Val Loss: 0.45073
+Epoch: 15	Loss: 0.45796	Val Loss: 0.69747
+Training Finished at Epoch 15
+
+Testing Accuracy: 0.6362429472286757
+Testing Mean-Class Accuracy: 0.5749779658814794
+Testing Loss: 1.1230555772781372
+
+
+
+
+---------- Iteration 18
+Number of initial labeled data: 410
+Number of initial unlabeled data: 1077
+Number of testing data: 434
+Training Data: 25540
+Validation Data: 6385
+Epoch: 1	Loss: 1.37975	Val Loss: 1.06679
+Epoch: 2	Loss: 1.03795	Val Loss: 1.28112
+Epoch: 3	Loss: 0.92314	Val Loss: 1.16206
+Epoch: 4	Loss: 0.82385	Val Loss: 1.05552
+Epoch: 5	Loss: 0.76008	Val Loss: 0.77366
+Epoch: 6	Loss: 0.70977	Val Loss: 1.43829
+Epoch: 7	Loss: 0.68010	Val Loss: 0.69047
+Epoch: 8	Loss: 0.64396	Val Loss: 0.64381
+Epoch: 9	Loss: 0.62631	Val Loss: 2.02550
+Training Finished at Epoch 9
+
+Testing Accuracy: 0.5987387985396615
+Testing Mean-Class Accuracy: 0.5602461262024515
+Testing Loss: 1.164157748222351
 
 
 
@@ -115,511 +1240,737 @@ Number of testing regions: 434
 
 Training Data: 2174
 Validation Data: 543
-Epoch: 1	Loss: 1.36195	Val Loss: 1.30929
-Epoch: 2	Loss: 1.21622	Val Loss: 1.13569
-Epoch: 3	Loss: 1.05004	Val Loss: 0.98793
-Epoch: 4	Loss: 0.93042	Val Loss: 1.03804
-Epoch: 5	Loss: 0.80347	Val Loss: 1.03059
-Epoch: 6	Loss: 0.71168	Val Loss: 0.81466
-Epoch: 7	Loss: 0.60879	Val Loss: 0.75365
-Epoch: 8	Loss: 0.49824	Val Loss: 0.87396
-Epoch: 9	Loss: 0.42566	Val Loss: 0.83009
-Epoch: 10	Loss: 0.38165	Val Loss: 1.01140
-Epoch: 11	Loss: 0.29671	Val Loss: 0.83591
-Epoch: 12	Loss: 0.22181	Val Loss: 0.99293
-Epoch: 13	Loss: 0.20508	Val Loss: 0.80075
-Epoch: 14	Loss: 0.16522	Val Loss: 0.87519
-Epoch: 15	Loss: 0.15158	Val Loss: 0.86685
-Epoch: 16	Loss: 0.12309	Val Loss: 1.13336
-Epoch: 17	Loss: 0.10351	Val Loss: 0.99819
-Epoch: 18	Loss: 0.08587	Val Loss: 0.92205
-Epoch: 19	Loss: 0.09798	Val Loss: 0.94785
-Epoch: 20	Loss: 0.07836	Val Loss: 0.91486
-Epoch: 21	Loss: 0.05957	Val Loss: 0.85026
-Epoch: 22	Loss: 0.06770	Val Loss: 1.03916
-Epoch: 23	Loss: 0.05282	Val Loss: 1.23367
-Epoch: 24	Loss: 0.02243	Val Loss: 1.13968
-Epoch: 25	Loss: 0.03735	Val Loss: 1.73801
-Epoch: 26	Loss: 0.06300	Val Loss: 1.04437
-Epoch: 27	Loss: 0.02121	Val Loss: 1.94641
-Epoch: 28	Loss: 0.03108	Val Loss: 1.18513
-Epoch: 29	Loss: 0.02174	Val Loss: 1.51614
-Epoch: 30	Loss: 0.02139	Val Loss: 1.60645
-Epoch: 31	Loss: 0.03045	Val Loss: 1.31560
-Epoch: 32	Loss: 0.01557	Val Loss: 1.34616
-Epoch: 33	Loss: 0.03365	Val Loss: 1.62114
-Epoch: 34	Loss: 0.05838	Val Loss: 1.18249
-Epoch: 35	Loss: 0.01815	Val Loss: 1.34456
-Epoch: 36	Loss: 0.00630	Val Loss: 1.59270
-Epoch: 37	Loss: 0.02034	Val Loss: 1.60410
-Epoch: 38	Loss: 0.01909	Val Loss: 1.42421
-Epoch: 39	Loss: 0.00693	Val Loss: 1.38670
-Epoch: 40	Loss: 0.02165	Val Loss: 1.39063
-Epoch: 41	Loss: 0.03693	Val Loss: 1.41913
-Epoch: 42	Loss: 0.02722	Val Loss: 1.38583
-Epoch: 43	Loss: 0.01849	Val Loss: 1.59389
-Epoch: 44	Loss: 0.00688	Val Loss: 1.49123
-Epoch: 45	Loss: 0.03200	Val Loss: 1.25316
-Epoch: 46	Loss: 0.01570	Val Loss: 1.25441
-Epoch: 47	Loss: 0.01526	Val Loss: 1.25080
-Epoch: 48	Loss: 0.01030	Val Loss: 1.51674
-Epoch: 49	Loss: 0.00243	Val Loss: 1.58199
-Epoch: 50	Loss: 0.01181	Val Loss: 1.83263
-Epoch: 51	Loss: 0.01280	Val Loss: 1.79242
-Epoch: 52	Loss: 0.03238	Val Loss: 1.56946
-Epoch: 53	Loss: 0.01523	Val Loss: 1.44739
-Epoch: 54	Loss: 0.00098	Val Loss: 1.60714
-Epoch: 55	Loss: 0.00120	Val Loss: 1.43322
-Epoch: 56	Loss: 0.07883	Val Loss: 1.37783
-Epoch: 57	Loss: 0.02231	Val Loss: 1.74849
-Epoch: 58	Loss: 0.01269	Val Loss: 1.80230
-Epoch: 59	Loss: 0.04120	Val Loss: 1.58105
-Epoch: 60	Loss: 0.00566	Val Loss: 1.40561
-Epoch: 61	Loss: 0.02476	Val Loss: 1.43185
-Epoch: 62	Loss: 0.00491	Val Loss: 1.59184
-Epoch: 63	Loss: 0.00662	Val Loss: 1.53088
-Epoch: 64	Loss: 0.01404	Val Loss: 1.63583
-Epoch: 65	Loss: 0.00399	Val Loss: 1.44953
-Epoch: 66	Loss: 0.01738	Val Loss: 1.70722
-Epoch: 67	Loss: 0.03873	Val Loss: 1.90615
-Epoch: 68	Loss: 0.01150	Val Loss: 2.20100
-Epoch: 69	Loss: 0.00843	Val Loss: 1.87005
-Epoch: 70	Loss: 0.04716	Val Loss: 1.68268
-Epoch: 71	Loss: 0.00803	Val Loss: 1.79525
-Epoch: 72	Loss: 0.00253	Val Loss: 1.93887
-Epoch: 73	Loss: 0.00526	Val Loss: 2.01076
-Epoch: 74	Loss: 0.00525	Val Loss: 2.04470
-Epoch: 75	Loss: 0.01754	Val Loss: 1.70646
-Epoch: 76	Loss: 0.00041	Val Loss: 1.80355
-Epoch: 77	Loss: 0.00041	Val Loss: 1.98517
-Epoch: 78	Loss: 0.00170	Val Loss: 1.99902
-Epoch: 79	Loss: 0.00103	Val Loss: 1.96238
-Epoch: 80	Loss: 0.00259	Val Loss: 1.97730
-Epoch: 81	Loss: 0.00197	Val Loss: 2.05127
-Epoch: 82	Loss: 0.00364	Val Loss: 2.11687
-Epoch: 83	Loss: 0.01495	Val Loss: 1.98907
-Epoch: 84	Loss: 0.01010	Val Loss: 1.74350
-Epoch: 85	Loss: 0.00772	Val Loss: 2.11907
-Epoch: 86	Loss: 0.02323	Val Loss: 1.60882
-Epoch: 87	Loss: 0.00504	Val Loss: 2.17041
-Epoch: 88	Loss: 0.00073	Val Loss: 1.95265
-Epoch: 89	Loss: 0.00323	Val Loss: 2.20752
-Epoch: 90	Loss: 0.01203	Val Loss: 2.52305
-Epoch: 91	Loss: 0.00054	Val Loss: 1.98604
-Epoch: 92	Loss: 0.00551	Val Loss: 2.19503
-Epoch: 93	Loss: 0.00208	Val Loss: 1.90941
-Epoch: 94	Loss: 0.00469	Val Loss: 1.96759
-Epoch: 95	Loss: 0.01194	Val Loss: 2.16785
-Epoch: 96	Loss: 0.06860	Val Loss: 1.70372
-Epoch: 97	Loss: 0.00656	Val Loss: 1.67926
-Epoch: 98	Loss: 0.01164	Val Loss: 1.86273
-Epoch: 99	Loss: 0.01514	Val Loss: 1.73047
-Epoch: 100	Loss: 0.00240	Val Loss: 1.92828
-Epoch: 101	Loss: 0.00214	Val Loss: 1.66061
-Epoch: 102	Loss: 0.00114	Val Loss: 1.71102
-Epoch: 103	Loss: 0.00220	Val Loss: 2.12670
-Epoch: 104	Loss: 0.00253	Val Loss: 1.90905
-Epoch: 105	Loss: 0.01096	Val Loss: 1.69950
-Epoch: 106	Loss: 0.00159	Val Loss: 2.13096
-Epoch: 107	Loss: 0.00451	Val Loss: 1.70305
-Epoch: 108	Loss: 0.00536	Val Loss: 1.74114
-Epoch: 109	Loss: 0.00056	Val Loss: 1.92690
-Epoch: 110	Loss: 0.00499	Val Loss: 1.78576
-Epoch: 111	Loss: 0.00021	Val Loss: 1.95523
-Epoch: 112	Loss: 0.00812	Val Loss: 2.39637
-Epoch: 113	Loss: 0.01264	Val Loss: 2.22901
-Epoch: 114	Loss: 0.02283	Val Loss: 1.96806
-Epoch: 115	Loss: 0.00074	Val Loss: 1.97087
-Epoch: 116	Loss: 0.00021	Val Loss: 2.22256
-Epoch: 117	Loss: 0.00372	Val Loss: 1.86249
-Epoch: 118	Loss: 0.00016	Val Loss: 2.01044
-Epoch: 119	Loss: 0.00479	Val Loss: 2.01668
-Epoch: 120	Loss: 0.00037	Val Loss: 2.32902
-Epoch: 121	Loss: 0.01755	Val Loss: 2.01529
-Epoch: 122	Loss: 0.00154	Val Loss: 2.40662
-Epoch: 123	Loss: 0.00045	Val Loss: 2.51591
-Epoch: 124	Loss: 0.00243	Val Loss: 2.28809
-Epoch: 125	Loss: 0.00017	Val Loss: 2.30293
-Epoch: 126	Loss: 0.00481	Val Loss: 2.44619
-Epoch: 127	Loss: 0.00396	Val Loss: 2.84811
-Epoch: 128	Loss: 0.00654	Val Loss: 2.46485
-Epoch: 129	Loss: 0.00224	Val Loss: 2.08883
-Epoch: 130	Loss: 0.00051	Val Loss: 2.27730
-Epoch: 131	Loss: 0.00039	Val Loss: 2.29791
-Epoch: 132	Loss: 0.00118	Val Loss: 2.29342
-Epoch: 133	Loss: 0.00004	Val Loss: 2.19590
-Epoch: 134	Loss: 0.00409	Val Loss: 2.04081
-Epoch: 135	Loss: 0.01454	Val Loss: 2.22231
-Epoch: 136	Loss: 0.00296	Val Loss: 2.47107
-Epoch: 137	Loss: 0.00017	Val Loss: 2.59865
-Epoch: 138	Loss: 0.01688	Val Loss: 2.36382
-Epoch: 139	Loss: 0.04415	Val Loss: 2.16488
-Epoch: 140	Loss: 0.00212	Val Loss: 2.30700
-Epoch: 141	Loss: 0.00508	Val Loss: 2.22764
-Epoch: 142	Loss: 0.00205	Val Loss: 2.20183
-Epoch: 143	Loss: 0.00523	Val Loss: 2.36322
-Epoch: 144	Loss: 0.00290	Val Loss: 1.88168
-Epoch: 145	Loss: 0.01021	Val Loss: 2.17856
-Epoch: 146	Loss: 0.00985	Val Loss: 2.11028
-Epoch: 147	Loss: 0.00035	Val Loss: 1.74552
-Epoch: 148	Loss: 0.01302	Val Loss: 2.12058
-Epoch: 149	Loss: 0.00051	Val Loss: 2.35263
-Epoch: 150	Loss: 0.00443	Val Loss: 2.45634
-Epoch: 151	Loss: 0.01050	Val Loss: 2.02788
-Epoch: 152	Loss: 0.00304	Val Loss: 1.95115
-Epoch: 153	Loss: 0.00035	Val Loss: 1.81059
-Epoch: 154	Loss: 0.00023	Val Loss: 2.27291
-Epoch: 155	Loss: 0.00029	Val Loss: 1.97911
-Epoch: 156	Loss: 0.00307	Val Loss: 2.33999
-Epoch: 157	Loss: 0.01141	Val Loss: 2.15048
-Epoch: 158	Loss: 0.00103	Val Loss: 2.31666
-Epoch: 159	Loss: 0.00159	Val Loss: 2.20696
-Epoch: 160	Loss: 0.00063	Val Loss: 2.49216
-Epoch: 161	Loss: 0.00062	Val Loss: 2.80068
-Epoch: 162	Loss: 0.00002	Val Loss: 2.16329
-Epoch: 163	Loss: 0.00061	Val Loss: 1.81911
-Epoch: 164	Loss: 0.00002	Val Loss: 1.93768
-Epoch: 165	Loss: 0.00015	Val Loss: 1.93398
-Epoch: 166	Loss: 0.00188	Val Loss: 2.22835
-Epoch: 167	Loss: 0.00697	Val Loss: 2.48034
-Epoch: 168	Loss: 0.00036	Val Loss: 2.44545
-Epoch: 169	Loss: 0.00116	Val Loss: 2.11846
-Epoch: 170	Loss: 0.00035	Val Loss: 2.40623
-Epoch: 171	Loss: 0.00131	Val Loss: 2.61431
-Epoch: 172	Loss: 0.01438	Val Loss: 3.19219
-Epoch: 173	Loss: 0.00258	Val Loss: 2.11248
-Epoch: 174	Loss: 0.00392	Val Loss: 2.32165
-Epoch: 175	Loss: 0.00127	Val Loss: 2.13695
-Epoch: 176	Loss: 0.00123	Val Loss: 2.24405
-Epoch: 177	Loss: 0.00689	Val Loss: 2.50719
-Epoch: 178	Loss: 0.02216	Val Loss: 2.02780
-Epoch: 179	Loss: 0.00955	Val Loss: 2.35632
-Epoch: 180	Loss: 0.00991	Val Loss: 2.25289
-Epoch: 181	Loss: 0.01429	Val Loss: 2.25320
-Epoch: 182	Loss: 0.01540	Val Loss: 1.96142
-Epoch: 183	Loss: 0.00048	Val Loss: 1.99496
-Epoch: 184	Loss: 0.00120	Val Loss: 2.76250
-Epoch: 185	Loss: 0.00136	Val Loss: 2.03697
-Epoch: 186	Loss: 0.00078	Val Loss: 1.99319
-Epoch: 187	Loss: 0.00006	Val Loss: 1.99921
-Epoch: 188	Loss: 0.00284	Val Loss: 1.97564
-Epoch: 189	Loss: 0.00052	Val Loss: 1.98103
-Epoch: 190	Loss: 0.00742	Val Loss: 2.02858
-Epoch: 191	Loss: 0.03106	Val Loss: 2.21743
-Epoch: 192	Loss: 0.00139	Val Loss: 2.46105
-Epoch: 193	Loss: 0.00085	Val Loss: 2.61574
-Epoch: 194	Loss: 0.00420	Val Loss: 2.72753
-Epoch: 195	Loss: 0.02072	Val Loss: 2.43374
-Epoch: 196	Loss: 0.00146	Val Loss: 2.60808
-Epoch: 197	Loss: 0.00007	Val Loss: 2.86417
-Epoch: 198	Loss: 0.00332	Val Loss: 2.09540
-Epoch: 199	Loss: 0.00442	Val Loss: 2.51634
-Epoch: 200	Loss: 0.00685	Val Loss: 2.73392
-Epoch: 201	Loss: 0.01001	Val Loss: 2.27347
-Epoch: 202	Loss: 0.00310	Val Loss: 2.66939
-Epoch: 203	Loss: 0.00822	Val Loss: 2.26947
-Epoch: 204	Loss: 0.00002	Val Loss: 2.58766
-Epoch: 205	Loss: 0.00020	Val Loss: 2.30060
-Epoch: 206	Loss: 0.00022	Val Loss: 2.56740
-Epoch: 207	Loss: 0.00009	Val Loss: 2.52399
-Epoch: 208	Loss: 0.00104	Val Loss: 2.70769
-Epoch: 209	Loss: 0.01195	Val Loss: 2.41662
-Epoch: 210	Loss: 0.00357	Val Loss: 2.79479
-Epoch: 211	Loss: 0.00024	Val Loss: 3.03887
-Epoch: 212	Loss: 0.01111	Val Loss: 2.18632
-Epoch: 213	Loss: 0.00115	Val Loss: 2.46357
-Epoch: 214	Loss: 0.00094	Val Loss: 2.39321
-Epoch: 215	Loss: 0.01333	Val Loss: 2.23930
-Epoch: 216	Loss: 0.00340	Val Loss: 2.47064
-Epoch: 217	Loss: 0.00023	Val Loss: 2.23539
-Epoch: 218	Loss: 0.00003	Val Loss: 2.54069
-Epoch: 219	Loss: 0.00004	Val Loss: 2.68273
-Epoch: 220	Loss: 0.00001	Val Loss: 2.25112
-Epoch: 221	Loss: 0.00160	Val Loss: 2.09982
-Epoch: 222	Loss: 0.00001	Val Loss: 2.51241
-Epoch: 223	Loss: 0.00005	Val Loss: 2.25388
-Epoch: 224	Loss: 0.00001	Val Loss: 2.64152
-Epoch: 225	Loss: 0.00144	Val Loss: 2.41598
-Epoch: 226	Loss: 0.00054	Val Loss: 3.01843
-Epoch: 227	Loss: 0.00168	Val Loss: 3.00064
-Epoch: 228	Loss: 0.00646	Val Loss: 2.58151
-Epoch: 229	Loss: 0.00616	Val Loss: 3.02406
-Epoch: 230	Loss: 0.00127	Val Loss: 2.60924
-Epoch: 231	Loss: 0.00052	Val Loss: 2.72577
-Epoch: 232	Loss: 0.01975	Val Loss: 2.93855
-Epoch: 233	Loss: 0.00204	Val Loss: 2.93029
-Epoch: 234	Loss: 0.00301	Val Loss: 2.86947
-Epoch: 235	Loss: 0.00003	Val Loss: 2.80985
-Epoch: 236	Loss: 0.00004	Val Loss: 2.69977
-Epoch: 237	Loss: 0.00004	Val Loss: 2.74871
-Epoch: 238	Loss: 0.00001	Val Loss: 3.73344
-Epoch: 239	Loss: 0.00222	Val Loss: 2.74396
-Epoch: 240	Loss: 0.00335	Val Loss: 2.41796
-Epoch: 241	Loss: 0.00072	Val Loss: 2.43275
-Epoch: 242	Loss: 0.00179	Val Loss: 2.31682
-Epoch: 243	Loss: 0.00003	Val Loss: 2.06483
-Epoch: 244	Loss: 0.00003	Val Loss: 2.43282
-Epoch: 245	Loss: 0.00254	Val Loss: 2.53572
-Epoch: 246	Loss: 0.00879	Val Loss: 2.80747
-Epoch: 247	Loss: 0.00394	Val Loss: 2.60791
-Epoch: 248	Loss: 0.01042	Val Loss: 2.68629
-Epoch: 249	Loss: 0.00341	Val Loss: 2.80105
-Epoch: 250	Loss: 0.00183	Val Loss: 2.41921
-Epoch: 251	Loss: 0.00159	Val Loss: 2.43463
-Epoch: 252	Loss: 0.00706	Val Loss: 2.87369
-Epoch: 253	Loss: 0.00063	Val Loss: 2.64299
-Epoch: 254	Loss: 0.00434	Val Loss: 2.58107
-Epoch: 255	Loss: 0.00011	Val Loss: 2.21033
-Epoch: 256	Loss: 0.00386	Val Loss: 2.46488
-Epoch: 257	Loss: 0.00298	Val Loss: 2.44495
-Epoch: 258	Loss: 0.00648	Val Loss: 2.17806
-Epoch: 259	Loss: 0.00016	Val Loss: 2.45599
-Epoch: 260	Loss: 0.00001	Val Loss: 2.47270
-Epoch: 261	Loss: 0.00006	Val Loss: 2.73157
-Epoch: 262	Loss: 0.01842	Val Loss: 2.16210
-Epoch: 263	Loss: 0.00002	Val Loss: 2.27424
-Epoch: 264	Loss: 0.00003	Val Loss: 2.46592
-Epoch: 265	Loss: 0.00239	Val Loss: 2.35155
-Epoch: 266	Loss: 0.00006	Val Loss: 2.12101
-Epoch: 267	Loss: 0.00010	Val Loss: 2.66400
-Epoch: 268	Loss: 0.00009	Val Loss: 2.51049
-Epoch: 269	Loss: 0.00001	Val Loss: 2.65483
-Epoch: 270	Loss: 0.00571	Val Loss: 2.55690
-Epoch: 271	Loss: 0.00061	Val Loss: 2.03781
-Epoch: 272	Loss: 0.00124	Val Loss: 2.78742
-Epoch: 273	Loss: 0.00356	Val Loss: 2.45417
-Epoch: 274	Loss: 0.00033	Val Loss: 2.29897
-Epoch: 275	Loss: 0.00008	Val Loss: 2.38530
-Epoch: 276	Loss: 0.00054	Val Loss: 3.02828
-Epoch: 277	Loss: 0.00398	Val Loss: 2.69961
-Epoch: 278	Loss: 0.00010	Val Loss: 2.35281
-Epoch: 279	Loss: 0.00222	Val Loss: 3.17228
-Epoch: 280	Loss: 0.00001	Val Loss: 2.45838
-Epoch: 281	Loss: 0.00132	Val Loss: 2.52764
-Epoch: 282	Loss: 0.00013	Val Loss: 2.56427
-Epoch: 283	Loss: 0.00074	Val Loss: 2.53830
-Epoch: 284	Loss: 0.02206	Val Loss: 2.43122
-Epoch: 285	Loss: 0.00670	Val Loss: 1.90840
-Epoch: 286	Loss: 0.00214	Val Loss: 2.04151
-Epoch: 287	Loss: 0.00008	Val Loss: 2.41955
-Epoch: 288	Loss: 0.00012	Val Loss: 2.41126
-Epoch: 289	Loss: 0.00160	Val Loss: 2.38476
-Epoch: 290	Loss: 0.00017	Val Loss: 2.60053
-Epoch: 291	Loss: 0.00004	Val Loss: 2.88184
-Epoch: 292	Loss: 0.00001	Val Loss: 2.41391
-Epoch: 293	Loss: 0.00007	Val Loss: 2.41694
-Epoch: 294	Loss: 0.00117	Val Loss: 2.81758
-Epoch: 295	Loss: 0.00041	Val Loss: 2.44404
-Epoch: 296	Loss: 0.03371	Val Loss: 2.49581
-Epoch: 297	Loss: 0.00302	Val Loss: 2.33737
-Epoch: 298	Loss: 0.01915	Val Loss: 2.76774
-Epoch: 299	Loss: 0.01021	Val Loss: 2.59291
-Epoch: 300	Loss: 0.00785	Val Loss: 2.35781
-Epoch: 301	Loss: 0.00218	Val Loss: 2.42409
-Epoch: 302	Loss: 0.00010	Val Loss: 2.81101
-Epoch: 303	Loss: 0.01120	Val Loss: 2.57782
-Epoch: 304	Loss: 0.00055	Val Loss: 2.42032
-Epoch: 305	Loss: 0.00045	Val Loss: 2.31282
-Epoch: 306	Loss: 0.01389	Val Loss: 2.43499
-Epoch: 307	Loss: 0.00219	Val Loss: 2.41291
-Epoch: 308	Loss: 0.00020	Val Loss: 2.69143
-Epoch: 309	Loss: 0.00004	Val Loss: 2.59085
-Epoch: 310	Loss: 0.00073	Val Loss: 3.19785
-Epoch: 311	Loss: 0.00963	Val Loss: 2.98527
-Epoch: 312	Loss: 0.00283	Val Loss: 3.32335
-Epoch: 313	Loss: 0.00713	Val Loss: 3.05539
-Epoch: 314	Loss: 0.01183	Val Loss: 3.23831
-Epoch: 315	Loss: 0.00099	Val Loss: 2.86795
-Epoch: 316	Loss: 0.00058	Val Loss: 3.26771
-Epoch: 317	Loss: 0.00313	Val Loss: 3.47670
-Epoch: 318	Loss: 0.01201	Val Loss: 2.86745
-Epoch: 319	Loss: 0.00009	Val Loss: 2.87192
-Epoch: 320	Loss: 0.00002	Val Loss: 2.71346
-Epoch: 321	Loss: 0.00009	Val Loss: 2.65531
-Epoch: 322	Loss: 0.00380	Val Loss: 3.34851
-Epoch: 323	Loss: 0.00003	Val Loss: 3.57534
-Epoch: 324	Loss: 0.01742	Val Loss: 3.02148
-Epoch: 325	Loss: 0.00117	Val Loss: 2.92998
-Epoch: 326	Loss: 0.00306	Val Loss: 2.62602
-Epoch: 327	Loss: 0.00011	Val Loss: 2.85914
-Epoch: 328	Loss: 0.00366	Val Loss: 2.68810
-Epoch: 329	Loss: 0.00558	Val Loss: 2.78923
-Epoch: 330	Loss: 0.00003	Val Loss: 2.57920
-Epoch: 331	Loss: 0.00085	Val Loss: 3.10329
-Epoch: 332	Loss: 0.00000	Val Loss: 2.77256
-Epoch: 333	Loss: 0.02911	Val Loss: 2.33940
-Epoch: 334	Loss: 0.00352	Val Loss: 3.16798
-Epoch: 335	Loss: 0.00194	Val Loss: 2.74568
-Epoch: 336	Loss: 0.00109	Val Loss: 2.73173
-Epoch: 337	Loss: 0.00469	Val Loss: 2.93279
-Epoch: 338	Loss: 0.00148	Val Loss: 3.46466
-Epoch: 339	Loss: 0.00026	Val Loss: 2.85384
-Epoch: 340	Loss: 0.00022	Val Loss: 2.95122
-Epoch: 341	Loss: 0.00080	Val Loss: 3.08845
-Epoch: 342	Loss: 0.00005	Val Loss: 2.42603
-Epoch: 343	Loss: 0.00033	Val Loss: 2.85344
-Epoch: 344	Loss: 0.00001	Val Loss: 2.84417
-Epoch: 345	Loss: 0.00424	Val Loss: 2.96424
-Epoch: 346	Loss: 0.00041	Val Loss: 3.59226
-Epoch: 347	Loss: 0.00480	Val Loss: 2.81510
-Epoch: 348	Loss: 0.00014	Val Loss: 3.01573
-Epoch: 349	Loss: 0.00004	Val Loss: 2.82764
-Epoch: 350	Loss: 0.00003	Val Loss: 2.97223
-Epoch: 351	Loss: 0.00022	Val Loss: 3.14301
-Epoch: 352	Loss: 0.00039	Val Loss: 3.12575
-Epoch: 353	Loss: 0.00001	Val Loss: 2.64250
-Epoch: 354	Loss: 0.00000	Val Loss: 2.84220
-Epoch: 355	Loss: 0.00316	Val Loss: 2.72459
-Epoch: 356	Loss: 0.00146	Val Loss: 2.22715
-Epoch: 357	Loss: 0.00028	Val Loss: 2.52798
-Epoch: 358	Loss: 0.00319	Val Loss: 2.31812
-Epoch: 359	Loss: 0.00005	Val Loss: 2.21549
-Epoch: 360	Loss: 0.00037	Val Loss: 2.53058
-Epoch: 361	Loss: 0.00145	Val Loss: 2.57772
-Epoch: 362	Loss: 0.00001	Val Loss: 2.47507
-Epoch: 363	Loss: 0.00003	Val Loss: 2.42696
-Epoch: 364	Loss: 0.00272	Val Loss: 2.51657
-Epoch: 365	Loss: 0.00011	Val Loss: 2.86110
-Epoch: 366	Loss: 0.00298	Val Loss: 2.61286
-Epoch: 367	Loss: 0.00087	Val Loss: 2.78173
-Epoch: 368	Loss: 0.00019	Val Loss: 2.34439
-Epoch: 369	Loss: 0.00118	Val Loss: 2.77745
-Epoch: 370	Loss: 0.00000	Val Loss: 2.94413
-Epoch: 371	Loss: 0.00576	Val Loss: 2.75522
-Epoch: 372	Loss: 0.00003	Val Loss: 3.03281
-Epoch: 373	Loss: 0.00215	Val Loss: 2.65380
-Epoch: 374	Loss: 0.01671	Val Loss: 2.77398
-Epoch: 375	Loss: 0.00180	Val Loss: 2.74437
-Epoch: 376	Loss: 0.00080	Val Loss: 3.11508
-Epoch: 377	Loss: 0.01014	Val Loss: 3.05129
-Epoch: 378	Loss: 0.00007	Val Loss: 2.50017
-Epoch: 379	Loss: 0.00000	Val Loss: 2.56375
-Epoch: 380	Loss: 0.00359	Val Loss: 3.02285
-Epoch: 381	Loss: 0.00069	Val Loss: 3.34328
-Epoch: 382	Loss: 0.00546	Val Loss: 2.53344
-Epoch: 383	Loss: 0.00013	Val Loss: 2.89171
-Epoch: 384	Loss: 0.00266	Val Loss: 2.75617
-Epoch: 385	Loss: 0.00031	Val Loss: 2.76496
-Epoch: 386	Loss: 0.00092	Val Loss: 2.56589
-Epoch: 387	Loss: 0.00008	Val Loss: 2.74837
-Epoch: 388	Loss: 0.00004	Val Loss: 3.04249
-Epoch: 389	Loss: 0.00436	Val Loss: 2.91734
-Epoch: 390	Loss: 0.00243	Val Loss: 2.44446
-Epoch: 391	Loss: 0.00454	Val Loss: 3.21817
-Epoch: 392	Loss: 0.00236	Val Loss: 2.87737
-Epoch: 393	Loss: 0.00040	Val Loss: 2.66900
-Epoch: 394	Loss: 0.01215	Val Loss: 2.73805
-Epoch: 395	Loss: 0.00004	Val Loss: 2.31726
-Epoch: 396	Loss: 0.00103	Val Loss: 2.62959
-Epoch: 397	Loss: 0.00002	Val Loss: 2.62928
-Epoch: 398	Loss: 0.00000	Val Loss: 2.91440
-Epoch: 399	Loss: 0.00005	Val Loss: 2.42169
-Epoch: 400	Loss: 0.00032	Val Loss: 2.58769
-Epoch: 401	Loss: 0.00001	Val Loss: 2.45234
-Epoch: 402	Loss: 0.00000	Val Loss: 2.25781
-Epoch: 403	Loss: 0.00023	Val Loss: 2.74471
-Epoch: 404	Loss: 0.00001	Val Loss: 2.51211
-Epoch: 405	Loss: 0.00051	Val Loss: 3.40027
-Epoch: 406	Loss: 0.00022	Val Loss: 2.64911
-Epoch: 407	Loss: 0.00941	Val Loss: 2.67477
-Epoch: 408	Loss: 0.00579	Val Loss: 2.26929
-Epoch: 409	Loss: 0.00001	Val Loss: 2.38753
-Epoch: 410	Loss: 0.00172	Val Loss: 3.08776
-Epoch: 411	Loss: 0.00211	Val Loss: 2.80648
-Epoch: 412	Loss: 0.00074	Val Loss: 2.69682
-Epoch: 413	Loss: 0.00136	Val Loss: 2.62647
-Epoch: 414	Loss: 0.00850	Val Loss: 2.58519
-Epoch: 415	Loss: 0.00144	Val Loss: 2.52441
-Epoch: 416	Loss: 0.00001	Val Loss: 2.87551
-Epoch: 417	Loss: 0.00002	Val Loss: 2.28365
-Epoch: 418	Loss: 0.00155	Val Loss: 2.80768
-Epoch: 419	Loss: 0.00153	Val Loss: 2.85315
-Epoch: 420	Loss: 0.00090	Val Loss: 2.64213
-Epoch: 421	Loss: 0.00769	Val Loss: 2.34535
-Epoch: 422	Loss: 0.00007	Val Loss: 2.49954
-Epoch: 423	Loss: 0.00028	Val Loss: 2.47101
-Epoch: 424	Loss: 0.00052	Val Loss: 2.29963
-Epoch: 425	Loss: 0.00001	Val Loss: 2.52466
-Epoch: 426	Loss: 0.00614	Val Loss: 2.31791
-Epoch: 427	Loss: 0.00069	Val Loss: 2.80138
-Epoch: 428	Loss: 0.00248	Val Loss: 2.28671
-Epoch: 429	Loss: 0.00043	Val Loss: 2.58044
-Epoch: 430	Loss: 0.00012	Val Loss: 2.84466
-Epoch: 431	Loss: 0.00926	Val Loss: 2.66629
-Epoch: 432	Loss: 0.00089	Val Loss: 2.35802
-Epoch: 433	Loss: 0.00055	Val Loss: 2.57241
-Epoch: 434	Loss: 0.00003	Val Loss: 2.72695
-Epoch: 435	Loss: 0.00001	Val Loss: 2.53273
-Epoch: 436	Loss: 0.00056	Val Loss: 2.82518
-Epoch: 437	Loss: 0.00098	Val Loss: 2.73313
-Epoch: 438	Loss: 0.00001	Val Loss: 2.73998
-Epoch: 439	Loss: 0.00002	Val Loss: 2.98484
-Epoch: 440	Loss: 0.00434	Val Loss: 3.13167
-Epoch: 441	Loss: 0.00168	Val Loss: 3.38400
-Epoch: 442	Loss: 0.00011	Val Loss: 2.95543
-Epoch: 443	Loss: 0.00307	Val Loss: 2.80668
-Epoch: 444	Loss: 0.00002	Val Loss: 2.94958
-Epoch: 445	Loss: 0.00195	Val Loss: 2.73186
-Epoch: 446	Loss: 0.00062	Val Loss: 2.89107
-Epoch: 447	Loss: 0.00002	Val Loss: 2.80191
-Epoch: 448	Loss: 0.00468	Val Loss: 2.57319
-Epoch: 449	Loss: 0.00051	Val Loss: 2.93515
-Epoch: 450	Loss: 0.01722	Val Loss: 2.70164
-Epoch: 451	Loss: 0.00018	Val Loss: 2.33223
-Epoch: 452	Loss: 0.00000	Val Loss: 2.20994
-Epoch: 453	Loss: 0.00378	Val Loss: 2.51218
-Epoch: 454	Loss: 0.00114	Val Loss: 2.53382
-Epoch: 455	Loss: 0.00513	Val Loss: 2.67864
-Epoch: 456	Loss: 0.00007	Val Loss: 2.62150
-Epoch: 457	Loss: 0.00003	Val Loss: 2.80407
-Epoch: 458	Loss: 0.00002	Val Loss: 2.39631
-Epoch: 459	Loss: 0.00000	Val Loss: 2.49135
-Epoch: 460	Loss: 0.00172	Val Loss: 2.60807
-Epoch: 461	Loss: 0.00005	Val Loss: 2.45311
-Epoch: 462	Loss: 0.00024	Val Loss: 2.44364
-Epoch: 463	Loss: 0.00001	Val Loss: 2.24682
-Epoch: 464	Loss: 0.00487	Val Loss: 2.35588
-Epoch: 465	Loss: 0.00043	Val Loss: 2.92854
-Epoch: 466	Loss: 0.00007	Val Loss: 2.27541
-Epoch: 467	Loss: 0.00004	Val Loss: 2.40088
-Epoch: 468	Loss: 0.00000	Val Loss: 2.79704
-Epoch: 469	Loss: 0.00054	Val Loss: 2.85267
-Epoch: 470	Loss: 0.00051	Val Loss: 2.61022
-Epoch: 471	Loss: 0.00000	Val Loss: 2.78320
-Epoch: 472	Loss: 0.00001	Val Loss: 3.08376
-Epoch: 473	Loss: 0.00003	Val Loss: 2.56322
-Epoch: 474	Loss: 0.00251	Val Loss: 2.58612
-Epoch: 475	Loss: 0.00000	Val Loss: 2.85419
-Epoch: 476	Loss: 0.00058	Val Loss: 2.79702
-Epoch: 477	Loss: 0.00004	Val Loss: 2.60386
-Epoch: 478	Loss: 0.00015	Val Loss: 3.22160
-Epoch: 479	Loss: 0.00148	Val Loss: 2.83107
-Epoch: 480	Loss: 0.00007	Val Loss: 2.71213
-Epoch: 481	Loss: 0.00003	Val Loss: 2.78918
-Epoch: 482	Loss: 0.00003	Val Loss: 2.66580
-Epoch: 483	Loss: 0.00245	Val Loss: 2.92136
-Epoch: 484	Loss: 0.00011	Val Loss: 2.71055
-Epoch: 485	Loss: 0.00027	Val Loss: 2.93559
-Epoch: 486	Loss: 0.00000	Val Loss: 2.80317
-Epoch: 487	Loss: 0.00065	Val Loss: 2.83279
-Epoch: 488	Loss: 0.00013	Val Loss: 3.22610
-Epoch: 489	Loss: 0.00001	Val Loss: 3.34532
-Epoch: 490	Loss: 0.00000	Val Loss: 3.00249
-Epoch: 491	Loss: 0.00164	Val Loss: 2.82805
-Epoch: 492	Loss: 0.00000	Val Loss: 2.68323
-Epoch: 493	Loss: 0.00666	Val Loss: 2.33598
-Epoch: 494	Loss: 0.00186	Val Loss: 2.48338
-Epoch: 495	Loss: 0.00321	Val Loss: 2.65643
-Epoch: 496	Loss: 0.00132	Val Loss: 2.61913
-Epoch: 497	Loss: 0.00016	Val Loss: 2.72432
-Epoch: 498	Loss: 0.00001	Val Loss: 2.90226
-Epoch: 499	Loss: 0.00001	Val Loss: 2.79027
-Epoch: 500	Loss: 0.00005	Val Loss: 2.89133
-Training Finished at Epoch 500
+Epoch: 1	Loss: 1.35952	Val Loss: 1.26835
+Epoch: 2	Loss: 1.21746	Val Loss: 1.03536
+Epoch: 3	Loss: 1.03056	Val Loss: 0.96102
+Epoch: 4	Loss: 0.94215	Val Loss: 1.03342
+Epoch: 5	Loss: 0.82550	Val Loss: 0.94266
+Epoch: 6	Loss: 0.69868	Val Loss: 0.75584
+Epoch: 7	Loss: 0.58895	Val Loss: 0.77688
+Epoch: 8	Loss: 0.53625	Val Loss: 0.86749
+Epoch: 9	Loss: 0.42648	Val Loss: 0.68713
+Epoch: 10	Loss: 0.33962	Val Loss: 0.81720
+Epoch: 11	Loss: 0.29261	Val Loss: 0.95936
+Epoch: 12	Loss: 0.22890	Val Loss: 0.87878
+Epoch: 13	Loss: 0.17816	Val Loss: 0.86573
+Epoch: 14	Loss: 0.16497	Val Loss: 1.07658
+Epoch: 15	Loss: 0.13731	Val Loss: 1.06406
+Epoch: 16	Loss: 0.16268	Val Loss: 0.95551
+Epoch: 17	Loss: 0.09828	Val Loss: 1.10318
+Epoch: 18	Loss: 0.06674	Val Loss: 1.22883
+Epoch: 19	Loss: 0.06463	Val Loss: 1.11042
+Epoch: 20	Loss: 0.04137	Val Loss: 1.32154
+Epoch: 21	Loss: 0.12850	Val Loss: 1.03729
+Epoch: 22	Loss: 0.04282	Val Loss: 1.10615
+Epoch: 23	Loss: 0.02977	Val Loss: 1.39040
+Epoch: 24	Loss: 0.05790	Val Loss: 1.33910
+Epoch: 25	Loss: 0.03605	Val Loss: 1.23023
+Epoch: 26	Loss: 0.05492	Val Loss: 0.93761
+Epoch: 27	Loss: 0.02887	Val Loss: 1.38208
+Epoch: 28	Loss: 0.02149	Val Loss: 1.35908
+Epoch: 29	Loss: 0.03047	Val Loss: 1.25371
+Epoch: 30	Loss: 0.02014	Val Loss: 1.36574
+Epoch: 31	Loss: 0.02286	Val Loss: 1.26969
+Epoch: 32	Loss: 0.04373	Val Loss: 1.17654
+Epoch: 33	Loss: 0.00399	Val Loss: 1.62826
+Epoch: 34	Loss: 0.02054	Val Loss: 1.42967
+Epoch: 35	Loss: 0.07408	Val Loss: 1.72139
+Epoch: 36	Loss: 0.01926	Val Loss: 1.65035
+Epoch: 37	Loss: 0.01806	Val Loss: 1.74801
+Epoch: 38	Loss: 0.02172	Val Loss: 1.50104
+Epoch: 39	Loss: 0.01405	Val Loss: 1.29224
+Epoch: 40	Loss: 0.00703	Val Loss: 1.56437
+Epoch: 41	Loss: 0.02523	Val Loss: 1.50764
+Epoch: 42	Loss: 0.05290	Val Loss: 1.47917
+Epoch: 43	Loss: 0.02303	Val Loss: 1.78068
+Epoch: 44	Loss: 0.01576	Val Loss: 1.49928
+Epoch: 45	Loss: 0.00850	Val Loss: 1.90797
+Epoch: 46	Loss: 0.02432	Val Loss: 1.83504
+Epoch: 47	Loss: 0.00393	Val Loss: 1.50484
+Epoch: 48	Loss: 0.09280	Val Loss: 1.54888
+Epoch: 49	Loss: 0.01196	Val Loss: 1.60178
+Epoch: 50	Loss: 0.00688	Val Loss: 1.83651
+Epoch: 51	Loss: 0.02126	Val Loss: 1.71662
+Epoch: 52	Loss: 0.01457	Val Loss: 1.78780
+Epoch: 53	Loss: 0.01702	Val Loss: 1.76811
+Epoch: 54	Loss: 0.00496	Val Loss: 2.03406
+Epoch: 55	Loss: 0.00227	Val Loss: 1.91026
+Epoch: 56	Loss: 0.00944	Val Loss: 1.92558
+Epoch: 57	Loss: 0.00824	Val Loss: 1.90716
+Epoch: 58	Loss: 0.01151	Val Loss: 2.01184
+Epoch: 59	Loss: 0.01685	Val Loss: 2.17338
+Epoch: 60	Loss: 0.00858	Val Loss: 1.79762
+Epoch: 61	Loss: 0.00283	Val Loss: 1.92914
+Training Finished at Epoch 61
 
-Testing Accuracy: 0.6070361765682044
-Testing Mean-Class Accuracy: 0.540537893623537
-Testing Loss: 1.1331989765167236
+Testing Accuracy: 0.6000663790242283
+Testing Mean-Class Accuracy: 0.5418817990131805
+Testing Loss: 1.1373529434204102
+
+
+
+
+---------- Iteration 1
+Number of initial labeled data: 70
+Number of initial unlabeled data: 1417
+Number of testing data: 434
+Training Data: 2592
+Validation Data: 648
+Epoch: 1	Loss: 2.11300	Val Loss: 1.06348
+Epoch: 2	Loss: 1.14795	Val Loss: 1.06355
+Epoch: 3	Loss: 0.98053	Val Loss: 0.99227
+Epoch: 4	Loss: 0.93721	Val Loss: 0.87359
+Epoch: 5	Loss: 0.82833	Val Loss: 0.97885
+Epoch: 6	Loss: 0.68128	Val Loss: 0.92291
+Epoch: 7	Loss: 0.63915	Val Loss: 0.83223
+Epoch: 8	Loss: 0.56767	Val Loss: 0.99815
+Epoch: 9	Loss: 0.47691	Val Loss: 0.79181
+Epoch: 10	Loss: 0.39717	Val Loss: 0.76628
+Epoch: 11	Loss: 0.33300	Val Loss: 0.94626
+Epoch: 12	Loss: 0.30761	Val Loss: 1.38299
+Epoch: 13	Loss: 0.21733	Val Loss: 0.94414
+Epoch: 14	Loss: 0.27522	Val Loss: 0.86045
+Epoch: 15	Loss: 0.18441	Val Loss: 1.44424
+Epoch: 16	Loss: 0.14852	Val Loss: 1.21395
+Epoch: 17	Loss: 0.13169	Val Loss: 1.44148
+Epoch: 18	Loss: 0.13570	Val Loss: 1.31750
+Epoch: 19	Loss: 0.09746	Val Loss: 1.41863
+Epoch: 20	Loss: 0.09801	Val Loss: 1.65143
+Epoch: 21	Loss: 0.08377	Val Loss: 1.46758
+Epoch: 22	Loss: 0.04030	Val Loss: 2.26026
+Training Finished at Epoch 22
+
+Testing Accuracy: 0.5574178559575175
+Testing Mean-Class Accuracy: 0.5118766810167127
+Testing Loss: 1.1732271909713745
+
+
+
+
+---------- Iteration 2
+Number of initial labeled data: 90
+Number of initial unlabeled data: 1397
+Number of testing data: 434
+Training Data: 3201
+Validation Data: 800
+Epoch: 1	Loss: 1.76199	Val Loss: 3.12464
+Epoch: 2	Loss: 1.08461	Val Loss: 0.93695
+Epoch: 3	Loss: 0.92291	Val Loss: 0.91659
+Epoch: 4	Loss: 0.84482	Val Loss: 1.27907
+Epoch: 5	Loss: 0.69469	Val Loss: 0.67331
+Epoch: 6	Loss: 0.58958	Val Loss: 0.98604
+Epoch: 7	Loss: 0.56248	Val Loss: 0.94504
+Epoch: 8	Loss: 0.44945	Val Loss: 0.56423
+Epoch: 9	Loss: 0.40632	Val Loss: 0.68056
+Epoch: 10	Loss: 0.30919	Val Loss: 0.75693
+Epoch: 11	Loss: 0.27637	Val Loss: 0.89361
+Epoch: 12	Loss: 0.27865	Val Loss: 1.07687
+Epoch: 13	Loss: 0.24777	Val Loss: 0.67659
+Epoch: 14	Loss: 0.16149	Val Loss: 0.77896
+Epoch: 15	Loss: 0.16558	Val Loss: 0.76318
+Epoch: 16	Loss: 0.12239	Val Loss: 0.98906
+Epoch: 17	Loss: 0.15191	Val Loss: 0.93281
+Epoch: 18	Loss: 0.13332	Val Loss: 0.98288
+Epoch: 19	Loss: 0.06477	Val Loss: 1.07132
+Epoch: 20	Loss: 0.11743	Val Loss: 1.45046
+Epoch: 21	Loss: 0.12141	Val Loss: 2.20756
+Epoch: 22	Loss: 0.11304	Val Loss: 1.12988
+Epoch: 23	Loss: 0.05757	Val Loss: 1.43254
+Epoch: 24	Loss: 0.11879	Val Loss: 1.03446
+Epoch: 25	Loss: 0.05901	Val Loss: 1.42246
+Epoch: 26	Loss: 0.05573	Val Loss: 1.10951
+Epoch: 27	Loss: 0.04645	Val Loss: 1.42869
+Epoch: 28	Loss: 0.04078	Val Loss: 1.61779
+Epoch: 29	Loss: 0.05671	Val Loss: 1.50616
+Epoch: 30	Loss: 0.03886	Val Loss: 1.18895
+Epoch: 31	Loss: 0.06839	Val Loss: 1.49815
+Training Finished at Epoch 31
+
+Testing Accuracy: 0.6521739130434783
+Testing Mean-Class Accuracy: 0.5707364326762707
+Testing Loss: 1.0860332250595093
+
+
+
+
+---------- Iteration 3
+Number of initial labeled data: 110
+Number of initial unlabeled data: 1377
+Number of testing data: 434
+Training Data: 4684
+Validation Data: 1171
+Epoch: 1	Loss: 1.82617	Val Loss: 1.19107
+Epoch: 2	Loss: 1.10795	Val Loss: 1.07199
+Epoch: 3	Loss: 0.95967	Val Loss: 0.89464
+Epoch: 4	Loss: 0.82604	Val Loss: 1.10633
+Epoch: 5	Loss: 0.70219	Val Loss: 0.74719
+Epoch: 6	Loss: 0.63761	Val Loss: 0.68963
+Epoch: 7	Loss: 0.55086	Val Loss: 0.98205
+Epoch: 8	Loss: 0.48667	Val Loss: 0.80095
+Epoch: 9	Loss: 0.40134	Val Loss: 0.67028
+Epoch: 10	Loss: 0.34402	Val Loss: 0.91147
+Epoch: 11	Loss: 0.30822	Val Loss: 0.81835
+Epoch: 12	Loss: 0.28605	Val Loss: 1.03022
+Epoch: 13	Loss: 0.28464	Val Loss: 0.85164
+Epoch: 14	Loss: 0.21795	Val Loss: 1.14307
+Epoch: 15	Loss: 0.20573	Val Loss: 0.85428
+Epoch: 16	Loss: 0.19969	Val Loss: 0.79944
+Epoch: 17	Loss: 0.18553	Val Loss: 0.87591
+Epoch: 18	Loss: 0.13143	Val Loss: 1.00015
+Epoch: 19	Loss: 0.13518	Val Loss: 1.01886
+Epoch: 20	Loss: 0.13792	Val Loss: 0.78538
+Epoch: 21	Loss: 0.13588	Val Loss: 0.80755
+Epoch: 22	Loss: 0.09307	Val Loss: 1.07503
+Training Finished at Epoch 22
+
+Testing Accuracy: 0.6291072021241287
+Testing Mean-Class Accuracy: 0.5554436047473806
+Testing Loss: 1.1057648658752441
+
+
+
+
+---------- Iteration 4
+Number of initial labeled data: 130
+Number of initial unlabeled data: 1357
+Number of testing data: 434
+Training Data: 5294
+Validation Data: 1323
+Epoch: 1	Loss: 1.44403	Val Loss: 1.00501
+Epoch: 2	Loss: 0.98537	Val Loss: 0.93857
+Epoch: 3	Loss: 0.79234	Val Loss: 0.63358
+Epoch: 4	Loss: 0.66581	Val Loss: 0.58788
+Epoch: 5	Loss: 0.54515	Val Loss: 0.61257
+Epoch: 6	Loss: 0.46010	Val Loss: 0.49926
+Epoch: 7	Loss: 0.40065	Val Loss: 0.63868
+Epoch: 8	Loss: 0.36406	Val Loss: 0.66892
+Epoch: 9	Loss: 0.31325	Val Loss: 0.90181
+Epoch: 10	Loss: 0.27694	Val Loss: 0.51628
+Epoch: 11	Loss: 0.24156	Val Loss: 0.62914
+Epoch: 12	Loss: 0.22300	Val Loss: 0.75396
+Epoch: 13	Loss: 0.21134	Val Loss: 0.60742
+Epoch: 14	Loss: 0.18434	Val Loss: 0.64581
+Epoch: 15	Loss: 0.14293	Val Loss: 0.66032
+Epoch: 16	Loss: 0.15799	Val Loss: 0.69463
+Epoch: 17	Loss: 0.15681	Val Loss: 0.79668
+Epoch: 18	Loss: 0.11074	Val Loss: 1.11304
+Training Finished at Epoch 18
+
+Testing Accuracy: 0.6803849983405243
+Testing Mean-Class Accuracy: 0.5692272377454544
+Testing Loss: 1.0586438179016113
+
+
+
+
+---------- Iteration 5
+Number of initial labeled data: 150
+Number of initial unlabeled data: 1337
+Number of testing data: 434
+Training Data: 6259
+Validation Data: 1564
+Epoch: 1	Loss: 1.42071	Val Loss: 0.96940
+Epoch: 2	Loss: 0.95650	Val Loss: 0.76914
+Epoch: 3	Loss: 0.72926	Val Loss: 0.64555
+Epoch: 4	Loss: 0.62311	Val Loss: 0.53365
+Epoch: 5	Loss: 0.50273	Val Loss: 0.54178
+Epoch: 6	Loss: 0.44996	Val Loss: 0.66201
+Epoch: 7	Loss: 0.37792	Val Loss: 0.53718
+Epoch: 8	Loss: 0.32645	Val Loss: 0.55407
+Epoch: 9	Loss: 0.29525	Val Loss: 0.55546
+Epoch: 10	Loss: 0.26728	Val Loss: 0.56398
+Epoch: 11	Loss: 0.26105	Val Loss: 0.58324
+Epoch: 12	Loss: 0.22046	Val Loss: 0.51721
+Epoch: 13	Loss: 0.20889	Val Loss: 0.53884
+Epoch: 14	Loss: 0.19927	Val Loss: 0.61182
+Epoch: 15	Loss: 0.17357	Val Loss: 0.64345
+Epoch: 16	Loss: 0.15480	Val Loss: 0.72105
+Epoch: 17	Loss: 0.16580	Val Loss: 0.70249
+Epoch: 18	Loss: 0.13589	Val Loss: 0.66729
+Epoch: 19	Loss: 0.16417	Val Loss: 0.69379
+Epoch: 20	Loss: 0.12026	Val Loss: 1.12608
+Training Finished at Epoch 20
+
+Testing Accuracy: 0.6466976435446399
+Testing Mean-Class Accuracy: 0.5581281993344376
+Testing Loss: 1.0903961658477783
+
+
+
+
+---------- Iteration 6
+Number of initial labeled data: 170
+Number of initial unlabeled data: 1317
+Number of testing data: 434
+Training Data: 7651
+Validation Data: 1912
+Epoch: 1	Loss: 1.48559	Val Loss: 1.06828
+Epoch: 2	Loss: 0.93085	Val Loss: 0.77450
+Epoch: 3	Loss: 0.71808	Val Loss: 1.20040
+Epoch: 4	Loss: 0.58127	Val Loss: 0.70681
+Epoch: 5	Loss: 0.49966	Val Loss: 0.56064
+Epoch: 6	Loss: 0.45180	Val Loss: 0.53814
+Epoch: 7	Loss: 0.40341	Val Loss: 0.58246
+Epoch: 8	Loss: 0.34661	Val Loss: 0.55304
+Epoch: 9	Loss: 0.32442	Val Loss: 0.49362
+Epoch: 10	Loss: 0.29665	Val Loss: 0.52725
+Epoch: 11	Loss: 0.25602	Val Loss: 0.68001
+Epoch: 12	Loss: 0.26069	Val Loss: 0.49510
+Epoch: 13	Loss: 0.24283	Val Loss: 0.77550
+Epoch: 14	Loss: 0.21106	Val Loss: 0.77668
+Epoch: 15	Loss: 0.19867	Val Loss: 0.47946
+Epoch: 16	Loss: 0.22189	Val Loss: 0.68260
+Epoch: 17	Loss: 0.18654	Val Loss: 0.61287
+Epoch: 18	Loss: 0.18494	Val Loss: 0.62593
+Epoch: 19	Loss: 0.17866	Val Loss: 0.99570
+Training Finished at Epoch 19
+
+Testing Accuracy: 0.6523398606040491
+Testing Mean-Class Accuracy: 0.5683893913017842
+Testing Loss: 1.088352918624878
+
+
+
+
+---------- Iteration 7
+Number of initial labeled data: 190
+Number of initial unlabeled data: 1297
+Number of testing data: 434
+Training Data: 8486
+Validation Data: 2121
+Epoch: 1	Loss: 1.37914	Val Loss: 0.96563
+Epoch: 2	Loss: 0.87464	Val Loss: 0.63505
+Epoch: 3	Loss: 0.59899	Val Loss: 0.54999
+Epoch: 4	Loss: 0.50448	Val Loss: 0.50861
+Epoch: 5	Loss: 0.44527	Val Loss: 0.55466
+Epoch: 6	Loss: 0.39959	Val Loss: 0.45912
+Epoch: 7	Loss: 0.36639	Val Loss: 0.45264
+Epoch: 8	Loss: 0.31499	Val Loss: 0.45319
+Epoch: 9	Loss: 0.31609	Val Loss: 0.38477
+Epoch: 10	Loss: 0.29275	Val Loss: 0.45333
+Epoch: 11	Loss: 0.24321	Val Loss: 0.43911
+Epoch: 12	Loss: 0.25338	Val Loss: 0.66604
+Epoch: 13	Loss: 0.22856	Val Loss: 0.39082
+Epoch: 14	Loss: 0.22423	Val Loss: 0.36045
+Epoch: 15	Loss: 0.22104	Val Loss: 0.57672
+Training Finished at Epoch 15
+
+Testing Accuracy: 0.6113508131430468
+Testing Mean-Class Accuracy: 0.5511824904821839
+Testing Loss: 1.1246830224990845
+
+
+
+
+---------- Iteration 8
+Number of initial labeled data: 210
+Number of initial unlabeled data: 1277
+Number of testing data: 434
+Training Data: 9460
+Validation Data: 2365
+Epoch: 1	Loss: 1.34677	Val Loss: 0.91235
+Epoch: 2	Loss: 0.83660	Val Loss: 0.61548
+Epoch: 3	Loss: 0.62491	Val Loss: 0.47668
+Epoch: 4	Loss: 0.51125	Val Loss: 0.48045
+Epoch: 5	Loss: 0.43309	Val Loss: 0.41167
+Epoch: 6	Loss: 0.40718	Val Loss: 0.41999
+Epoch: 7	Loss: 0.36534	Val Loss: 0.44024
+Epoch: 8	Loss: 0.35132	Val Loss: 0.39131
+Epoch: 9	Loss: 0.31749	Val Loss: 0.41378
+Epoch: 10	Loss: 0.28531	Val Loss: 0.42918
+Epoch: 11	Loss: 0.27805	Val Loss: 0.48665
+Epoch: 12	Loss: 0.27526	Val Loss: 0.36429
+Epoch: 13	Loss: 0.24908	Val Loss: 0.39558
+Epoch: 14	Loss: 0.23311	Val Loss: 0.50750
+Epoch: 15	Loss: 0.22970	Val Loss: 0.63217
+Training Finished at Epoch 15
+
+Testing Accuracy: 0.6178227680053103
+Testing Mean-Class Accuracy: 0.5535326724632754
+Testing Loss: 1.119509220123291
+
+
+
+
+---------- Iteration 9
+Number of initial labeled data: 230
+Number of initial unlabeled data: 1257
+Number of testing data: 434
+Training Data: 10564
+Validation Data: 2641
+Epoch: 1	Loss: 1.32204	Val Loss: 1.09965
+Epoch: 2	Loss: 0.89743	Val Loss: 0.84758
+Epoch: 3	Loss: 0.68422	Val Loss: 0.63508
+Epoch: 4	Loss: 0.56737	Val Loss: 0.63281
+Epoch: 5	Loss: 0.49439	Val Loss: 0.66505
+Epoch: 6	Loss: 0.45663	Val Loss: 0.47333
+Epoch: 7	Loss: 0.41955	Val Loss: 0.46167
+Epoch: 8	Loss: 0.38797	Val Loss: 0.45230
+Epoch: 9	Loss: 0.36620	Val Loss: 0.51649
+Epoch: 10	Loss: 0.32036	Val Loss: 0.97087
+Training Finished at Epoch 10
+
+Testing Accuracy: 0.6621307666777299
+Testing Mean-Class Accuracy: 0.5796052411630221
+Testing Loss: 1.092286229133606
+
+
+
+
+---------- Iteration 10
+Number of initial labeled data: 250
+Number of initial unlabeled data: 1237
+Number of testing data: 434
+Training Data: 12086
+Validation Data: 3021
+Epoch: 1	Loss: 1.20123	Val Loss: 0.87562
+Epoch: 2	Loss: 0.79761	Val Loss: 0.53409
+Epoch: 3	Loss: 0.60876	Val Loss: 0.50068
+Epoch: 4	Loss: 0.54879	Val Loss: 0.45423
+Epoch: 5	Loss: 0.50189	Val Loss: 0.49272
+Epoch: 6	Loss: 0.46274	Val Loss: 0.47223
+Epoch: 7	Loss: 0.43148	Val Loss: 0.41444
+Epoch: 8	Loss: 0.39319	Val Loss: 0.42201
+Epoch: 9	Loss: 0.36668	Val Loss: 0.54498
+Epoch: 10	Loss: 0.35155	Val Loss: 0.50473
+Epoch: 11	Loss: 0.31193	Val Loss: 0.44108
+Epoch: 12	Loss: 0.30905	Val Loss: 0.67546
+Epoch: 13	Loss: 0.30402	Val Loss: 0.47081
+Epoch: 14	Loss: 0.29451	Val Loss: 0.57803
+Epoch: 15	Loss: 0.27036	Val Loss: 0.46210
+Epoch: 16	Loss: 0.26611	Val Loss: 0.46411
+Epoch: 17	Loss: 0.24669	Val Loss: 0.48416
+Epoch: 18	Loss: 0.22930	Val Loss: 0.43138
+Epoch: 19	Loss: 0.22363	Val Loss: 0.47072
+Epoch: 20	Loss: 0.25339	Val Loss: 0.44645
+Epoch: 21	Loss: 0.23243	Val Loss: 0.59331
+Epoch: 22	Loss: 0.20018	Val Loss: 0.70237
+Training Finished at Epoch 22
+
+Testing Accuracy: 0.5736807168934617
+Testing Mean-Class Accuracy: 0.5412632514954385
+Testing Loss: 1.1638405323028564
+
+
+
+
+---------- Iteration 11
+Number of initial labeled data: 270
+Number of initial unlabeled data: 1217
+Number of testing data: 434
+Training Data: 13531
+Validation Data: 3382
+Epoch: 1	Loss: 1.33043	Val Loss: 1.00518
+Epoch: 2	Loss: 0.81583	Val Loss: 0.57735
+Epoch: 3	Loss: 0.62303	Val Loss: 0.61465
+Epoch: 4	Loss: 0.53751	Val Loss: 0.55265
+Epoch: 5	Loss: 0.48395	Val Loss: 0.55280
+Epoch: 6	Loss: 0.45419	Val Loss: 0.41671
+Epoch: 7	Loss: 0.41612	Val Loss: 0.61969
+Epoch: 8	Loss: 0.39325	Val Loss: 0.49411
+Epoch: 9	Loss: 0.36591	Val Loss: 0.60279
+Epoch: 10	Loss: 0.34297	Val Loss: 0.56222
+Epoch: 11	Loss: 0.30482	Val Loss: 0.53409
+Epoch: 12	Loss: 0.30556	Val Loss: 0.56698
+Epoch: 13	Loss: 0.31581	Val Loss: 0.63684
+Epoch: 14	Loss: 0.27858	Val Loss: 0.45248
+Epoch: 15	Loss: 0.27820	Val Loss: 0.48942
+Epoch: 16	Loss: 0.25267	Val Loss: 0.52016
+Epoch: 17	Loss: 0.26272	Val Loss: 0.52102
+Epoch: 18	Loss: 0.24348	Val Loss: 0.58753
+Epoch: 19	Loss: 0.21495	Val Loss: 0.98157
+Training Finished at Epoch 19
+
+Testing Accuracy: 0.6301028874875539
+Testing Mean-Class Accuracy: 0.5530489873161791
+Testing Loss: 1.1100128889083862
+
+
+
+
+---------- Iteration 12
+Number of initial labeled data: 290
+Number of initial unlabeled data: 1197
+Number of testing data: 434
+Training Data: 14865
+Validation Data: 3716
+Epoch: 1	Loss: 1.31513	Val Loss: 0.86324
+Epoch: 2	Loss: 0.78071	Val Loss: 0.65738
+Epoch: 3	Loss: 0.62745	Val Loss: 0.50863
+Epoch: 4	Loss: 0.56391	Val Loss: 0.45967
+Epoch: 5	Loss: 0.49289	Val Loss: 0.48766
+Epoch: 6	Loss: 0.47009	Val Loss: 0.47111
+Epoch: 7	Loss: 0.44814	Val Loss: 0.45121
+Epoch: 8	Loss: 0.41593	Val Loss: 0.51527
+Epoch: 9	Loss: 0.37478	Val Loss: 0.37100
+Epoch: 10	Loss: 0.37555	Val Loss: 0.69122
+Epoch: 11	Loss: 0.34953	Val Loss: 0.48869
+Epoch: 12	Loss: 0.32058	Val Loss: 0.48233
+Epoch: 13	Loss: 0.30176	Val Loss: 0.42265
+Epoch: 14	Loss: 0.30494	Val Loss: 0.50843
+Epoch: 15	Loss: 0.30475	Val Loss: 0.48719
+Epoch: 16	Loss: 0.27129	Val Loss: 0.66165
+Training Finished at Epoch 16
+
+Testing Accuracy: 0.6423830069697976
+Testing Mean-Class Accuracy: 0.5572564035949459
+Testing Loss: 1.1010751724243164
+
+
+
+
+---------- Iteration 13
+Number of initial labeled data: 310
+Number of initial unlabeled data: 1177
+Number of testing data: 434
+Training Data: 16435
+Validation Data: 4108
+Epoch: 1	Loss: 1.55037	Val Loss: 0.94151
+Epoch: 2	Loss: 0.87746	Val Loss: 0.64633
+Epoch: 3	Loss: 0.71598	Val Loss: 0.69644
+Epoch: 4	Loss: 0.63982	Val Loss: 0.51929
+Epoch: 5	Loss: 0.59410	Val Loss: 0.57539
+Epoch: 6	Loss: 0.54446	Val Loss: 0.54798
+Epoch: 7	Loss: 0.50690	Val Loss: 0.55114
+Epoch: 8	Loss: 0.48612	Val Loss: 0.47360
+Epoch: 9	Loss: 0.47794	Val Loss: 0.47676
+Epoch: 10	Loss: 0.44980	Val Loss: 0.54021
+Epoch: 11	Loss: 0.43332	Val Loss: 0.50038
+Epoch: 12	Loss: 0.42366	Val Loss: 0.51276
+Epoch: 13	Loss: 0.41183	Val Loss: 0.44225
+Epoch: 14	Loss: 0.38464	Val Loss: 0.64503
+Training Finished at Epoch 14
+
+Testing Accuracy: 0.6481911715897777
+Testing Mean-Class Accuracy: 0.562659570316561
+Testing Loss: 1.1013107299804688
+
+
+
+
+---------- Iteration 14
+Number of initial labeled data: 330
+Number of initial unlabeled data: 1157
+Number of testing data: 434
+Training Data: 18134
+Validation Data: 4533
+Epoch: 1	Loss: 1.37656	Val Loss: 0.81852
+Epoch: 2	Loss: 0.76108	Val Loss: 0.61329
+Epoch: 3	Loss: 0.65560	Val Loss: 0.55950
+Epoch: 4	Loss: 0.58633	Val Loss: 0.56102
+Epoch: 5	Loss: 0.54433	Val Loss: 0.65939
+Epoch: 6	Loss: 0.51584	Val Loss: 0.50922
+Epoch: 7	Loss: 0.48962	Val Loss: 0.54006
+Epoch: 8	Loss: 0.46541	Val Loss: 0.59987
+Epoch: 9	Loss: 0.45510	Val Loss: 0.56887
+Epoch: 10	Loss: 0.44039	Val Loss: 0.70494
+Epoch: 11	Loss: 0.41028	Val Loss: 0.63583
+Epoch: 12	Loss: 0.40434	Val Loss: 0.48531
+Epoch: 13	Loss: 0.37360	Val Loss: 0.52538
+Epoch: 14	Loss: 0.38622	Val Loss: 0.59707
+Epoch: 15	Loss: 0.36895	Val Loss: 0.53290
+Epoch: 16	Loss: 0.36714	Val Loss: 0.75574
+Training Finished at Epoch 16
+
+Testing Accuracy: 0.638400265516097
+Testing Mean-Class Accuracy: 0.5558378774452752
+Testing Loss: 1.1086817979812622
+
+
+
+
+---------- Iteration 15
+Number of initial labeled data: 350
+Number of initial unlabeled data: 1137
+Number of testing data: 434
+Training Data: 19756
+Validation Data: 4939
+Epoch: 1	Loss: 1.29969	Val Loss: 1.06405
+Epoch: 2	Loss: 0.92587	Val Loss: 0.78612
+Epoch: 3	Loss: 0.77512	Val Loss: 0.69758
+Epoch: 4	Loss: 0.70720	Val Loss: 0.60127
+Epoch: 5	Loss: 0.65176	Val Loss: 0.90269
+Epoch: 6	Loss: 0.62350	Val Loss: 0.57005
+Epoch: 7	Loss: 0.57437	Val Loss: 0.55230
+Epoch: 8	Loss: 0.56656	Val Loss: 0.56198
+Epoch: 9	Loss: 0.54395	Val Loss: 0.55329
+Epoch: 10	Loss: 0.51808	Val Loss: 0.57125
+Epoch: 11	Loss: 0.50604	Val Loss: 0.48212
+Epoch: 12	Loss: 0.48531	Val Loss: 0.55331
+Epoch: 13	Loss: 0.47097	Val Loss: 0.56568
+Epoch: 14	Loss: 0.45664	Val Loss: 0.53373
+Epoch: 15	Loss: 0.44098	Val Loss: 0.58098
+Epoch: 16	Loss: 0.44321	Val Loss: 0.51901
+Epoch: 17	Loss: 0.42243	Val Loss: 0.71470
+Training Finished at Epoch 17
+
+Testing Accuracy: 0.6448722203783605
+Testing Mean-Class Accuracy: 0.573684815509467
+Testing Loss: 1.13344407081604
+
+
+
+
+---------- Iteration 16
+Number of initial labeled data: 370
+Number of initial unlabeled data: 1117
+Number of testing data: 434
+Training Data: 21225
+Validation Data: 5306
+Epoch: 1	Loss: 1.36891	Val Loss: 0.93171
+Epoch: 2	Loss: 0.83142	Val Loss: 0.61631
+Epoch: 3	Loss: 0.66515	Val Loss: 0.56538
+Epoch: 4	Loss: 0.60124	Val Loss: 0.57928
+Epoch: 5	Loss: 0.57720	Val Loss: 0.45034
+Epoch: 6	Loss: 0.55027	Val Loss: 0.48175
+Epoch: 7	Loss: 0.51960	Val Loss: 0.47336
+Epoch: 8	Loss: 0.50320	Val Loss: 0.65035
+Epoch: 9	Loss: 0.48147	Val Loss: 0.50865
+Epoch: 10	Loss: 0.45946	Val Loss: 0.43597
+Epoch: 11	Loss: 0.44297	Val Loss: 0.61441
+Epoch: 12	Loss: 0.43071	Val Loss: 0.47277
+Epoch: 13	Loss: 0.41956	Val Loss: 0.50487
+Epoch: 14	Loss: 0.41462	Val Loss: 0.56372
+Epoch: 15	Loss: 0.40356	Val Loss: 0.49321
+Epoch: 16	Loss: 0.40068	Val Loss: 0.83177
+Training Finished at Epoch 16
+
+Testing Accuracy: 0.6201460338533024
+Testing Mean-Class Accuracy: 0.5600899640403308
+Testing Loss: 1.1416715383529663
+
+
+
+
+---------- Iteration 17
+Number of initial labeled data: 390
+Number of initial unlabeled data: 1097
+Number of testing data: 434
+Training Data: 23256
+Validation Data: 5814
+Epoch: 1	Loss: 1.47926	Val Loss: 0.95692
+Epoch: 2	Loss: 0.88409	Val Loss: 0.71096
+Epoch: 3	Loss: 0.72105	Val Loss: 0.54980
+Epoch: 4	Loss: 0.62558	Val Loss: 0.47851
+Epoch: 5	Loss: 0.58898	Val Loss: 0.45378
+Epoch: 6	Loss: 0.54925	Val Loss: 0.55909
+Epoch: 7	Loss: 0.54275	Val Loss: 0.50110
+Epoch: 8	Loss: 0.52289	Val Loss: 0.58460
+Epoch: 9	Loss: 0.51267	Val Loss: 0.45422
+Epoch: 10	Loss: 0.48898	Val Loss: 0.69267
+Training Finished at Epoch 10
+
+Testing Accuracy: 0.6715897776302688
+Testing Mean-Class Accuracy: 0.5767111290475218
+Testing Loss: 1.0979697704315186
+
+
+
+
+---------- Iteration 18
+Number of initial labeled data: 410
+Number of initial unlabeled data: 1077
+Number of testing data: 434
+Training Data: 25214
+Validation Data: 6303
+Epoch: 1	Loss: 1.43777	Val Loss: 0.92789
+Epoch: 2	Loss: 0.90788	Val Loss: 0.71847
+Epoch: 3	Loss: 0.74367	Val Loss: 0.62139
+Epoch: 4	Loss: 0.67193	Val Loss: 0.56715
+Epoch: 5	Loss: 0.64891	Val Loss: 0.63096
+Epoch: 6	Loss: 0.61973	Val Loss: 0.57713
+Epoch: 7	Loss: 0.60330	Val Loss: 0.54052
+Epoch: 8	Loss: 0.59602	Val Loss: 0.52355
+Epoch: 9	Loss: 0.57376	Val Loss: 0.56666
+Epoch: 10	Loss: 0.57364	Val Loss: 0.58209
+Epoch: 11	Loss: 0.53200	Val Loss: 0.56248
+Epoch: 12	Loss: 0.53376	Val Loss: 0.55716
+Epoch: 13	Loss: 0.51843	Val Loss: 0.58775
+Epoch: 14	Loss: 0.50086	Val Loss: 0.54624
+Epoch: 15	Loss: 0.49948	Val Loss: 0.54663
+Epoch: 16	Loss: 0.49638	Val Loss: 0.56114
+Epoch: 17	Loss: 0.47914	Val Loss: 0.61094
+Training Finished at Epoch 17
+
+Testing Accuracy: 0.6480252240292068
+Testing Mean-Class Accuracy: 0.5674204078480463
+Testing Loss: 1.1223961114883423
+
+
+
+
+---------- Iteration 19
+Number of initial labeled data: 430
+Number of initial unlabeled data: 1057
+Number of testing data: 434
+Training Data: 26942
+Validation Data: 6735
+Epoch: 1	Loss: 1.55000	Val Loss: 1.18822
+Epoch: 2	Loss: 1.18256	Val Loss: 1.10082
+Epoch: 3	Loss: 1.11259	Val Loss: 1.14725
+Epoch: 4	Loss: 1.03483	Val Loss: 0.94539
+Epoch: 5	Loss: 0.98045	Val Loss: 0.96711
+Epoch: 6	Loss: 0.93595	Val Loss: 0.87840
+Epoch: 7	Loss: 0.90559	Val Loss: 0.90618
+Epoch: 8	Loss: 0.88012	Val Loss: 0.87982
+Epoch: 9	Loss: 0.84245	Val Loss: 0.87610
+Epoch: 10	Loss: 0.80938	Val Loss: 0.78076
+Epoch: 11	Loss: 0.78720	Val Loss: 0.77793
+Epoch: 12	Loss: 0.76620	Val Loss: 0.76394
+Epoch: 13	Loss: 0.74051	Val Loss: 0.85880
+Epoch: 14	Loss: 0.73122	Val Loss: 0.83264
+Epoch: 15	Loss: 0.71402	Val Loss: 0.74084
+Epoch: 16	Loss: 0.69022	Val Loss: 0.78320
+Epoch: 17	Loss: 0.67625	Val Loss: 0.73621
+Epoch: 18	Loss: 0.65866	Val Loss: 0.76310
+Epoch: 19	Loss: 0.63882	Val Loss: 0.73213
+Epoch: 20	Loss: 0.62088	Val Loss: 0.76273
+Epoch: 21	Loss: 0.61199	Val Loss: 0.72557
+Epoch: 22	Loss: 0.59773	Val Loss: 0.70818
+Epoch: 23	Loss: 0.59353	Val Loss: 0.68238
+Epoch: 24	Loss: 0.57520	Val Loss: 0.77548
+Epoch: 25	Loss: 0.55699	Val Loss: 0.78293
+Epoch: 26	Loss: 0.55841	Val Loss: 0.70321
+Epoch: 27	Loss: 0.53598	Val Loss: 0.68955
+Epoch: 28	Loss: 0.53098	Val Loss: 0.73242
+Epoch: 29	Loss: 0.51277	Val Loss: 0.77564
+Epoch: 30	Loss: 0.51087	Val Loss: 0.82339
+Epoch: 31	Loss: 0.51464	Val Loss: 0.67723
+Epoch: 32	Loss: 0.50800	Val Loss: 0.79320
+Training Finished at Epoch 32
+
+Testing Accuracy: 0.6830401593096581
+Testing Mean-Class Accuracy: 0.5859137117681317
+Testing Loss: 1.0787049531936646
+
+
+
+
+---------- Iteration 20
+Number of initial labeled data: 450
+Number of initial unlabeled data: 1037
+Number of testing data: 434
+Training Data: 28756
+Validation Data: 7189
+Epoch: 1	Loss: 1.57044	Val Loss: 1.27071
+Epoch: 2	Loss: 1.17011	Val Loss: 1.29629
+Epoch: 3	Loss: 1.13572	Val Loss: 1.12792
+Epoch: 4	Loss: 1.11112	Val Loss: 1.07398
+Epoch: 5	Loss: 1.09175	Val Loss: 1.07124
+Epoch: 6	Loss: 1.07780	Val Loss: 1.05392
+Epoch: 7	Loss: 1.07007	Val Loss: 1.05424
+Epoch: 8	Loss: 1.04728	Val Loss: 1.11592
+Epoch: 9	Loss: 1.03019	Val Loss: 0.95968
+Epoch: 10	Loss: 1.00325	Val Loss: 0.99581
+Epoch: 11	Loss: 0.99353	Val Loss: 0.95232
+Epoch: 12	Loss: 0.97486	Val Loss: 0.98813
+Epoch: 13	Loss: 0.97301	Val Loss: 1.05316
+Epoch: 14	Loss: 0.95230	Val Loss: 1.10027
+Training Finished at Epoch 14
+
+Testing Accuracy: 0.6709259873879854
+Testing Mean-Class Accuracy: 0.5877241823556743
+Testing Loss: 1.1839816570281982
 
 
 
@@ -633,133 +1984,637 @@ Number of testing regions: 434
 Training Data: 2510
 Validation Data: 627
 Epoch: 1	Loss: 1.34645	Val Loss: 1.22979
-Epoch: 2	Loss: 1.18958	Val Loss: 1.18531
-Epoch: 3	Loss: 1.06437	Val Loss: 1.01155
-Epoch: 4	Loss: 0.97581	Val Loss: 1.14797
-Epoch: 5	Loss: 0.86558	Val Loss: 0.82276
-Epoch: 6	Loss: 0.73775	Val Loss: 0.85616
-Epoch: 7	Loss: 0.60183	Val Loss: 0.95537
-Epoch: 8	Loss: 0.51449	Val Loss: 0.90308
-Epoch: 9	Loss: 0.41558	Val Loss: 1.13586
-Epoch: 10	Loss: 0.34199	Val Loss: 1.07273
-Epoch: 11	Loss: 0.27837	Val Loss: 0.79438
-Epoch: 12	Loss: 0.25677	Val Loss: 1.13470
-Epoch: 13	Loss: 0.15421	Val Loss: 0.84322
-Epoch: 14	Loss: 0.23626	Val Loss: 0.65776
-Epoch: 15	Loss: 0.12402	Val Loss: 0.81314
-Epoch: 16	Loss: 0.12009	Val Loss: 0.72834
-Epoch: 17	Loss: 0.08063	Val Loss: 1.02867
-Epoch: 18	Loss: 0.10268	Val Loss: 0.93184
-Epoch: 19	Loss: 0.07216	Val Loss: 0.97023
-Epoch: 20	Loss: 0.07464	Val Loss: 1.26826
-Epoch: 21	Loss: 0.04609	Val Loss: 1.44171
-Epoch: 22	Loss: 0.04045	Val Loss: 0.95225
-Epoch: 23	Loss: 0.06090	Val Loss: 1.31974
-Epoch: 24	Loss: 0.06258	Val Loss: 0.90733
-Epoch: 25	Loss: 0.01885	Val Loss: 1.11529
-Epoch: 26	Loss: 0.07523	Val Loss: 1.09913
-Epoch: 27	Loss: 0.05869	Val Loss: 1.02147
-Epoch: 28	Loss: 0.01783	Val Loss: 1.61202
-Epoch: 29	Loss: 0.02411	Val Loss: 1.64522
-Epoch: 30	Loss: 0.01287	Val Loss: 1.33580
-Epoch: 31	Loss: 0.02805	Val Loss: 1.29688
-Epoch: 32	Loss: 0.03619	Val Loss: 1.21320
-Epoch: 33	Loss: 0.01863	Val Loss: 1.19801
-Epoch: 34	Loss: 0.00876	Val Loss: 1.16625
-Epoch: 35	Loss: 0.02751	Val Loss: 1.67648
-Epoch: 36	Loss: 0.02333	Val Loss: 1.45774
-Epoch: 37	Loss: 0.00409	Val Loss: 1.44975
-Epoch: 38	Loss: 0.05490	Val Loss: 1.35812
-Epoch: 39	Loss: 0.00496	Val Loss: 1.47088
-Epoch: 40	Loss: 0.01672	Val Loss: 2.09760
-Epoch: 41	Loss: 0.00571	Val Loss: 1.71599
-Epoch: 42	Loss: 0.01069	Val Loss: 1.41533
-Epoch: 43	Loss: 0.00364	Val Loss: 1.67124
-Epoch: 44	Loss: 0.02717	Val Loss: 2.03961
-Epoch: 45	Loss: 0.00674	Val Loss: 1.57252
-Epoch: 46	Loss: 0.02502	Val Loss: 2.19208
-Epoch: 47	Loss: 0.00503	Val Loss: 1.76720
-Epoch: 48	Loss: 0.01147	Val Loss: 1.52307
-Epoch: 49	Loss: 0.01974	Val Loss: 1.63669
-Epoch: 50	Loss: 0.03782	Val Loss: 1.59551
-Epoch: 51	Loss: 0.01345	Val Loss: 1.71803
-Epoch: 52	Loss: 0.00203	Val Loss: 1.77374
-Epoch: 53	Loss: 0.03439	Val Loss: 1.74394
-Epoch: 54	Loss: 0.01713	Val Loss: 1.38809
-Epoch: 55	Loss: 0.01328	Val Loss: 1.51277
-Epoch: 56	Loss: 0.01402	Val Loss: 1.94496
-Epoch: 57	Loss: 0.00275	Val Loss: 1.73944
-Epoch: 58	Loss: 0.00205	Val Loss: 2.07181
-Epoch: 59	Loss: 0.15869	Val Loss: 1.38864
-Epoch: 60	Loss: 0.01447	Val Loss: 1.51691
-Epoch: 61	Loss: 0.00925	Val Loss: 1.93756
-Epoch: 62	Loss: 0.01955	Val Loss: 1.98395
-Epoch: 63	Loss: 0.03042	Val Loss: 1.94338
-Epoch: 64	Loss: 0.01008	Val Loss: 2.18109
-Epoch: 65	Loss: 0.01298	Val Loss: 1.85375
-Epoch: 66	Loss: 0.00488	Val Loss: 1.69479
-Epoch: 67	Loss: 0.01285	Val Loss: 1.61221
-Epoch: 68	Loss: 0.01511	Val Loss: 1.85914
-Epoch: 69	Loss: 0.00347	Val Loss: 1.51060
-Epoch: 70	Loss: 0.00261	Val Loss: 1.64810
-Epoch: 71	Loss: 0.01084	Val Loss: 1.71670
-Epoch: 72	Loss: 0.00138	Val Loss: 1.67423
-Epoch: 73	Loss: 0.00538	Val Loss: 1.76559
-Epoch: 74	Loss: 0.00131	Val Loss: 1.85077
-Epoch: 75	Loss: 0.01359	Val Loss: 1.57113
-Epoch: 76	Loss: 0.00103	Val Loss: 1.99247
-Epoch: 77	Loss: 0.00307	Val Loss: 1.97610
-Epoch: 78	Loss: 0.01045	Val Loss: 1.69074
-Epoch: 79	Loss: 0.02007	Val Loss: 1.80172
-Epoch: 80	Loss: 0.00480	Val Loss: 1.85642
-Epoch: 81	Loss: 0.00187	Val Loss: 1.60652
-Epoch: 82	Loss: 0.00658	Val Loss: 1.46284
-Epoch: 83	Loss: 0.01369	Val Loss: 1.65388
-Epoch: 84	Loss: 0.00106	Val Loss: 1.55200
-Epoch: 85	Loss: 0.00140	Val Loss: 1.76105
-Epoch: 86	Loss: 0.00414	Val Loss: 1.71259
-Epoch: 87	Loss: 0.00162	Val Loss: 1.78838
-Epoch: 88	Loss: 0.00062	Val Loss: 1.70000
-Epoch: 89	Loss: 0.00072	Val Loss: 1.60915
-Epoch: 90	Loss: 0.00180	Val Loss: 1.91992
-Epoch: 91	Loss: 0.00287	Val Loss: 2.73430
-Epoch: 92	Loss: 0.05818	Val Loss: 1.76463
-Epoch: 93	Loss: 0.00537	Val Loss: 1.70254
-Epoch: 94	Loss: 0.00279	Val Loss: 1.94021
-Epoch: 95	Loss: 0.01419	Val Loss: 1.89889
-Epoch: 96	Loss: 0.00820	Val Loss: 1.77713
-Epoch: 97	Loss: 0.00736	Val Loss: 2.12693
-Epoch: 98	Loss: 0.00931	Val Loss: 2.27533
-Epoch: 99	Loss: 0.02257	Val Loss: 2.50114
-Epoch: 100	Loss: 0.00446	Val Loss: 1.95296
-Epoch: 101	Loss: 0.00899	Val Loss: 2.14643
-Epoch: 102	Loss: 0.00832	Val Loss: 3.13844
-Epoch: 103	Loss: 0.00574	Val Loss: 2.26064
-Epoch: 104	Loss: 0.00097	Val Loss: 2.29466
-Epoch: 105	Loss: 0.00557	Val Loss: 2.44772
-Epoch: 106	Loss: 0.01665	Val Loss: 2.11394
-Epoch: 107	Loss: 0.00014	Val Loss: 1.91929
-Epoch: 108	Loss: 0.00650	Val Loss: 2.97907
-Epoch: 109	Loss: 0.00161	Val Loss: 1.99031
-Epoch: 110	Loss: 0.00039	Val Loss: 1.91793
-Epoch: 111	Loss: 0.01484	Val Loss: 2.70427
-Epoch: 112	Loss: 0.00237	Val Loss: 2.35879
-Epoch: 113	Loss: 0.01769	Val Loss: 2.08164
-Epoch: 114	Loss: 0.00049	Val Loss: 2.32872
-Epoch: 115	Loss: 0.00158	Val Loss: 2.02465
-Epoch: 116	Loss: 0.00430	Val Loss: 1.82932
-Epoch: 117	Loss: 0.00217	Val Loss: 2.21151
-Epoch: 118	Loss: 0.00637	Val Loss: 2.58099
-Epoch: 119	Loss: 0.00442	Val Loss: 2.29692
-Epoch: 120	Loss: 0.00826	Val Loss: 1.87924
-Epoch: 121	Loss: 0.00372	Val Loss: 2.39816
-Epoch: 122	Loss: 0.00405	Val Loss: 2.51129
-Epoch: 123	Loss: 0.00336	Val Loss: 2.28589
-Training Finished at Epoch 123
+Epoch: 2	Loss: 1.19040	Val Loss: 1.17697
+Epoch: 3	Loss: 1.06354	Val Loss: 0.98015
+Epoch: 4	Loss: 0.96750	Val Loss: 1.10866
+Epoch: 5	Loss: 0.87036	Val Loss: 0.79842
+Epoch: 6	Loss: 0.74096	Val Loss: 0.87257
+Epoch: 7	Loss: 0.60749	Val Loss: 0.89712
+Epoch: 8	Loss: 0.51985	Val Loss: 1.00921
+Epoch: 9	Loss: 0.40484	Val Loss: 1.06082
+Epoch: 10	Loss: 0.36823	Val Loss: 1.02438
+Epoch: 11	Loss: 0.24729	Val Loss: 1.01026
+Epoch: 12	Loss: 0.24756	Val Loss: 0.98967
+Epoch: 13	Loss: 0.17041	Val Loss: 0.90497
+Epoch: 14	Loss: 0.22340	Val Loss: 0.72429
+Epoch: 15	Loss: 0.11255	Val Loss: 0.98239
+Epoch: 16	Loss: 0.10421	Val Loss: 0.98689
+Epoch: 17	Loss: 0.08896	Val Loss: 1.04921
+Epoch: 18	Loss: 0.07867	Val Loss: 1.00493
+Epoch: 19	Loss: 0.07152	Val Loss: 1.24024
+Epoch: 20	Loss: 0.09718	Val Loss: 1.44175
+Epoch: 21	Loss: 0.03390	Val Loss: 1.27845
+Epoch: 22	Loss: 0.08361	Val Loss: 0.91119
+Epoch: 23	Loss: 0.05741	Val Loss: 1.36239
+Epoch: 24	Loss: 0.02323	Val Loss: 1.16211
+Epoch: 25	Loss: 0.01731	Val Loss: 1.21426
+Epoch: 26	Loss: 0.05749	Val Loss: 1.29202
+Epoch: 27	Loss: 0.01984	Val Loss: 1.07868
+Epoch: 28	Loss: 0.05201	Val Loss: 1.56774
+Epoch: 29	Loss: 0.01296	Val Loss: 1.30092
+Epoch: 30	Loss: 0.05088	Val Loss: 1.95505
+Epoch: 31	Loss: 0.04489	Val Loss: 1.22752
+Epoch: 32	Loss: 0.01459	Val Loss: 1.34065
+Epoch: 33	Loss: 0.01627	Val Loss: 1.24664
+Epoch: 34	Loss: 0.03890	Val Loss: 1.28339
+Epoch: 35	Loss: 0.01550	Val Loss: 1.43779
+Epoch: 36	Loss: 0.01603	Val Loss: 1.33927
+Epoch: 37	Loss: 0.01577	Val Loss: 1.88503
+Epoch: 38	Loss: 0.01676	Val Loss: 2.02298
+Training Finished at Epoch 38
 
-Testing Accuracy: 0.5675406571523398
-Testing Mean-Class Accuracy: 0.5213832764266569
-Testing Loss: 1.1715878248214722
+Testing Accuracy: 0.5894457351476934
+Testing Mean-Class Accuracy: 0.5346175791287564
+Testing Loss: 1.1486001014709473
+
+
+
+
+---------- Iteration 1
+Number of initial labeled data: 70
+Number of initial unlabeled data: 1417
+Number of testing data: 434
+Training Data: 2990
+Validation Data: 747
+Epoch: 1	Loss: 2.03070	Val Loss: 1.16683
+Epoch: 2	Loss: 1.08726	Val Loss: 1.06005
+Epoch: 3	Loss: 0.91169	Val Loss: 0.97078
+Epoch: 4	Loss: 0.80114	Val Loss: 0.83069
+Epoch: 5	Loss: 0.67852	Val Loss: 0.82423
+Epoch: 6	Loss: 0.54844	Val Loss: 0.87946
+Epoch: 7	Loss: 0.46299	Val Loss: 0.69054
+Epoch: 8	Loss: 0.36801	Val Loss: 0.85783
+Epoch: 9	Loss: 0.35626	Val Loss: 1.17459
+Epoch: 10	Loss: 0.27422	Val Loss: 0.69228
+Epoch: 11	Loss: 0.20277	Val Loss: 0.89544
+Epoch: 12	Loss: 0.20485	Val Loss: 0.71640
+Epoch: 13	Loss: 0.14128	Val Loss: 0.73437
+Epoch: 14	Loss: 0.19183	Val Loss: 0.99406
+Epoch: 15	Loss: 0.11506	Val Loss: 0.94632
+Epoch: 16	Loss: 0.10087	Val Loss: 1.33925
+Epoch: 17	Loss: 0.07709	Val Loss: 0.87152
+Epoch: 18	Loss: 0.07617	Val Loss: 1.08326
+Epoch: 19	Loss: 0.11567	Val Loss: 0.93984
+Epoch: 20	Loss: 0.04890	Val Loss: 1.26406
+Epoch: 21	Loss: 0.06747	Val Loss: 0.83121
+Epoch: 22	Loss: 0.06011	Val Loss: 0.91933
+Epoch: 23	Loss: 0.08191	Val Loss: 1.09097
+Epoch: 24	Loss: 0.03847	Val Loss: 1.59730
+Epoch: 25	Loss: 0.06608	Val Loss: 1.01146
+Epoch: 26	Loss: 0.06341	Val Loss: 1.00718
+Epoch: 27	Loss: 0.03620	Val Loss: 1.20804
+Epoch: 28	Loss: 0.03996	Val Loss: 0.99345
+Epoch: 29	Loss: 0.07025	Val Loss: 0.94307
+Epoch: 30	Loss: 0.02356	Val Loss: 0.98798
+Epoch: 31	Loss: 0.02013	Val Loss: 1.05081
+Epoch: 32	Loss: 0.04242	Val Loss: 1.49437
+Epoch: 33	Loss: 0.02221	Val Loss: 0.96992
+Epoch: 34	Loss: 0.04663	Val Loss: 1.59303
+Epoch: 35	Loss: 0.01598	Val Loss: 1.63747
+Epoch: 36	Loss: 0.05549	Val Loss: 1.10023
+Epoch: 37	Loss: 0.03590	Val Loss: 1.18118
+Epoch: 38	Loss: 0.02631	Val Loss: 1.09508
+Epoch: 39	Loss: 0.02808	Val Loss: 1.65945
+Epoch: 40	Loss: 0.03485	Val Loss: 1.05638
+Epoch: 41	Loss: 0.02302	Val Loss: 1.34734
+Epoch: 42	Loss: 0.01866	Val Loss: 1.22422
+Epoch: 43	Loss: 0.01277	Val Loss: 1.28076
+Epoch: 44	Loss: 0.02680	Val Loss: 1.34677
+Epoch: 45	Loss: 0.01176	Val Loss: 1.93939
+Epoch: 46	Loss: 0.02521	Val Loss: 1.72422
+Epoch: 47	Loss: 0.02130	Val Loss: 1.41290
+Epoch: 48	Loss: 0.02859	Val Loss: 1.59207
+Epoch: 49	Loss: 0.02622	Val Loss: 1.43642
+Epoch: 50	Loss: 0.02370	Val Loss: 1.32027
+Epoch: 51	Loss: 0.02909	Val Loss: 1.40001
+Training Finished at Epoch 51
+
+Testing Accuracy: 0.5466312645204116
+Testing Mean-Class Accuracy: 0.529020459414457
+Testing Loss: 1.1877034902572632
+
+
+
+
+---------- Iteration 2
+Number of initial labeled data: 90
+Number of initial unlabeled data: 1397
+Number of testing data: 434
+Training Data: 3460
+Validation Data: 865
+Epoch: 1	Loss: 1.93345	Val Loss: 3.41905
+Epoch: 2	Loss: 1.17553	Val Loss: 1.09011
+Epoch: 3	Loss: 0.92720	Val Loss: 0.93877
+Epoch: 4	Loss: 0.77943	Val Loss: 0.81588
+Epoch: 5	Loss: 0.67763	Val Loss: 0.78963
+Epoch: 6	Loss: 0.52185	Val Loss: 0.83031
+Epoch: 7	Loss: 0.45623	Val Loss: 0.57023
+Epoch: 8	Loss: 0.38417	Val Loss: 0.49000
+Epoch: 9	Loss: 0.33024	Val Loss: 0.93009
+Epoch: 10	Loss: 0.28627	Val Loss: 0.71861
+Epoch: 11	Loss: 0.24250	Val Loss: 0.44371
+Epoch: 12	Loss: 0.24499	Val Loss: 0.72373
+Epoch: 13	Loss: 0.18178	Val Loss: 0.45386
+Epoch: 14	Loss: 0.17793	Val Loss: 0.61322
+Epoch: 15	Loss: 0.13000	Val Loss: 0.41121
+Epoch: 16	Loss: 0.17798	Val Loss: 0.53637
+Epoch: 17	Loss: 0.12671	Val Loss: 0.59266
+Epoch: 18	Loss: 0.11537	Val Loss: 0.55539
+Epoch: 19	Loss: 0.11989	Val Loss: 0.94838
+Epoch: 20	Loss: 0.09355	Val Loss: 0.57230
+Epoch: 21	Loss: 0.10445	Val Loss: 0.41986
+Epoch: 22	Loss: 0.07960	Val Loss: 0.61417
+Epoch: 23	Loss: 0.07564	Val Loss: 0.45025
+Epoch: 24	Loss: 0.08998	Val Loss: 0.48943
+Epoch: 25	Loss: 0.07165	Val Loss: 0.48262
+Epoch: 26	Loss: 0.08907	Val Loss: 0.80506
+Training Finished at Epoch 26
+
+Testing Accuracy: 0.5585794888815134
+Testing Mean-Class Accuracy: 0.5221834651681293
+Testing Loss: 1.1708155870437622
+
+
+
+
+---------- Iteration 3
+Number of initial labeled data: 110
+Number of initial unlabeled data: 1377
+Number of testing data: 434
+Training Data: 4267
+Validation Data: 1066
+Epoch: 1	Loss: 1.43428	Val Loss: 1.02478
+Epoch: 2	Loss: 1.07867	Val Loss: 0.97172
+Epoch: 3	Loss: 0.86890	Val Loss: 0.63238
+Epoch: 4	Loss: 0.72300	Val Loss: 0.64823
+Epoch: 5	Loss: 0.57174	Val Loss: 0.51555
+Epoch: 6	Loss: 0.48427	Val Loss: 0.52609
+Epoch: 7	Loss: 0.40508	Val Loss: 0.55737
+Epoch: 8	Loss: 0.37763	Val Loss: 0.39028
+Epoch: 9	Loss: 0.29422	Val Loss: 0.51308
+Epoch: 10	Loss: 0.27587	Val Loss: 0.49075
+Epoch: 11	Loss: 0.23007	Val Loss: 0.39678
+Epoch: 12	Loss: 0.19035	Val Loss: 0.45493
+Epoch: 13	Loss: 0.19578	Val Loss: 0.35277
+Epoch: 14	Loss: 0.18234	Val Loss: 0.48177
+Epoch: 15	Loss: 0.13775	Val Loss: 0.40170
+Epoch: 16	Loss: 0.15923	Val Loss: 0.41950
+Epoch: 17	Loss: 0.12285	Val Loss: 0.45491
+Epoch: 18	Loss: 0.11642	Val Loss: 0.42941
+Epoch: 19	Loss: 0.10411	Val Loss: 0.47675
+Epoch: 20	Loss: 0.13976	Val Loss: 0.39503
+Epoch: 21	Loss: 0.08917	Val Loss: 0.51876
+Epoch: 22	Loss: 0.08044	Val Loss: 0.64586
+Epoch: 23	Loss: 0.04488	Val Loss: 0.58524
+Epoch: 24	Loss: 0.11187	Val Loss: 0.40856
+Epoch: 25	Loss: 0.09519	Val Loss: 0.35471
+Epoch: 26	Loss: 0.08605	Val Loss: 0.42158
+Epoch: 27	Loss: 0.08054	Val Loss: 0.50974
+Epoch: 28	Loss: 0.07788	Val Loss: 0.41183
+Epoch: 29	Loss: 0.08275	Val Loss: 0.59231
+Epoch: 30	Loss: 0.07921	Val Loss: 0.82125
+Training Finished at Epoch 30
+
+Testing Accuracy: 0.567374709591769
+Testing Mean-Class Accuracy: 0.5260677084214352
+Testing Loss: 1.1655805110931396
+
+
+
+
+---------- Iteration 4
+Number of initial labeled data: 130
+Number of initial unlabeled data: 1357
+Number of testing data: 434
+Training Data: 5361
+Validation Data: 1340
+Epoch: 1	Loss: 1.44547	Val Loss: 1.15187
+Epoch: 2	Loss: 1.06850	Val Loss: 0.90849
+Epoch: 3	Loss: 0.83094	Val Loss: 0.87715
+Epoch: 4	Loss: 0.67689	Val Loss: 0.64248
+Epoch: 5	Loss: 0.54239	Val Loss: 0.57807
+Epoch: 6	Loss: 0.44948	Val Loss: 0.59859
+Epoch: 7	Loss: 0.38491	Val Loss: 0.62547
+Epoch: 8	Loss: 0.36288	Val Loss: 0.51554
+Epoch: 9	Loss: 0.30033	Val Loss: 0.56387
+Epoch: 10	Loss: 0.28084	Val Loss: 0.65853
+Epoch: 11	Loss: 0.24577	Val Loss: 0.50896
+Epoch: 12	Loss: 0.20970	Val Loss: 0.74312
+Epoch: 13	Loss: 0.19626	Val Loss: 0.69714
+Epoch: 14	Loss: 0.17814	Val Loss: 0.76185
+Epoch: 15	Loss: 0.16221	Val Loss: 0.79277
+Epoch: 16	Loss: 0.14057	Val Loss: 0.84715
+Epoch: 17	Loss: 0.12756	Val Loss: 1.65661
+Training Finished at Epoch 17
+
+Testing Accuracy: 0.5999004314636575
+Testing Mean-Class Accuracy: 0.5441016301760772
+Testing Loss: 1.1387836933135986
+
+
+
+
+---------- Iteration 5
+Number of initial labeled data: 150
+Number of initial unlabeled data: 1337
+Number of testing data: 434
+Training Data: 6504
+Validation Data: 1626
+Epoch: 1	Loss: 1.42436	Val Loss: 1.13872
+Epoch: 2	Loss: 0.98784	Val Loss: 0.90630
+Epoch: 3	Loss: 0.73760	Val Loss: 1.14231
+Epoch: 4	Loss: 0.62462	Val Loss: 0.60129
+Epoch: 5	Loss: 0.50234	Val Loss: 0.84310
+Epoch: 6	Loss: 0.42929	Val Loss: 0.54726
+Epoch: 7	Loss: 0.36973	Val Loss: 0.49916
+Epoch: 8	Loss: 0.32173	Val Loss: 0.52731
+Epoch: 9	Loss: 0.30280	Val Loss: 0.63062
+Epoch: 10	Loss: 0.28059	Val Loss: 0.58799
+Epoch: 11	Loss: 0.23583	Val Loss: 0.59611
+Epoch: 12	Loss: 0.21115	Val Loss: 0.55183
+Epoch: 13	Loss: 0.21591	Val Loss: 0.84027
+Epoch: 14	Loss: 0.16762	Val Loss: 0.57777
+Epoch: 15	Loss: 0.18298	Val Loss: 0.73930
+Epoch: 16	Loss: 0.17348	Val Loss: 0.64660
+Epoch: 17	Loss: 0.15917	Val Loss: 0.64525
+Epoch: 18	Loss: 0.15333	Val Loss: 0.68309
+Epoch: 19	Loss: 0.14307	Val Loss: 0.59355
+Epoch: 20	Loss: 0.14945	Val Loss: 0.99037
+Training Finished at Epoch 20
+
+Testing Accuracy: 0.6468635911052107
+Testing Mean-Class Accuracy: 0.5785955463473115
+Testing Loss: 1.090342402458191
+
+
+
+
+---------- Iteration 6
+Number of initial labeled data: 170
+Number of initial unlabeled data: 1317
+Number of testing data: 434
+Training Data: 7435
+Validation Data: 1858
+Epoch: 1	Loss: 1.54145	Val Loss: 1.39396
+Epoch: 2	Loss: 1.11046	Val Loss: 0.95278
+Epoch: 3	Loss: 0.91352	Val Loss: 0.83284
+Epoch: 4	Loss: 0.76259	Val Loss: 1.08144
+Epoch: 5	Loss: 0.63222	Val Loss: 0.71693
+Epoch: 6	Loss: 0.54695	Val Loss: 0.97050
+Epoch: 7	Loss: 0.46903	Val Loss: 0.62743
+Epoch: 8	Loss: 0.39956	Val Loss: 1.42298
+Epoch: 9	Loss: 0.36383	Val Loss: 0.64692
+Epoch: 10	Loss: 0.32510	Val Loss: 0.56245
+Epoch: 11	Loss: 0.30669	Val Loss: 0.85314
+Epoch: 12	Loss: 0.28526	Val Loss: 0.69099
+Epoch: 13	Loss: 0.26128	Val Loss: 1.03987
+Epoch: 14	Loss: 0.22590	Val Loss: 0.75548
+Epoch: 15	Loss: 0.22444	Val Loss: 0.82099
+Epoch: 16	Loss: 0.20310	Val Loss: 0.75586
+Epoch: 17	Loss: 0.21339	Val Loss: 0.85477
+Epoch: 18	Loss: 0.17062	Val Loss: 0.86757
+Epoch: 19	Loss: 0.19719	Val Loss: 0.74755
+Epoch: 20	Loss: 0.16648	Val Loss: 0.79504
+Epoch: 21	Loss: 0.16778	Val Loss: 0.97927
+Training Finished at Epoch 21
+
+Testing Accuracy: 0.6213076667772984
+Testing Mean-Class Accuracy: 0.5534831458039265
+Testing Loss: 1.1167715787887573
+
+
+
+
+---------- Iteration 7
+Number of initial labeled data: 190
+Number of initial unlabeled data: 1297
+Number of testing data: 434
+Training Data: 8976
+Validation Data: 2244
+Epoch: 1	Loss: 1.60526	Val Loss: 1.01462
+Epoch: 2	Loss: 0.98212	Val Loss: 0.99808
+Epoch: 3	Loss: 0.77324	Val Loss: 0.71737
+Epoch: 4	Loss: 0.65010	Val Loss: 0.92056
+Epoch: 5	Loss: 0.59029	Val Loss: 0.73813
+Epoch: 6	Loss: 0.50519	Val Loss: 0.81389
+Epoch: 7	Loss: 0.44731	Val Loss: 1.01239
+Epoch: 8	Loss: 0.41986	Val Loss: 0.90764
+Epoch: 9	Loss: 0.37913	Val Loss: 0.67945
+Epoch: 10	Loss: 0.35789	Val Loss: 0.57349
+Epoch: 11	Loss: 0.32266	Val Loss: 0.64940
+Epoch: 12	Loss: 0.29422	Val Loss: 0.70227
+Epoch: 13	Loss: 0.28278	Val Loss: 1.04755
+Epoch: 14	Loss: 0.27002	Val Loss: 0.79486
+Epoch: 15	Loss: 0.24682	Val Loss: 0.57053
+Epoch: 16	Loss: 0.22903	Val Loss: 0.81365
+Epoch: 17	Loss: 0.22166	Val Loss: 0.76798
+Epoch: 18	Loss: 0.21605	Val Loss: 0.73212
+Epoch: 19	Loss: 0.20302	Val Loss: 0.76219
+Epoch: 20	Loss: 0.22585	Val Loss: 0.86851
+Training Finished at Epoch 20
+
+Testing Accuracy: 0.6302688350481248
+Testing Mean-Class Accuracy: 0.5582687192745622
+Testing Loss: 1.109193205833435
+
+
+
+
+---------- Iteration 8
+Number of initial labeled data: 210
+Number of initial unlabeled data: 1277
+Number of testing data: 434
+Training Data: 9801
+Validation Data: 2450
+Epoch: 1	Loss: 1.56202	Val Loss: 1.43482
+Epoch: 2	Loss: 1.06813	Val Loss: 0.93496
+Epoch: 3	Loss: 0.80929	Val Loss: 0.67483
+Epoch: 4	Loss: 0.64141	Val Loss: 0.68905
+Epoch: 5	Loss: 0.55599	Val Loss: 0.71314
+Epoch: 6	Loss: 0.49416	Val Loss: 0.57888
+Epoch: 7	Loss: 0.41962	Val Loss: 0.92340
+Epoch: 8	Loss: 0.38824	Val Loss: 0.77029
+Epoch: 9	Loss: 0.35146	Val Loss: 0.91266
+Epoch: 10	Loss: 0.33762	Val Loss: 0.82525
+Epoch: 11	Loss: 0.29529	Val Loss: 0.73944
+Epoch: 12	Loss: 0.28107	Val Loss: 0.59435
+Epoch: 13	Loss: 0.26510	Val Loss: 0.51312
+Epoch: 14	Loss: 0.24423	Val Loss: 0.69755
+Epoch: 15	Loss: 0.25993	Val Loss: 0.79084
+Epoch: 16	Loss: 0.22071	Val Loss: 0.58737
+Epoch: 17	Loss: 0.22354	Val Loss: 0.69845
+Epoch: 18	Loss: 0.21955	Val Loss: 0.64547
+Epoch: 19	Loss: 0.20445	Val Loss: 0.83536
+Training Finished at Epoch 19
+
+Testing Accuracy: 0.6936608031861932
+Testing Mean-Class Accuracy: 0.5922617061259796
+Testing Loss: 1.0535552501678467
+
+
+
+
+---------- Iteration 9
+Number of initial labeled data: 230
+Number of initial unlabeled data: 1257
+Number of testing data: 434
+Training Data: 11683
+Validation Data: 2920
+Epoch: 1	Loss: 1.40126	Val Loss: 1.03698
+Epoch: 2	Loss: 0.95508	Val Loss: 0.72562
+Epoch: 3	Loss: 0.74731	Val Loss: 0.87220
+Epoch: 4	Loss: 0.62054	Val Loss: 0.63215
+Epoch: 5	Loss: 0.56597	Val Loss: 0.61497
+Epoch: 6	Loss: 0.52156	Val Loss: 0.76892
+Epoch: 7	Loss: 0.45908	Val Loss: 0.70575
+Epoch: 8	Loss: 0.43069	Val Loss: 0.56020
+Epoch: 9	Loss: 0.39999	Val Loss: 0.57971
+Epoch: 10	Loss: 0.38611	Val Loss: 0.73421
+Epoch: 11	Loss: 0.35700	Val Loss: 0.61429
+Epoch: 12	Loss: 0.31684	Val Loss: 0.70879
+Epoch: 13	Loss: 0.32006	Val Loss: 0.56119
+Epoch: 14	Loss: 0.27806	Val Loss: 0.58044
+Epoch: 15	Loss: 0.27561	Val Loss: 0.56893
+Epoch: 16	Loss: 0.26230	Val Loss: 0.63445
+Epoch: 17	Loss: 0.26737	Val Loss: 0.60803
+Epoch: 18	Loss: 0.25505	Val Loss: 0.88581
+Training Finished at Epoch 18
+
+Testing Accuracy: 0.6473614337869233
+Testing Mean-Class Accuracy: 0.5663987517546919
+Testing Loss: 1.096990704536438
+
+
+
+
+---------- Iteration 10
+Number of initial labeled data: 250
+Number of initial unlabeled data: 1237
+Number of testing data: 434
+Training Data: 12456
+Validation Data: 3114
+Epoch: 1	Loss: 1.32336	Val Loss: 0.92211
+Epoch: 2	Loss: 0.87188	Val Loss: 0.74952
+Epoch: 3	Loss: 0.70786	Val Loss: 0.56773
+Epoch: 4	Loss: 0.58732	Val Loss: 0.68335
+Epoch: 5	Loss: 0.53818	Val Loss: 0.49694
+Epoch: 6	Loss: 0.47749	Val Loss: 0.51714
+Epoch: 7	Loss: 0.45259	Val Loss: 0.55332
+Epoch: 8	Loss: 0.41492	Val Loss: 0.45139
+Epoch: 9	Loss: 0.38481	Val Loss: 0.48343
+Epoch: 10	Loss: 0.36705	Val Loss: 0.43709
+Epoch: 11	Loss: 0.33966	Val Loss: 0.54666
+Epoch: 12	Loss: 0.32992	Val Loss: 0.63264
+Epoch: 13	Loss: 0.31543	Val Loss: 0.48472
+Epoch: 14	Loss: 0.30475	Val Loss: 0.56543
+Epoch: 15	Loss: 0.27464	Val Loss: 0.48779
+Epoch: 16	Loss: 0.25484	Val Loss: 0.55912
+Epoch: 17	Loss: 0.25296	Val Loss: 0.73696
+Epoch: 18	Loss: 0.24538	Val Loss: 0.62328
+Epoch: 19	Loss: 0.24588	Val Loss: 0.60499
+Epoch: 20	Loss: 0.24639	Val Loss: 1.01168
+Training Finished at Epoch 20
+
+Testing Accuracy: 0.6848655824759377
+Testing Mean-Class Accuracy: 0.5777402673947454
+Testing Loss: 1.0581095218658447
+
+
+
+
+---------- Iteration 11
+Number of initial labeled data: 270
+Number of initial unlabeled data: 1217
+Number of testing data: 434
+Training Data: 13948
+Validation Data: 3487
+Epoch: 1	Loss: 1.50077	Val Loss: 0.83545
+Epoch: 2	Loss: 0.87855	Val Loss: 0.72833
+Epoch: 3	Loss: 0.73567	Val Loss: 0.68883
+Epoch: 4	Loss: 0.65254	Val Loss: 0.51974
+Epoch: 5	Loss: 0.59567	Val Loss: 0.45989
+Epoch: 6	Loss: 0.53758	Val Loss: 0.73602
+Epoch: 7	Loss: 0.49466	Val Loss: 0.69758
+Epoch: 8	Loss: 0.48730	Val Loss: 0.45955
+Epoch: 9	Loss: 0.46293	Val Loss: 0.47424
+Epoch: 10	Loss: 0.42423	Val Loss: 0.54820
+Epoch: 11	Loss: 0.39655	Val Loss: 0.47085
+Epoch: 12	Loss: 0.37575	Val Loss: 0.49810
+Epoch: 13	Loss: 0.33934	Val Loss: 0.47996
+Epoch: 14	Loss: 0.34609	Val Loss: 0.40792
+Epoch: 15	Loss: 0.32084	Val Loss: 0.46382
+Epoch: 16	Loss: 0.32944	Val Loss: 0.44405
+Epoch: 17	Loss: 0.30268	Val Loss: 0.58554
+Training Finished at Epoch 17
+
+Testing Accuracy: 0.6138400265516097
+Testing Mean-Class Accuracy: 0.5491769879765059
+Testing Loss: 1.1316574811935425
+
+
+
+
+---------- Iteration 12
+Number of initial labeled data: 290
+Number of initial unlabeled data: 1197
+Number of testing data: 434
+Training Data: 15696
+Validation Data: 3924
+Epoch: 1	Loss: 1.43883	Val Loss: 1.17849
+Epoch: 2	Loss: 0.90465	Val Loss: 1.09607
+Epoch: 3	Loss: 0.76950	Val Loss: 0.61246
+Epoch: 4	Loss: 0.68707	Val Loss: 0.67779
+Epoch: 5	Loss: 0.62347	Val Loss: 0.55362
+Epoch: 6	Loss: 0.57683	Val Loss: 0.52687
+Epoch: 7	Loss: 0.53244	Val Loss: 0.57693
+Epoch: 8	Loss: 0.49760	Val Loss: 0.53129
+Epoch: 9	Loss: 0.48010	Val Loss: 0.56027
+Epoch: 10	Loss: 0.46469	Val Loss: 0.54999
+Epoch: 11	Loss: 0.43951	Val Loss: 1.18912
+Training Finished at Epoch 11
+
+Testing Accuracy: 0.6581480252240292
+Testing Mean-Class Accuracy: 0.5773413413224011
+Testing Loss: 1.127105474472046
+
+
+
+
+---------- Iteration 13
+Number of initial labeled data: 310
+Number of initial unlabeled data: 1177
+Number of testing data: 434
+Training Data: 16665
+Validation Data: 4166
+Epoch: 1	Loss: 1.33404	Val Loss: 1.00153
+Epoch: 2	Loss: 0.87783	Val Loss: 0.67695
+Epoch: 3	Loss: 0.71001	Val Loss: 0.67843
+Epoch: 4	Loss: 0.62154	Val Loss: 0.52237
+Epoch: 5	Loss: 0.58380	Val Loss: 0.52513
+Epoch: 6	Loss: 0.53863	Val Loss: 0.49144
+Epoch: 7	Loss: 0.51789	Val Loss: 0.44014
+Epoch: 8	Loss: 0.48605	Val Loss: 0.47580
+Epoch: 9	Loss: 0.46756	Val Loss: 0.48679
+Epoch: 10	Loss: 0.44277	Val Loss: 0.49313
+Epoch: 11	Loss: 0.44680	Val Loss: 0.44011
+Epoch: 12	Loss: 0.41116	Val Loss: 0.73010
+Training Finished at Epoch 12
+
+Testing Accuracy: 0.624128775307003
+Testing Mean-Class Accuracy: 0.5632504838916125
+Testing Loss: 1.1400277614593506
+
+
+
+
+---------- Iteration 14
+Number of initial labeled data: 330
+Number of initial unlabeled data: 1157
+Number of testing data: 434
+Training Data: 18211
+Validation Data: 4552
+Epoch: 1	Loss: 1.39426	Val Loss: 0.90970
+Epoch: 2	Loss: 0.89351	Val Loss: 1.07096
+Epoch: 3	Loss: 0.72919	Val Loss: 0.60843
+Epoch: 4	Loss: 0.66389	Val Loss: 0.60574
+Epoch: 5	Loss: 0.62583	Val Loss: 0.56290
+Epoch: 6	Loss: 0.60398	Val Loss: 0.54398
+Epoch: 7	Loss: 0.56038	Val Loss: 0.60225
+Epoch: 8	Loss: 0.53272	Val Loss: 0.54631
+Epoch: 9	Loss: 0.52322	Val Loss: 0.51478
+Epoch: 10	Loss: 0.49500	Val Loss: 0.58018
+Epoch: 11	Loss: 0.47120	Val Loss: 0.61522
+Epoch: 12	Loss: 0.45799	Val Loss: 0.56215
+Epoch: 13	Loss: 0.46218	Val Loss: 0.60494
+Epoch: 14	Loss: 0.44008	Val Loss: 0.62860
+Epoch: 15	Loss: 0.42539	Val Loss: 0.62885
+Epoch: 16	Loss: 0.41643	Val Loss: 0.62662
+Epoch: 17	Loss: 0.39848	Val Loss: 0.55103
+Epoch: 18	Loss: 0.38141	Val Loss: 0.65278
+Epoch: 19	Loss: 0.37137	Val Loss: 0.73052
+Training Finished at Epoch 19
+
+Testing Accuracy: 0.6211417192167276
+Testing Mean-Class Accuracy: 0.5526876019176453
+Testing Loss: 1.131097435951233
+
+
+
+
+---------- Iteration 15
+Number of initial labeled data: 350
+Number of initial unlabeled data: 1137
+Number of testing data: 434
+Training Data: 20078
+Validation Data: 5019
+Epoch: 1	Loss: 1.80280	Val Loss: 1.12558
+Epoch: 2	Loss: 0.98865	Val Loss: 0.78333
+Epoch: 3	Loss: 0.78040	Val Loss: 0.63414
+Epoch: 4	Loss: 0.66608	Val Loss: 0.61144
+Epoch: 5	Loss: 0.66412	Val Loss: 0.58778
+Epoch: 6	Loss: 0.60408	Val Loss: 0.58853
+Epoch: 7	Loss: 0.58781	Val Loss: 0.49227
+Epoch: 8	Loss: 0.55878	Val Loss: 0.55531
+Epoch: 9	Loss: 0.54365	Val Loss: 0.58817
+Epoch: 10	Loss: 0.51496	Val Loss: 0.63176
+Epoch: 11	Loss: 0.50833	Val Loss: 0.61562
+Epoch: 12	Loss: 0.47032	Val Loss: 0.61273
+Epoch: 13	Loss: 0.46690	Val Loss: 0.52072
+Epoch: 14	Loss: 0.46423	Val Loss: 0.55945
+Epoch: 15	Loss: 0.44825	Val Loss: 0.90540
+Training Finished at Epoch 15
+
+Testing Accuracy: 0.6334218386989712
+Testing Mean-Class Accuracy: 0.5503791218461591
+Testing Loss: 1.1213350296020508
+
+
+
+
+---------- Iteration 16
+Number of initial labeled data: 370
+Number of initial unlabeled data: 1117
+Number of testing data: 434
+Training Data: 21643
+Validation Data: 5410
+Epoch: 1	Loss: 1.33911	Val Loss: 0.81481
+Epoch: 2	Loss: 0.88202	Val Loss: 0.69711
+Epoch: 3	Loss: 0.77685	Val Loss: 0.78096
+Epoch: 4	Loss: 0.70447	Val Loss: 0.58987
+Epoch: 5	Loss: 0.64601	Val Loss: 0.67497
+Epoch: 6	Loss: 0.63276	Val Loss: 0.62359
+Epoch: 7	Loss: 0.60479	Val Loss: 0.58575
+Epoch: 8	Loss: 0.58380	Val Loss: 0.68714
+Epoch: 9	Loss: 0.57219	Val Loss: 0.55177
+Epoch: 10	Loss: 0.54632	Val Loss: 0.95565
+Training Finished at Epoch 10
+
+Testing Accuracy: 0.6352472618652506
+Testing Mean-Class Accuracy: 0.5625537935409313
+Testing Loss: 1.1338249444961548
+
+
+
+
+---------- Iteration 17
+Number of initial labeled data: 390
+Number of initial unlabeled data: 1097
+Number of testing data: 434
+Training Data: 23539
+Validation Data: 5884
+Epoch: 1	Loss: 1.63780	Val Loss: 0.89553
+Epoch: 2	Loss: 0.89159	Val Loss: 0.69517
+Epoch: 3	Loss: 0.76594	Val Loss: 0.63128
+Epoch: 4	Loss: 0.71001	Val Loss: 0.64965
+Epoch: 5	Loss: 0.66567	Val Loss: 0.56095
+Epoch: 6	Loss: 0.62757	Val Loss: 0.63674
+Epoch: 7	Loss: 0.60612	Val Loss: 0.70748
+Epoch: 8	Loss: 0.59291	Val Loss: 0.98141
+Training Finished at Epoch 8
+
+Testing Accuracy: 0.6173249253235977
+Testing Mean-Class Accuracy: 0.548960980651537
+Testing Loss: 1.174622654914856
 
 
 
@@ -772,43 +2627,660 @@ Number of testing regions: 434
 
 Training Data: 3062
 Validation Data: 765
-Epoch: 1	Loss: 1.36204	Val Loss: 1.31687
-Epoch: 2	Loss: 1.20358	Val Loss: 1.23258
-Epoch: 3	Loss: 1.10683	Val Loss: 1.02184
-Epoch: 4	Loss: 0.92693	Val Loss: 0.99734
-Epoch: 5	Loss: 0.82389	Val Loss: 0.82275
-Epoch: 6	Loss: 0.74019	Val Loss: 0.80126
-Epoch: 7	Loss: 0.61736	Val Loss: 0.78208
-Epoch: 8	Loss: 0.56095	Val Loss: 0.68827
-Epoch: 9	Loss: 0.46879	Val Loss: 0.75904
-Epoch: 10	Loss: 0.38799	Val Loss: 0.74579
-Epoch: 11	Loss: 0.31493	Val Loss: 1.03159
-Epoch: 12	Loss: 0.26718	Val Loss: 0.80962
-Epoch: 13	Loss: 0.24729	Val Loss: 1.03795
-Epoch: 14	Loss: 0.18910	Val Loss: 0.95038
-Epoch: 15	Loss: 0.16154	Val Loss: 1.27688
-Epoch: 16	Loss: 0.13539	Val Loss: 1.11678
-Epoch: 17	Loss: 0.09992	Val Loss: 1.41295
-Epoch: 18	Loss: 0.10740	Val Loss: 1.02624
-Epoch: 19	Loss: 0.08941	Val Loss: 1.09057
-Epoch: 20	Loss: 0.06082	Val Loss: 1.23955
-Epoch: 21	Loss: 0.07773	Val Loss: 1.45852
-Epoch: 22	Loss: 0.06657	Val Loss: 1.34610
-Epoch: 23	Loss: 0.05543	Val Loss: 1.42949
-Epoch: 24	Loss: 0.09524	Val Loss: 1.41160
-Epoch: 25	Loss: 0.04549	Val Loss: 1.39264
-Epoch: 26	Loss: 0.04418	Val Loss: 1.48802
-Epoch: 27	Loss: 0.04251	Val Loss: 1.50556
-Epoch: 28	Loss: 0.04848	Val Loss: 1.20786
-Epoch: 29	Loss: 0.03160	Val Loss: 1.41310
-Epoch: 30	Loss: 0.03025	Val Loss: 1.68132
-Epoch: 31	Loss: 0.03435	Val Loss: 1.52702
-Epoch: 32	Loss: 0.05910	Val Loss: 1.69538
-Training Finished at Epoch 32
+Epoch: 1	Loss: 1.36077	Val Loss: 1.36398
+Epoch: 2	Loss: 1.21571	Val Loss: 1.51712
+Epoch: 3	Loss: 1.09580	Val Loss: 1.05670
+Epoch: 4	Loss: 0.92404	Val Loss: 0.92763
+Epoch: 5	Loss: 0.80091	Val Loss: 0.96345
+Epoch: 6	Loss: 0.74009	Val Loss: 0.86041
+Epoch: 7	Loss: 0.63616	Val Loss: 0.75871
+Epoch: 8	Loss: 0.55525	Val Loss: 0.76713
+Epoch: 9	Loss: 0.45738	Val Loss: 0.95097
+Epoch: 10	Loss: 0.37082	Val Loss: 0.73603
+Epoch: 11	Loss: 0.35551	Val Loss: 1.02992
+Epoch: 12	Loss: 0.26621	Val Loss: 0.85773
+Epoch: 13	Loss: 0.23962	Val Loss: 1.05893
+Epoch: 14	Loss: 0.19803	Val Loss: 1.00583
+Epoch: 15	Loss: 0.16743	Val Loss: 1.25603
+Epoch: 16	Loss: 0.12979	Val Loss: 1.11360
+Epoch: 17	Loss: 0.13191	Val Loss: 1.11158
+Epoch: 18	Loss: 0.09903	Val Loss: 1.11792
+Epoch: 19	Loss: 0.09390	Val Loss: 1.40882
+Epoch: 20	Loss: 0.07269	Val Loss: 1.18974
+Epoch: 21	Loss: 0.05341	Val Loss: 1.36444
+Epoch: 22	Loss: 0.08015	Val Loss: 2.12789
+Epoch: 23	Loss: 0.04191	Val Loss: 1.32725
+Epoch: 24	Loss: 0.05501	Val Loss: 1.31658
+Epoch: 25	Loss: 0.02903	Val Loss: 1.59161
+Epoch: 26	Loss: 0.06351	Val Loss: 1.36743
+Epoch: 27	Loss: 0.04571	Val Loss: 1.52796
+Epoch: 28	Loss: 0.03948	Val Loss: 1.42962
+Epoch: 29	Loss: 0.04495	Val Loss: 1.47577
+Epoch: 30	Loss: 0.02724	Val Loss: 1.67389
+Epoch: 31	Loss: 0.04776	Val Loss: 1.40662
+Epoch: 32	Loss: 0.02893	Val Loss: 1.67994
+Epoch: 33	Loss: 0.04170	Val Loss: 1.57476
+Epoch: 34	Loss: 0.02091	Val Loss: 1.96472
+Epoch: 35	Loss: 0.03120	Val Loss: 1.95925
+Epoch: 36	Loss: 0.01842	Val Loss: 1.76901
+Epoch: 37	Loss: 0.03828	Val Loss: 1.78524
+Epoch: 38	Loss: 0.03330	Val Loss: 2.07097
+Epoch: 39	Loss: 0.03888	Val Loss: 1.68841
+Epoch: 40	Loss: 0.02232	Val Loss: 1.83716
+Epoch: 41	Loss: 0.03201	Val Loss: 1.93682
+Epoch: 42	Loss: 0.04475	Val Loss: 1.74419
+Epoch: 43	Loss: 0.02660	Val Loss: 1.42182
+Epoch: 44	Loss: 0.00855	Val Loss: 1.41456
+Epoch: 45	Loss: 0.00778	Val Loss: 1.51619
+Epoch: 46	Loss: 0.02981	Val Loss: 1.61823
+Epoch: 47	Loss: 0.02637	Val Loss: 1.44689
+Epoch: 48	Loss: 0.02431	Val Loss: 1.65347
+Epoch: 49	Loss: 0.01695	Val Loss: 2.38851
+Epoch: 50	Loss: 0.02281	Val Loss: 1.93244
+Epoch: 51	Loss: 0.01257	Val Loss: 1.82865
+Epoch: 52	Loss: 0.00919	Val Loss: 2.14221
+Epoch: 53	Loss: 0.03078	Val Loss: 1.97175
+Epoch: 54	Loss: 0.01829	Val Loss: 2.08840
+Epoch: 55	Loss: 0.01750	Val Loss: 2.29521
+Epoch: 56	Loss: 0.01990	Val Loss: 2.20024
+Epoch: 57	Loss: 0.01634	Val Loss: 1.95993
+Epoch: 58	Loss: 0.01644	Val Loss: 1.94620
+Training Finished at Epoch 58
 
-Testing Accuracy: 0.5854629936939927
-Testing Mean-Class Accuracy: 0.5525771895873351
-Testing Loss: 1.147873044013977
+Testing Accuracy: 0.6003982741453701
+Testing Mean-Class Accuracy: 0.5425188747169446
+Testing Loss: 1.1359951496124268
+
+
+
+
+---------- Iteration 1
+Number of initial labeled data: 70
+Number of initial unlabeled data: 1417
+Number of testing data: 434
+Training Data: 3484
+Validation Data: 871
+Epoch: 1	Loss: 1.79251	Val Loss: 1.19077
+Epoch: 2	Loss: 1.14003	Val Loss: 0.99713
+Epoch: 3	Loss: 0.97257	Val Loss: 0.88047
+Epoch: 4	Loss: 0.78281	Val Loss: 0.94095
+Epoch: 5	Loss: 0.65059	Val Loss: 0.62568
+Epoch: 6	Loss: 0.60612	Val Loss: 0.71724
+Epoch: 7	Loss: 0.47817	Val Loss: 0.67675
+Epoch: 8	Loss: 0.39941	Val Loss: 0.85164
+Epoch: 9	Loss: 0.35569	Val Loss: 0.86586
+Epoch: 10	Loss: 0.29341	Val Loss: 0.76633
+Epoch: 11	Loss: 0.25499	Val Loss: 0.73079
+Epoch: 12	Loss: 0.23460	Val Loss: 0.81223
+Epoch: 13	Loss: 0.17215	Val Loss: 0.81401
+Epoch: 14	Loss: 0.14132	Val Loss: 1.03940
+Epoch: 15	Loss: 0.15179	Val Loss: 0.82109
+Epoch: 16	Loss: 0.12455	Val Loss: 0.94861
+Epoch: 17	Loss: 0.10637	Val Loss: 1.05703
+Epoch: 18	Loss: 0.12030	Val Loss: 0.82252
+Epoch: 19	Loss: 0.08797	Val Loss: 1.12886
+Epoch: 20	Loss: 0.11775	Val Loss: 1.17025
+Epoch: 21	Loss: 0.06503	Val Loss: 1.02687
+Epoch: 22	Loss: 0.08357	Val Loss: 1.10274
+Epoch: 23	Loss: 0.05586	Val Loss: 1.04560
+Epoch: 24	Loss: 0.08573	Val Loss: 1.29669
+Epoch: 25	Loss: 0.05396	Val Loss: 1.14552
+Epoch: 26	Loss: 0.03963	Val Loss: 1.19548
+Epoch: 27	Loss: 0.05315	Val Loss: 1.39769
+Epoch: 28	Loss: 0.06905	Val Loss: 1.15255
+Epoch: 29	Loss: 0.05119	Val Loss: 1.08825
+Epoch: 30	Loss: 0.05392	Val Loss: 1.57206
+Epoch: 31	Loss: 0.07718	Val Loss: 1.29117
+Epoch: 32	Loss: 0.06441	Val Loss: 1.09927
+Epoch: 33	Loss: 0.02618	Val Loss: 1.15821
+Epoch: 34	Loss: 0.04637	Val Loss: 1.10021
+Epoch: 35	Loss: 0.04336	Val Loss: 1.30039
+Epoch: 36	Loss: 0.04700	Val Loss: 1.06140
+Epoch: 37	Loss: 0.02927	Val Loss: 1.64944
+Epoch: 38	Loss: 0.04080	Val Loss: 1.31228
+Epoch: 39	Loss: 0.05012	Val Loss: 1.33863
+Epoch: 40	Loss: 0.04104	Val Loss: 1.28570
+Epoch: 41	Loss: 0.02423	Val Loss: 1.38961
+Epoch: 42	Loss: 0.03535	Val Loss: 1.16430
+Epoch: 43	Loss: 0.01893	Val Loss: 1.57125
+Epoch: 44	Loss: 0.07186	Val Loss: 1.47273
+Epoch: 45	Loss: 0.02392	Val Loss: 1.50105
+Epoch: 46	Loss: 0.02421	Val Loss: 1.81836
+Epoch: 47	Loss: 0.05573	Val Loss: 1.77690
+Epoch: 48	Loss: 0.02619	Val Loss: 1.67139
+Epoch: 49	Loss: 0.02119	Val Loss: 1.30365
+Epoch: 50	Loss: 0.02758	Val Loss: 1.54449
+Epoch: 51	Loss: 0.05832	Val Loss: 1.53038
+Epoch: 52	Loss: 0.02134	Val Loss: 1.80433
+Epoch: 53	Loss: 0.01406	Val Loss: 1.52557
+Epoch: 54	Loss: 0.03120	Val Loss: 1.33676
+Epoch: 55	Loss: 0.03370	Val Loss: 2.04893
+Epoch: 56	Loss: 0.02088	Val Loss: 1.91188
+Epoch: 57	Loss: 0.03639	Val Loss: 1.52377
+Epoch: 58	Loss: 0.02031	Val Loss: 1.42213
+Epoch: 59	Loss: 0.01851	Val Loss: 1.53118
+Epoch: 60	Loss: 0.02542	Val Loss: 1.79733
+Epoch: 61	Loss: 0.02217	Val Loss: 1.52319
+Epoch: 62	Loss: 0.03176	Val Loss: 1.30841
+Epoch: 63	Loss: 0.01880	Val Loss: 1.33542
+Epoch: 64	Loss: 0.02557	Val Loss: 1.42755
+Epoch: 65	Loss: 0.01822	Val Loss: 1.67781
+Training Finished at Epoch 65
+
+Testing Accuracy: 0.6002323265847992
+Testing Mean-Class Accuracy: 0.5379381892903903
+Testing Loss: 1.135554313659668
+
+
+
+
+---------- Iteration 2
+Number of initial labeled data: 90
+Number of initial unlabeled data: 1397
+Number of testing data: 434
+Training Data: 3811
+Validation Data: 952
+Epoch: 1	Loss: 1.72763	Val Loss: 1.18795
+Epoch: 2	Loss: 1.16322	Val Loss: 1.44704
+Epoch: 3	Loss: 0.95474	Val Loss: 0.95748
+Epoch: 4	Loss: 0.73242	Val Loss: 0.66338
+Epoch: 5	Loss: 0.57068	Val Loss: 0.79138
+Epoch: 6	Loss: 0.50788	Val Loss: 0.62364
+Epoch: 7	Loss: 0.40641	Val Loss: 0.47024
+Epoch: 8	Loss: 0.35514	Val Loss: 0.61874
+Epoch: 9	Loss: 0.31887	Val Loss: 0.43406
+Epoch: 10	Loss: 0.23673	Val Loss: 0.57440
+Epoch: 11	Loss: 0.23660	Val Loss: 0.49577
+Epoch: 12	Loss: 0.21035	Val Loss: 0.51226
+Epoch: 13	Loss: 0.16274	Val Loss: 0.61641
+Epoch: 14	Loss: 0.16313	Val Loss: 0.40241
+Epoch: 15	Loss: 0.12206	Val Loss: 0.58531
+Epoch: 16	Loss: 0.11738	Val Loss: 0.66508
+Epoch: 17	Loss: 0.12183	Val Loss: 0.58619
+Epoch: 18	Loss: 0.12972	Val Loss: 0.70676
+Epoch: 19	Loss: 0.10142	Val Loss: 0.58531
+Epoch: 20	Loss: 0.10763	Val Loss: 0.56540
+Epoch: 21	Loss: 0.07886	Val Loss: 0.65636
+Epoch: 22	Loss: 0.08113	Val Loss: 0.55801
+Epoch: 23	Loss: 0.11774	Val Loss: 0.75151
+Epoch: 24	Loss: 0.07946	Val Loss: 0.76753
+Epoch: 25	Loss: 0.08062	Val Loss: 0.59884
+Epoch: 26	Loss: 0.06431	Val Loss: 0.80899
+Training Finished at Epoch 26
+
+Testing Accuracy: 0.6178227680053103
+Testing Mean-Class Accuracy: 0.542428792083784
+Testing Loss: 1.1169075965881348
+
+
+
+
+---------- Iteration 3
+Number of initial labeled data: 110
+Number of initial unlabeled data: 1377
+Number of testing data: 434
+Training Data: 4536
+Validation Data: 1134
+Epoch: 1	Loss: 1.94821	Val Loss: 1.19305
+Epoch: 2	Loss: 1.11579	Val Loss: 0.88330
+Epoch: 3	Loss: 0.81570	Val Loss: 0.75568
+Epoch: 4	Loss: 0.60131	Val Loss: 0.61141
+Epoch: 5	Loss: 0.49519	Val Loss: 0.56975
+Epoch: 6	Loss: 0.40473	Val Loss: 0.49435
+Epoch: 7	Loss: 0.34027	Val Loss: 0.43557
+Epoch: 8	Loss: 0.31740	Val Loss: 0.45916
+Epoch: 9	Loss: 0.24415	Val Loss: 0.59893
+Epoch: 10	Loss: 0.22064	Val Loss: 0.52508
+Epoch: 11	Loss: 0.19035	Val Loss: 0.60557
+Epoch: 12	Loss: 0.19285	Val Loss: 0.43332
+Epoch: 13	Loss: 0.14467	Val Loss: 0.57379
+Epoch: 14	Loss: 0.16448	Val Loss: 0.61338
+Epoch: 15	Loss: 0.16074	Val Loss: 0.85311
+Epoch: 16	Loss: 0.13097	Val Loss: 0.60151
+Epoch: 17	Loss: 0.11379	Val Loss: 0.57462
+Epoch: 18	Loss: 0.11279	Val Loss: 0.53649
+Epoch: 19	Loss: 0.09838	Val Loss: 0.89346
+Training Finished at Epoch 19
+
+Testing Accuracy: 0.5667109193494856
+Testing Mean-Class Accuracy: 0.5294821508261472
+Testing Loss: 1.16305673122406
+
+
+
+
+---------- Iteration 4
+Number of initial labeled data: 130
+Number of initial unlabeled data: 1357
+Number of testing data: 434
+Training Data: 5241
+Validation Data: 1310
+Epoch: 1	Loss: 1.77479	Val Loss: 1.12724
+Epoch: 2	Loss: 1.09679	Val Loss: 0.83550
+Epoch: 3	Loss: 0.87824	Val Loss: 0.64284
+Epoch: 4	Loss: 0.67349	Val Loss: 0.52570
+Epoch: 5	Loss: 0.57854	Val Loss: 0.48047
+Epoch: 6	Loss: 0.48694	Val Loss: 0.42123
+Epoch: 7	Loss: 0.40092	Val Loss: 0.36228
+Epoch: 8	Loss: 0.36742	Val Loss: 0.38736
+Epoch: 9	Loss: 0.33331	Val Loss: 0.43077
+Epoch: 10	Loss: 0.29733	Val Loss: 0.44241
+Epoch: 11	Loss: 0.25402	Val Loss: 0.44923
+Epoch: 12	Loss: 0.24629	Val Loss: 0.45007
+Epoch: 13	Loss: 0.20740	Val Loss: 0.62407
+Epoch: 14	Loss: 0.21227	Val Loss: 0.44572
+Epoch: 15	Loss: 0.19454	Val Loss: 0.43110
+Epoch: 16	Loss: 0.15797	Val Loss: 0.48995
+Epoch: 17	Loss: 0.18482	Val Loss: 0.58736
+Epoch: 18	Loss: 0.14951	Val Loss: 0.71075
+Epoch: 19	Loss: 0.14643	Val Loss: 0.51443
+Epoch: 20	Loss: 0.13940	Val Loss: 0.57629
+Epoch: 21	Loss: 0.10949	Val Loss: 0.63766
+Training Finished at Epoch 21
+
+Testing Accuracy: 0.585131098572851
+Testing Mean-Class Accuracy: 0.543422139224039
+Testing Loss: 1.1446231603622437
+
+
+
+
+---------- Iteration 5
+Number of initial labeled data: 150
+Number of initial unlabeled data: 1337
+Number of testing data: 434
+Training Data: 6192
+Validation Data: 1548
+Epoch: 1	Loss: 1.56157	Val Loss: 1.04041
+Epoch: 2	Loss: 0.94019	Val Loss: 0.69854
+Epoch: 3	Loss: 0.71609	Val Loss: 0.52269
+Epoch: 4	Loss: 0.54180	Val Loss: 0.46120
+Epoch: 5	Loss: 0.47880	Val Loss: 0.41315
+Epoch: 6	Loss: 0.38752	Val Loss: 0.51166
+Epoch: 7	Loss: 0.35092	Val Loss: 0.40805
+Epoch: 8	Loss: 0.31689	Val Loss: 0.48573
+Epoch: 9	Loss: 0.28485	Val Loss: 0.41540
+Epoch: 10	Loss: 0.25512	Val Loss: 0.41779
+Epoch: 11	Loss: 0.24107	Val Loss: 0.50026
+Epoch: 12	Loss: 0.24492	Val Loss: 0.49800
+Epoch: 13	Loss: 0.20981	Val Loss: 0.64743
+Training Finished at Epoch 13
+
+Testing Accuracy: 0.6042150680384998
+Testing Mean-Class Accuracy: 0.5467333242173152
+Testing Loss: 1.1285841464996338
+
+
+
+
+---------- Iteration 6
+Number of initial labeled data: 170
+Number of initial unlabeled data: 1317
+Number of testing data: 434
+Training Data: 7099
+Validation Data: 1774
+Epoch: 1	Loss: 1.58141	Val Loss: 0.95750
+Epoch: 2	Loss: 0.98093	Val Loss: 0.78408
+Epoch: 3	Loss: 0.74816	Val Loss: 0.70841
+Epoch: 4	Loss: 0.61859	Val Loss: 0.51889
+Epoch: 5	Loss: 0.53930	Val Loss: 0.51113
+Epoch: 6	Loss: 0.46759	Val Loss: 0.50176
+Epoch: 7	Loss: 0.40406	Val Loss: 0.64281
+Epoch: 8	Loss: 0.37706	Val Loss: 0.53028
+Epoch: 9	Loss: 0.35213	Val Loss: 0.54458
+Epoch: 10	Loss: 0.32202	Val Loss: 0.48923
+Epoch: 11	Loss: 0.28914	Val Loss: 0.68046
+Epoch: 12	Loss: 0.27353	Val Loss: 0.49574
+Epoch: 13	Loss: 0.25841	Val Loss: 0.50906
+Epoch: 14	Loss: 0.23824	Val Loss: 0.50923
+Epoch: 15	Loss: 0.22822	Val Loss: 0.60808
+Epoch: 16	Loss: 0.24635	Val Loss: 0.55239
+Epoch: 17	Loss: 0.19538	Val Loss: 0.58058
+Epoch: 18	Loss: 0.19007	Val Loss: 0.80892
+Epoch: 19	Loss: 0.19301	Val Loss: 0.75027
+Epoch: 20	Loss: 0.19904	Val Loss: 0.60907
+Epoch: 21	Loss: 0.18762	Val Loss: 0.55421
+Epoch: 22	Loss: 0.16239	Val Loss: 0.66735
+Training Finished at Epoch 22
+
+Testing Accuracy: 0.6510122801194822
+Testing Mean-Class Accuracy: 0.569694666391061
+Testing Loss: 1.0884218215942383
+
+
+
+
+---------- Iteration 7
+Number of initial labeled data: 190
+Number of initial unlabeled data: 1297
+Number of testing data: 434
+Training Data: 8467
+Validation Data: 2116
+Epoch: 1	Loss: 1.56782	Val Loss: 1.00816
+Epoch: 2	Loss: 0.91286	Val Loss: 0.58941
+Epoch: 3	Loss: 0.70378	Val Loss: 0.53892
+Epoch: 4	Loss: 0.61088	Val Loss: 0.73789
+Epoch: 5	Loss: 0.53825	Val Loss: 0.59013
+Epoch: 6	Loss: 0.45669	Val Loss: 0.60807
+Epoch: 7	Loss: 0.45226	Val Loss: 0.48145
+Epoch: 8	Loss: 0.37774	Val Loss: 0.48684
+Epoch: 9	Loss: 0.37741	Val Loss: 0.67725
+Epoch: 10	Loss: 0.34682	Val Loss: 0.48995
+Epoch: 11	Loss: 0.31918	Val Loss: 0.46519
+Epoch: 12	Loss: 0.29436	Val Loss: 0.50210
+Epoch: 13	Loss: 0.28871	Val Loss: 0.48828
+Epoch: 14	Loss: 0.26954	Val Loss: 0.49167
+Epoch: 15	Loss: 0.26535	Val Loss: 0.58648
+Epoch: 16	Loss: 0.25689	Val Loss: 0.47724
+Epoch: 17	Loss: 0.25943	Val Loss: 0.42246
+Epoch: 18	Loss: 0.23476	Val Loss: 0.57747
+Training Finished at Epoch 18
+
+Testing Accuracy: 0.6068702290076335
+Testing Mean-Class Accuracy: 0.5470233721609178
+Testing Loss: 1.133059024810791
+
+
+
+
+---------- Iteration 8
+Number of initial labeled data: 210
+Number of initial unlabeled data: 1277
+Number of testing data: 434
+Training Data: 9672
+Validation Data: 2418
+Epoch: 1	Loss: 1.70394	Val Loss: 1.09463
+Epoch: 2	Loss: 0.95263	Val Loss: 0.81706
+Epoch: 3	Loss: 0.81162	Val Loss: 0.69420
+Epoch: 4	Loss: 0.66830	Val Loss: 0.66587
+Epoch: 5	Loss: 0.58597	Val Loss: 0.89590
+Epoch: 6	Loss: 0.53113	Val Loss: 0.84844
+Epoch: 7	Loss: 0.46372	Val Loss: 0.67014
+Epoch: 8	Loss: 0.45694	Val Loss: 0.51721
+Epoch: 9	Loss: 0.41333	Val Loss: 0.62198
+Epoch: 10	Loss: 0.37143	Val Loss: 0.68175
+Epoch: 11	Loss: 0.34155	Val Loss: 0.64079
+Epoch: 12	Loss: 0.33262	Val Loss: 0.67394
+Epoch: 13	Loss: 0.32634	Val Loss: 0.79523
+Epoch: 14	Loss: 0.30920	Val Loss: 0.77485
+Training Finished at Epoch 14
+
+Testing Accuracy: 0.650182542316628
+Testing Mean-Class Accuracy: 0.5546270357856694
+Testing Loss: 1.0930235385894775
+
+
+
+
+---------- Iteration 9
+Number of initial labeled data: 230
+Number of initial unlabeled data: 1257
+Number of testing data: 434
+Training Data: 10747
+Validation Data: 2686
+Epoch: 1	Loss: 1.27693	Val Loss: 0.85937
+Epoch: 2	Loss: 0.80078	Val Loss: 0.56021
+Epoch: 3	Loss: 0.63937	Val Loss: 0.62103
+Epoch: 4	Loss: 0.57872	Val Loss: 0.52581
+Epoch: 5	Loss: 0.50801	Val Loss: 0.46445
+Epoch: 6	Loss: 0.47331	Val Loss: 0.61471
+Epoch: 7	Loss: 0.42972	Val Loss: 0.49763
+Epoch: 8	Loss: 0.39113	Val Loss: 0.45610
+Epoch: 9	Loss: 0.39033	Val Loss: 0.42464
+Epoch: 10	Loss: 0.35887	Val Loss: 0.69335
+Training Finished at Epoch 10
+
+Testing Accuracy: 0.6271158313972784
+Testing Mean-Class Accuracy: 0.5565696119407322
+Testing Loss: 1.1266324520111084
+
+
+
+
+---------- Iteration 10
+Number of initial labeled data: 250
+Number of initial unlabeled data: 1237
+Number of testing data: 434
+Training Data: 12792
+Validation Data: 3198
+Epoch: 1	Loss: 1.36390	Val Loss: 0.81223
+Epoch: 2	Loss: 0.83442	Val Loss: 0.71117
+Epoch: 3	Loss: 0.72086	Val Loss: 0.63350
+Epoch: 4	Loss: 0.64564	Val Loss: 0.59873
+Epoch: 5	Loss: 0.61702	Val Loss: 0.59447
+Epoch: 6	Loss: 0.55445	Val Loss: 0.67431
+Epoch: 7	Loss: 0.51976	Val Loss: 0.52175
+Epoch: 8	Loss: 0.49194	Val Loss: 0.63947
+Epoch: 9	Loss: 0.46510	Val Loss: 0.65920
+Epoch: 10	Loss: 0.46204	Val Loss: 0.66341
+Epoch: 11	Loss: 0.42202	Val Loss: 0.64725
+Epoch: 12	Loss: 0.41218	Val Loss: 0.57302
+Epoch: 13	Loss: 0.40608	Val Loss: 0.55252
+Epoch: 14	Loss: 0.38383	Val Loss: 0.62302
+Epoch: 15	Loss: 0.36891	Val Loss: 0.65153
+Epoch: 16	Loss: 0.37203	Val Loss: 0.62521
+Epoch: 17	Loss: 0.33580	Val Loss: 0.63256
+Epoch: 18	Loss: 0.34355	Val Loss: 0.64738
+Epoch: 19	Loss: 0.32550	Val Loss: 0.69874
+Epoch: 20	Loss: 0.30257	Val Loss: 1.04242
+Training Finished at Epoch 20
+
+Testing Accuracy: 0.6554928642548955
+Testing Mean-Class Accuracy: 0.5794443085299956
+Testing Loss: 1.0985312461853027
+
+
+
+
+---------- Iteration 11
+Number of initial labeled data: 270
+Number of initial unlabeled data: 1217
+Number of testing data: 434
+Training Data: 14097
+Validation Data: 3524
+Epoch: 1	Loss: 1.35795	Val Loss: 0.93662
+Epoch: 2	Loss: 0.87336	Val Loss: 0.67992
+Epoch: 3	Loss: 0.72720	Val Loss: 0.57620
+Epoch: 4	Loss: 0.66438	Val Loss: 0.57670
+Epoch: 5	Loss: 0.61804	Val Loss: 0.57433
+Epoch: 6	Loss: 0.55294	Val Loss: 0.57986
+Epoch: 7	Loss: 0.52907	Val Loss: 0.79831
+Epoch: 8	Loss: 0.49352	Val Loss: 0.61475
+Epoch: 9	Loss: 0.46784	Val Loss: 0.68589
+Epoch: 10	Loss: 0.43915	Val Loss: 0.55423
+Epoch: 11	Loss: 0.43075	Val Loss: 0.66353
+Epoch: 12	Loss: 0.39691	Val Loss: 0.57739
+Epoch: 13	Loss: 0.39680	Val Loss: 0.58586
+Epoch: 14	Loss: 0.37988	Val Loss: 0.58404
+Epoch: 15	Loss: 0.36402	Val Loss: 0.57895
+Epoch: 16	Loss: 0.35741	Val Loss: 0.71618
+Epoch: 17	Loss: 0.36070	Val Loss: 0.57119
+Epoch: 18	Loss: 0.33503	Val Loss: 0.63029
+Epoch: 19	Loss: 0.31619	Val Loss: 0.53767
+Epoch: 20	Loss: 0.31376	Val Loss: 0.64085
+Epoch: 21	Loss: 0.32054	Val Loss: 0.67292
+Epoch: 22	Loss: 0.30047	Val Loss: 0.62924
+Epoch: 23	Loss: 0.27777	Val Loss: 0.67037
+Epoch: 24	Loss: 0.28028	Val Loss: 0.87254
+Training Finished at Epoch 24
+
+Testing Accuracy: 0.6168270826418851
+Testing Mean-Class Accuracy: 0.5493731217090343
+Testing Loss: 1.1276687383651733
+
+
+
+
+---------- Iteration 12
+Number of initial labeled data: 290
+Number of initial unlabeled data: 1197
+Number of testing data: 434
+Training Data: 15312
+Validation Data: 3828
+Epoch: 1	Loss: 1.77532	Val Loss: 1.16043
+Epoch: 2	Loss: 0.93131	Val Loss: 0.81012
+Epoch: 3	Loss: 0.74239	Val Loss: 0.77053
+Epoch: 4	Loss: 0.65094	Val Loss: 0.54397
+Epoch: 5	Loss: 0.59626	Val Loss: 0.90741
+Epoch: 6	Loss: 0.53823	Val Loss: 0.47715
+Epoch: 7	Loss: 0.50751	Val Loss: 0.46258
+Epoch: 8	Loss: 0.47369	Val Loss: 0.67502
+Epoch: 9	Loss: 0.46577	Val Loss: 0.54128
+Epoch: 10	Loss: 0.43232	Val Loss: 0.71662
+Training Finished at Epoch 10
+
+Testing Accuracy: 0.6614669764354464
+Testing Mean-Class Accuracy: 0.5907822419925678
+Testing Loss: 1.100032091140747
+
+
+
+
+---------- Iteration 13
+Number of initial labeled data: 310
+Number of initial unlabeled data: 1177
+Number of testing data: 434
+Training Data: 16612
+Validation Data: 4153
+Epoch: 1	Loss: 1.32921	Val Loss: 0.98219
+Epoch: 2	Loss: 0.96186	Val Loss: 0.86420
+Epoch: 3	Loss: 0.87344	Val Loss: 0.77459
+Epoch: 4	Loss: 0.79444	Val Loss: 0.79603
+Epoch: 5	Loss: 0.75579	Val Loss: 0.69461
+Epoch: 6	Loss: 0.69307	Val Loss: 0.66362
+Epoch: 7	Loss: 0.67355	Val Loss: 0.69587
+Epoch: 8	Loss: 0.63070	Val Loss: 0.63225
+Epoch: 9	Loss: 0.59859	Val Loss: 0.67886
+Epoch: 10	Loss: 0.58906	Val Loss: 0.69526
+Epoch: 11	Loss: 0.54453	Val Loss: 0.63280
+Epoch: 12	Loss: 0.53798	Val Loss: 0.59990
+Epoch: 13	Loss: 0.51869	Val Loss: 0.67004
+Epoch: 14	Loss: 0.49168	Val Loss: 0.65473
+Epoch: 15	Loss: 0.50124	Val Loss: 0.62981
+Epoch: 16	Loss: 0.46581	Val Loss: 0.65543
+Epoch: 17	Loss: 0.45164	Val Loss: 0.70754
+Epoch: 18	Loss: 0.43987	Val Loss: 0.60842
+Epoch: 19	Loss: 0.43941	Val Loss: 0.70269
+Epoch: 20	Loss: 0.42181	Val Loss: 0.65636
+Epoch: 21	Loss: 0.40956	Val Loss: 0.76577
+Training Finished at Epoch 21
+
+Testing Accuracy: 0.62163956189844
+Testing Mean-Class Accuracy: 0.5447020430652996
+Testing Loss: 1.1388427019119263
+
+
+
+
+---------- Iteration 14
+Number of initial labeled data: 330
+Number of initial unlabeled data: 1157
+Number of testing data: 434
+Training Data: 18297
+Validation Data: 4574
+Epoch: 1	Loss: 1.63134	Val Loss: 0.97844
+Epoch: 2	Loss: 0.94387	Val Loss: 0.78463
+Epoch: 3	Loss: 0.79250	Val Loss: 0.65526
+Epoch: 4	Loss: 0.72586	Val Loss: 0.66534
+Epoch: 5	Loss: 0.67944	Val Loss: 0.62731
+Epoch: 6	Loss: 0.64586	Val Loss: 0.53969
+Epoch: 7	Loss: 0.60693	Val Loss: 0.62848
+Epoch: 8	Loss: 0.58558	Val Loss: 0.57107
+Epoch: 9	Loss: 0.56215	Val Loss: 0.56735
+Epoch: 10	Loss: 0.54962	Val Loss: 0.82868
+Training Finished at Epoch 10
+
+Testing Accuracy: 0.6337537338201128
+Testing Mean-Class Accuracy: 0.5600289869953986
+Testing Loss: 1.1438119411468506
+
+
+
+
+---------- Iteration 15
+Number of initial labeled data: 350
+Number of initial unlabeled data: 1137
+Number of testing data: 434
+Training Data: 19747
+Validation Data: 4936
+Epoch: 1	Loss: 1.29178	Val Loss: 0.78613
+Epoch: 2	Loss: 0.80587	Val Loss: 0.74771
+Epoch: 3	Loss: 0.71511	Val Loss: 0.62367
+Epoch: 4	Loss: 0.67159	Val Loss: 0.58267
+Epoch: 5	Loss: 0.63417	Val Loss: 0.66201
+Epoch: 6	Loss: 0.60614	Val Loss: 0.57402
+Epoch: 7	Loss: 0.58980	Val Loss: 0.65126
+Epoch: 8	Loss: 0.56846	Val Loss: 0.58270
+Epoch: 9	Loss: 0.54702	Val Loss: 0.66302
+Epoch: 10	Loss: 0.52883	Val Loss: 0.65535
+Epoch: 11	Loss: 0.52690	Val Loss: 0.56575
+Epoch: 12	Loss: 0.50027	Val Loss: 0.65889
+Epoch: 13	Loss: 0.48660	Val Loss: 0.65958
+Epoch: 14	Loss: 0.48305	Val Loss: 0.63086
+Epoch: 15	Loss: 0.46374	Val Loss: 0.77445
+Training Finished at Epoch 15
+
+Testing Accuracy: 0.6369067374709592
+Testing Mean-Class Accuracy: 0.5657787407315296
+Testing Loss: 1.13481605052948
+
+
+
+
+---------- Iteration 16
+Number of initial labeled data: 370
+Number of initial unlabeled data: 1117
+Number of testing data: 434
+Training Data: 21168
+Validation Data: 5292
+Epoch: 1	Loss: 1.66337	Val Loss: 0.93037
+Epoch: 2	Loss: 0.92789	Val Loss: 0.81167
+Epoch: 3	Loss: 0.83309	Val Loss: 0.84556
+Epoch: 4	Loss: 0.77739	Val Loss: 0.84154
+Epoch: 5	Loss: 0.73382	Val Loss: 0.67181
+Epoch: 6	Loss: 0.69446	Val Loss: 0.73120
+Epoch: 7	Loss: 0.67559	Val Loss: 0.62638
+Epoch: 8	Loss: 0.64687	Val Loss: 0.61120
+Epoch: 9	Loss: 0.62638	Val Loss: 0.64091
+Epoch: 10	Loss: 0.60962	Val Loss: 0.57673
+Epoch: 11	Loss: 0.58893	Val Loss: 0.56640
+Epoch: 12	Loss: 0.56889	Val Loss: 0.58123
+Epoch: 13	Loss: 0.54614	Val Loss: 0.61775
+Epoch: 14	Loss: 0.54569	Val Loss: 0.60210
+Epoch: 15	Loss: 0.53481	Val Loss: 0.70229
+Training Finished at Epoch 15
+
+Testing Accuracy: 0.5906073680716893
+Testing Mean-Class Accuracy: 0.538445025973125
+Testing Loss: 1.1688380241394043
+
+
+
+
+---------- Iteration 17
+Number of initial labeled data: 390
+Number of initial unlabeled data: 1097
+Number of testing data: 434
+Training Data: 23251
+Validation Data: 5812
+Epoch: 1	Loss: 1.73035	Val Loss: 1.02887
+Epoch: 2	Loss: 1.02273	Val Loss: 0.85705
+Epoch: 3	Loss: 0.89999	Val Loss: 0.78815
+Epoch: 4	Loss: 0.82602	Val Loss: 0.79785
+Epoch: 5	Loss: 0.78932	Val Loss: 0.75412
+Epoch: 6	Loss: 0.76247	Val Loss: 0.68341
+Epoch: 7	Loss: 0.72054	Val Loss: 0.88799
+Epoch: 8	Loss: 0.69392	Val Loss: 0.82031
+Epoch: 9	Loss: 0.68140	Val Loss: 0.68119
+Epoch: 10	Loss: 0.65119	Val Loss: 0.71526
+Epoch: 11	Loss: 0.63678	Val Loss: 0.66227
+Epoch: 12	Loss: 0.63621	Val Loss: 0.78645
+Epoch: 13	Loss: 0.61732	Val Loss: 0.92242
+Training Finished at Epoch 13
+
+Testing Accuracy: 0.6010620643876535
+Testing Mean-Class Accuracy: 0.560850486396542
+Testing Loss: 1.179171085357666
 
 
 
