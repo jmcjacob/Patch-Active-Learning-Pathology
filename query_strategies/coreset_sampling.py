@@ -1,10 +1,7 @@
 from strategy import Strategy
 
-import os
 import gc
 import torch
-import pickle
-import shutil
 import numpy as np
 import gurobipy as gurobi
 from scipy.spatial import distance_matrix
@@ -45,7 +42,7 @@ class CoreSetSampling(Strategy):
         lower_bound = max_delta / 2.0
         print("Building MIP Model...")
         model, graph = self.mip_model(region_predictions, labeled_indices, len(labeled_indices) + n, upper_bound,
-                                      outlier_count, greddy_indices=new_indices)
+                                      outlier_count, greedy_indices=new_indices)
 
         model.Params.SubMIPNodes = submipnodes
         points = model.__data[0]
@@ -114,7 +111,7 @@ class CoreSetSampling(Strategy):
 
         return np.array(greddy_indices, dtype=int), np.max(min_dist)
 
-    def mip_model(self, embeddings, labeled_indices, n, delta, outlier_count, greddy_indices):
+    def mip_model(self, embeddings, labeled_indices, n, delta, outlier_count, greedy_indices):
         model = gurobi.Model("Core Set Selection")
 
         points = {}
@@ -128,8 +125,8 @@ class CoreSetSampling(Strategy):
             outliers[i] = model.addVar(vtype="B", name="outliers_{}".format(i))
             outliers[i].start = 0
 
-        if greddy_indices is not None:
-            for i in greddy_indices:
+        if greedy_indices is not None:
+            for i in greedy_indices:
                 points[i].start = 1.0
 
         model.addConstr(sum(outliers[i] for i in outliers) <= outlier_count, "budget")

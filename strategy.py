@@ -186,9 +186,9 @@ class Strategy:
             train_losses.append(train_loss / train_batch)
             val_losses.append(val_loss / val_batch)
 
-            if (val_loss / val_batch) < min_val:
-                min_val = val_loss / val_batch
-                torch.save(self.classifier.state_dict(), 'Min_Val.pt')
+            # if (val_loss / val_batch) < min_val:
+            #    min_val = val_loss / val_batch
+            #    torch.save(self.classifier.state_dict(), 'Min_Val.pt')
 
             # Logs the epoch and losses at the end of the epoch.
             self.log("Epoch: {0}\tLoss: {1:.5f}\tVal Loss: {2:.5f}".format(epoch + 1, train_losses[-1], val_losses[-1]))
@@ -208,6 +208,8 @@ class Strategy:
                     if g_loss / t_progress >= self.arguments.target:
                         # Ends training by exiting the main training loop.
                         break
+
+            torch.save(self.classifier.state_dict(), "Min_Val.pt")
 
             # Forces the garbage collector to collect the unused values.
             gc.collect()
