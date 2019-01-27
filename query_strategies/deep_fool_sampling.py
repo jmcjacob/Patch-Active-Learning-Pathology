@@ -14,10 +14,11 @@ class DeepFoolSampling(Strategy):
 
         data_pool = self.data_handler(self.x[unlabeled_indices], self.y[unlabeled_indices])
         for i in range(len(data_pool)):
-            if i % 100 == 0:
+            if i % 1000 == 0:
                 print("adv {}/{}".format(i, len(data_pool)))
             x, y, index = data_pool[i]
             distances.append(self.calculate_distanced(x))
+        print("adv {0}/{0}".format(len(data_pool)))
 
         regions = []
         for i in self.y[unlabeled_indices]:
