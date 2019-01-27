@@ -10,6 +10,41 @@ class DeepFoolSampling(Strategy):
         unlabeled_indices = np.arange(self.pool_size)[~self.labeled_indices]
         self.classifier.cpu()
         self.classifier.eval()
+        distances = []
+
+        data_pool = self.data_handler(self.x[unlabeled_indices], self.y[unlabeled_indices])
+        for i in range(len(data_pool)):
+            if i % 100 == 0:
+                print("adv {}/{}".format(i, len(data_pool)))
+            x, y, index = data_pool[i]
+            distances.append(self.calculate_distanced(x))
+
+        regions = []
+        for i in self.y[unlabeled_indices]:
+            regions.append(len(i))
+
+        probabilities = torch.as_tensor(distances)
+
+        probabilities_sorted, indices = probabilities.sort(descending=True)
+        uncertainties = probabilities_sorted[:, 0] - probabilities_sorted[:, 1]
+
+        regions_uncertainities = []
+
+        count = 0
+        for region in regions:
+            region_uncertainities = uncertainties[count:count + region]
+            count = region
+            # regions_uncertainities.append(max(region_uncertainities))
+            regions_uncertainities.append(np.average(region_uncertainities))
+
+        regions_uncertainities = torch.from_numpy(np.array(regions_uncertainities))
+
+        return unlabeled_indices[regions_uncertainities.sort()[1][:n]]
+
+    def old_query(self, n):
+        unlabeled_indices = np.arange(self.pool_size)[~self.labeled_indices]
+        self.classifier.cpu()
+        self.classifier.eval()
         distance = np.zeros(unlabeled_indices.shape)
 
         data_pool = self.data_handler(self.x[unlabeled_indices], self.y[unlabeled_indices])
