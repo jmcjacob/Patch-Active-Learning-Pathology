@@ -7,6 +7,7 @@ import query_strategies
 import os
 import torch
 import numpy as np
+from collections import Counter
 import sklearn.metrics as metrics
 
 
@@ -49,10 +50,20 @@ if __name__ == '__main__':
     training data or should be treated as unlabeled data. An initial random sample of data of a specified size if then
     marked as labelled. 
     """
-    labeled_indices = np.zeros(len(y_train), dtype=bool)
-    labeled_temp = np.arange(len(y_train))
-    np.random.shuffle(labeled_temp)
-    labeled_indices[labeled_temp[:arguments.init_labels]] = True
+    while True:
+        labeled_indices = np.zeros(len(y_train), dtype=bool)
+        labeled_temp = np.arange(len(y_train))
+        np.random.shuffle(labeled_temp)
+        labeled_indices[labeled_temp[:arguments.init_labels]] = True
+
+        y_temp = y_train[labeled_indices]
+        y = []
+        for i in range(len(y_temp)):
+            for j in range(len(y_temp[i])):
+                y.append(np.argmax(y_temp[i][j]))
+
+        if len(Counter(y)) == 4:
+            break
 
     """
     This sets the model that will be used within the active learning experiments this can be replaced by any other
