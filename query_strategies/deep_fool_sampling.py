@@ -12,7 +12,7 @@ class DeepFoolSampling(Strategy):
         self.classifier.eval()
         distances = []
 
-        data_pool = self.data_handler(self.x[unlabeled_indices], self.y[unlabeled_indices])
+        data_pool = self.data_handler(self.x[unlabeled_indices], self.y[unlabeled_indices], False)
         for i in range(len(data_pool)):
             if i % 1000 == 0:
                 print("adv {}/{}".format(i, len(data_pool)))
