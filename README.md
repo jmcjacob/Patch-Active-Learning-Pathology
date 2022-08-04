@@ -1,3 +1,7 @@
-# Patch-Active-Learning-Pathology
-A patch based active learning system for digital pathology from the paper [Active Learning for Patch-Based Digital Pathology using Convolutional Neural
-Networks to Reduce Annotation Costs](https://link.springer.com/chapter/10.1007/978-3-030-23937-4_3)
+# Active Learning for Patch-Based Digital Pathology Using Convolutional Neural Networks to Reduce Annotation Costs
+**Jacob Carse and Stephen McKenna**
+
+CVIP, School of Science and Engineering, University of Dundee, Dundee, Scotland, UK
+
+
+Methods to reduce the need for costly data annotations become increasingly important as deep learning gains popularity in medical image analysis and digital pathology. Active learning is an appealing approach that can reduce the amount of annotated data needed to train machine learning models but traditional active learning strategies do not always work well with deep learning. In patch-based machine learning systems, active learning methods typically request annotations for small individual patches which can be tedious and costly for the annotator who needs to rely on visual context for the patches. We propose an active learning framework that selects regions for annotation that are built up of several patches, which should increase annotation throughput. The framework was evaluated with several query strategies on the task of nuclei classification. Convolutional neural networks were trained on small patches, each containing a single nucleus. Traditional query strategies performed worse than random sampling. A K-centre sampling strategy showed a modest gain. Further investigation is needed in order to achieve significant performance gains using deep active learning for this task.
